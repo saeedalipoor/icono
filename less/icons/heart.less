@@ -3,13 +3,14 @@
     width: @20;
     height: @20;
     &:extend(.icono-stroke);
-    border-color: transparent @maincolor @maincolor transparent;
+    border-top-color: transparent;
+    border-left-color: transparent;
     .transform(rotate(45deg));
     .border-radius(@7 0);
     margin: @9 @7 @5;
     &:before, &:after{
         position: absolute;
-        border:@2 solid @maincolor;
+        &:extend(.icono-stroke);
     }
     &:before{
         width: ceil(@20/2.5);

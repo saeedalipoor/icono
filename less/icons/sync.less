@@ -3,16 +3,18 @@
     width: @26;
     height: @26;
     .border-radius(50%);
-    border-width: @2;
-    border-style: solid;
-    border-color: @maincolor transparent;
+    &:extend(.icono-stroke);
+    border-right-color: transparent;
+    border-left-color: transparent;
     margin: @4;
     &:before, &:after{
         position: absolute;
         width: 0;height: 0;
         border-width: @6;
         border-style: solid;
-        border-color: @maincolor transparent transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
     }
     &:before{
         .transform(rotate(-45deg));

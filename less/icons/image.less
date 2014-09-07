@@ -12,15 +12,14 @@
         height: @20;
         left: -1*@2;
         top: @14;
-        background-color: @maincolor;
         .transform(rotate(45deg));
-        box-shadow: @10 -1*@6 0 0;
+        box-shadow: inset 0 0 0 @32, @10 -1*@6 0 0;
     }
     &:after{
         position: absolute;
         .square(@4);
         .border-radius(50%);
-        background-color: @maincolor;
+        box-shadow: inset 0 0 0 @32;
         top: @5;
         right: @5;
     }

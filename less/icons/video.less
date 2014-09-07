@@ -8,9 +8,8 @@
         &:extend(.stickCenterV);
         width: @3;
         height: @3;
-        background-color: @maincolor;
         left: -1*@8;
-        box-shadow: 0 -1*@8 0 0, 0 @8 0 0, @29 0 0 0,@29 -1*@8 0 0, @29 @8 0 0;
+        box-shadow: inset 0 0 0 @32, 0 -1*@8 0 0, 0 @8 0 0, @29 0 0 0,@29 -1*@8 0 0, @29 @8 0 0;
     }
     &:after{
         &:extend(.stickCenter);
@@ -18,6 +17,7 @@
         height: 0;
         border-width: @4 0 @4 @6;
         border-style: solid;
-        border-color: transparent @maincolor;
+        border-top-color: transparent;
+        border-bottom-color: transparent;
     }
 }

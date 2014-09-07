@@ -2,13 +2,13 @@
 .icono-flag{
     width: @22;
     height: @25;
-    border-left: @3 solid @maincolor;
+    border-left: @3 solid;
     margin: @5 @6 @4;
     &:before, &:after{
         position:absolute;
         width: @9;
         height: @8;
-        border:@2 solid @maincolor;
+        &:extend(.icono-stroke);
     }
     &:before{
         left: -1*@2;

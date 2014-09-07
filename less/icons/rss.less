@@ -9,7 +9,7 @@
     }
     &:before{
         .square(@6);
-        background-color: @maincolor;
+        box-shadow: 0 0 @32 inset;
         left: 0;
         bottom: 0;
     }
@@ -18,6 +18,6 @@
         right: 15%;
         top: 15%;
         border: @4 solid transparent;
-        box-shadow: 0 0 0 @2 @maincolor inset, 0 0 0 @2 @maincolor;
+        box-shadow: inset 0 0 0 @2, 0 0 0 @2;
     }
 }

@@ -14,14 +14,13 @@
         border-color: transparent;
         border-width: @1;
         top: @5;
-        box-shadow: 0 0 0 @1 #ddd, 0 0 0 @2 #ddd inset;
+        box-shadow: 0 0 0 @1, 0 0 0 @2 inset;
     }
     &:after{
         width: @1;
         height: @4;
         &:extend(.stickCenterH);
         top: 0;
-        background-color: @maincolor;
-        box-shadow: 0 @13 0 0;
+        box-shadow: inset 0 0 0 @32, 0 @13 0 0;
     }
 }
