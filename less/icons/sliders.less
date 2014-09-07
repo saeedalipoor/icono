@@ -1,0 +1,26 @@
+//*-- Sliders --*\\
+.icono-sliders{
+    height: @30;
+    width: @30;
+    margin: @2;
+    &:before, &:after{
+        .transform(translateX(-50%));
+        background-color: @maincolor;
+        left: 50%;
+        position: absolute;
+    }
+    &:before{
+        width: @8;
+        height: @7;
+        .border-radius(@2);
+        top: 67%;
+        box-shadow: @10 -1*@10 @maincolor, -1*@10 -1*@14 @maincolor;
+    }
+    &:after{
+        position: absolute;
+        width: @2;
+        height:100%;
+        background-color: @maincolor;
+        box-shadow: @10 0 @maincolor, -1*@10 0 @maincolor;
+    }
+}

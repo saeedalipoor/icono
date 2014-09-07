@@ -1,0 +1,20 @@
+//*-- Dropper --*\\
+.icono-dropper{
+    .wDiagonal(@28);
+    height: @14;
+    &:extend(.icono-stroke);
+    border-color: transparent @maincolor transparent transparent;
+    border-width: @3;
+    border-right: none;
+    box-shadow: -1*@9 0 0 @2 inset, 0 0 0 @2 inset;
+    .border-radius(50% @6 @6 50%);
+    .transform(rotate(-45deg));
+    margin: @12 -1*@2 @8 -1*@4;
+    &:before{
+        width: @4;
+        height: @14;
+        right: @10;
+        background-color: @maincolor;
+        &:extend(.stickCenterV);
+    }
+}

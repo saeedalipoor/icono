@@ -1,0 +1,18 @@
+//*-- Music --*\\
+.icono-music{
+    width: @30;
+    height: @27;
+    &:extend(.icono-stroke);
+    border-bottom-color: transparent;
+    .border-radius(@32~'/'@32 @32 @16 @16);
+    &:before{
+        position: absolute;
+        width: @4;
+        height: @12;
+        left: @2;
+        bottom: -1*@4;
+        background-color: @maincolor;
+        .border-radius(@5);
+        box-shadow: @18 0 0 0;
+    }
+}
