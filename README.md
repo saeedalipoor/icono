@@ -86,11 +86,6 @@ just add iconos classes to any type of elements that support psuedo-element.
 * `icono-textAlignRight`
 * `icono-textAlignCenter`
 * `icono-textAlignLeft`
-* `icono-keyboard`
-* `icono-plus`
-* `icono-mouse`
-* `icono-plus`
-* `icono-display`
 
 [1]:http://saeedalipoor.github.io/icono/icono.min.css
 [2]:http://saeedalipoor.github.io/icono
