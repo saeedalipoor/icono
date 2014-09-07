@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>icono</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Saeed Alipoor(@saeednitrate)"/>
+        <meta name="description" content="icono is just some css classes to allow you have pure css icons. every icons need just one node.">
+        <meta name="keywords" content="icono,css,css3,icons,pure,line,outline,icon,mini,light,saeed,alipoor">
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width, minimal-ui"/>
+        <meta property="og:site_name" content="icono"/>
+        <meta property="og:title" content="icono - light and ready to use icons for next project" />
+        <meta property="og:description" content="icono is just some css classes to allow you have pure css icons. every icons need just one node." />
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="http://saeedalipoor.github.io/icono"/>
+        <meta property="og:image" content="http://saeedalipoor.github.io/icono/icono.png"/>
+        <link rel="icon" type="image/png" href="icono.png"/>
+        <link rel="stylesheet" href="demo.css">
+        <link rel="stylesheet" href="icono.min.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="stage">
+            <header>
+                <h1>ICONO</h1>
+                <h3>Pure css icons, with only one element</h3>
+                <div class="action">
+                    <a href="icono.min.css" target="_blank">Download icono.min.css</a>
+                    <a href="https://github.com/saeedalipoor/icono">Github repo</a>
+                </div>
+                <code onclick="selcetAll(this)">
+                    &lt;link rel="stylesheet" href="icono.min.css"&gt;
+                </code>
+            </header>
+            <input type="radio" name="icons" id="home">
+            <label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-home"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-home</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="mail"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-mail"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-mail</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="rss"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-rss"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-rss</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="hamburger"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-hamburger"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-hamburger</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="plus"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-plus"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-plus</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="cross"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-cross"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-cross</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="check"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-check"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-check</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="power"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-power"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-power</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="heart"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-heart"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-heart</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="infinity"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-infinity"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-infinity</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="flag"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-flag"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-flag</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="file"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-file"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-file</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="image"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-image"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-image</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="video"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-video"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-video</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="music"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-music"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-music</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="headphone"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-headphone"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-headphone</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="document"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-document"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-document</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="folder"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-folder"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-folder</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="pin"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-pin"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-pin</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="smile"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-smile"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-smile</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="eye"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-eye"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-eye</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="sliders"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-sliders"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-sliders</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="share"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-share"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-share</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="sync"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-sync"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-sync</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="reset"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-reset"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-reset</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="gear"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-gear"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-gear</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="signIn"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-signIn"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-signIn</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="signOut"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-signOut"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-signOut</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="support"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-support"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-support</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="dropper"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-dropper"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-dropper</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="tiles"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-tiles"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-tiles</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="list"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-list"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-list</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="chain"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-chain"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-chain</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="youtube"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-youtube"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-youtube</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="rename"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-rename"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-rename</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="search"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-search"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-search</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="book"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-book"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-book</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="forbidden"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-forbidden"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-forbidden</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="trash"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-trash"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-trash</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="keyboard"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-keyboard"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-keyboard</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="mouse"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-mouse"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-mouse</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="user"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-user"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-user</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="crop"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-crop"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-crop</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="display"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-display"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-display</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="imac"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-imac"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-imac</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="iphone"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-iphone"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-iphone</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="macbook"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-macbook"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-macbook</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="imacBold"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-imacBold"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-imacBold</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="iphoneBold"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-iphoneBold"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-iphoneBold</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="macbookBold"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-macbookBold"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-macbookBold</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="nexus"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-nexus"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-nexus</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="microphone"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-microphone"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-microphone</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="asterisk"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-asterisk"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-asterisk</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="terminal"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-terminal"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-terminal</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="paperclip"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-paperClip"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-paperclip</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="market"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-market"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-market</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="clock"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-clock"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-clock</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="textAlignRight"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-textAlignRight"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-textAlignRight</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="textAlignCenter"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-textAlignCenter"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-textAlignCenter</span>
+                </div>
+            </label><!--
+         --><input type="radio" name="icons" id="textAlignLeft"><!--
+         --><label class="demo" onmouseup="focusIn(event)">
+                <i class="icono-textAlignLeft"></i>
+                <div class="about" onmouseup="nothing(event)">
+                    <span onclick="selectAll(this)">icono-textAlignLeft</span>
+                </div>
+            </label>
+            <div class="push"></div>
+        </div>
+        <footer>
+            made with <i class="icono-keyboard"></i><i class="icono-plus"></i><i class="icono-mouse"></i><i class="icono-plus"></i><i class="icono-display"></i> by <a href="https://twitter.com/saeednitrate">Saeed Alipoor</a>
+        </footer>
+    </body>
+    <script type="text/javascript">
+        function randomBG(){
+            var demos = document.getElementsByClassName('demo');
+            for (i = 0; i < demos.length; i++) { 
+                demos[i].style.backgroundColor = 'rgba(0, 0, 0,'+(0.2*Math.random())+')';
+            }
+        }
+        var start = setInterval(rndOpen, 2000);
+        function stopAnimation(){
+            clearInterval(start);
+        }
+        function rndOpen(){
+            var items = document.getElementsByTagName('input');
+            var number = Math.floor(items.length*Math.random());
+            items[number].checked=true;
+        }
+        function focusIn(e){
+            stopAnimation();
+            if (e.target.nodeName === 'LABEL') {
+                var source = e.target;
+            }else{
+                var source = e.target.parentNode;
+            }
+            e.stopPropagation();
+            source.previousElementSibling.focus();
+            if(source.previousElementSibling.checked===true){
+                source.previousElementSibling.checked=false;
+            }else{
+                source.previousElementSibling.checked=true;
+                source.previousElementSibling.focus();
+            }
+        }
+        function nothing(e){
+            e.stopPropagation();
+        }
+        function selectAll(el) {
+            if (typeof window.getSelection != "undefined" && typeof document.createRange != "undefined") {
+                var range = document.createRange();
+                range.selectNodeContents(el);
+                var sel = window.getSelection();
+                sel.removeAllRanges();
+                sel.addRange(range);
+            } else if (typeof document.selection != "undefined" && typeof document.body.createTextRange != "undefined") {
+                var textRange = document.body.createTextRange();
+                textRange.moveToElementText(el);
+                textRange.select();
+            }
+        }
+    </script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-50172466-2', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+</html>
