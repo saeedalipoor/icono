@@ -1,17 +1,28 @@
 #icono
 
 **icono** is an icon pack that needs no external resources. Every tags can be an icon made with **pure CSS**.
+
 [Demo][2]
+
 ##How to use
+
 You can download [icono.min.css][1] And then load it in your page:
 `<link rel="stylesheet" href="icono.min.css">`
+
 or
+
 You can add icono folder in your project and import icono.less for compile. iconos maincolor can be changed in **variable.less**.
+
 and then
+
 just add iconos classes to any type of elements that support psuedo-element.
+
 `<i class="icono-mail"></i>`
+
 `<div class="icono-mail"></div>`
+
 `<span class="icono-mail"></span>`
+
 `<whatever class="icono-mail"></whatever>`
 
 ##Available classes
