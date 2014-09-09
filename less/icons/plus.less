@@ -1,13 +1,28 @@
 //*-- Plus --*\\
-.icono-plus{
-    width: @20;
-    height: @2;
-    box-shadow: inset 0 0 0 @32;
-    margin: @16 @7;
-    &:before{
-        height: @20;
-        width: @2;
+[class*="icono-plus"], [class*="icono-cross"]{
+    width: @30;
+    height: @30;
+    margin: @2;
+    &:before, &:after{
         &:extend(.stickCenter);
         box-shadow: inset 0 0 0 @32;
+    }
+    &:before{
+        width: @20;
+        height: @2;
+    }
+    &:after{
+        height: @20;
+        width: @2;
+    }
+    &[class*="Circle"]{
+        &:extend(.icono-stroke);
+        .border-radius(50%);
+        &:before{
+            width: @18;
+        }
+        &:after{
+            height: @18;
+        }
     }
 }
