@@ -529,6 +529,22 @@
                     <span onclick="selectAll(this)">icono-outdent</span>
                 </div>
             </label>
+            <div class="comments">
+                <div id="disqus_thread"></div>
+                <script type="text/javascript">
+                    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                    var disqus_shortname = 'iconobysaeed'; // required: replace example with your forum shortname
+                
+                    /* * * DON'T EDIT BELOW THIS LINE * * */
+                    (function() {
+                    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+            </div>
             <div class="push"></div>
         </div>
         <footer>
@@ -551,9 +567,9 @@
         </div>
     </body>
     <script type="text/javascript">
-        // var start = setInterval(rndOpen, 2000);
+        var start = setInterval(rndOpen, 2000);
         function stopAnimation(){
-            // clearInterval(start);
+            clearInterval(start);
         }
         function rndOpen(){
             var items = document.getElementsByTagName('input');
