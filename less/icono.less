@@ -17,7 +17,11 @@
         content:'';
         pointer-events: none;
     }
-}
-*{
-    box-sizing: border-box;
+    &[class*="Circle"]{
+        &:extend(.icono-stroke);
+        .border-radius(50%);
+    }
+    &, & *{
+        box-sizing: border-box;
+    }
 }
