@@ -94,6 +94,16 @@ Also you can change color of icons as simple as set color for an element.
 * `icono-textAlignRight`
 * `icono-textAlignCenter`
 * `icono-textAlignLeft`
+* `icono-indent`
+* `icono-outdent`
+* `icono-frown`
+* `icono-meh`
+* `icono-locationArrow`
+* `icono-plusCircle`
+* `icono-checkCircle`
+* `icono-crossCircle`
+* `icono-exclamation`
+* `icono-exclamationCircle`
 
 [1]:http://saeedalipoor.github.io/icono/icono.min.css
 [2]:http://saeedalipoor.github.io/icono
