@@ -7,10 +7,7 @@
 ##How to use
 
 You can download [icono.min.css][1] And then load it in your page:
-<<<<<<< HEAD
-=======
 
->>>>>>> master
 `<link rel="stylesheet" href="icono.min.css">`
 
 or
@@ -21,10 +18,7 @@ and then
 
 just add iconos classes to any type of elements that support psuedo-element.
 
-<<<<<<< HEAD
-=======
 ####Example:
->>>>>>> master
 `<i class="icono-mail"></i>`
 
 `<div class="icono-mail"></div>`
@@ -33,15 +27,12 @@ just add iconos classes to any type of elements that support psuedo-element.
 
 `<whatever class="icono-mail"></whatever>`
 
-<<<<<<< HEAD
-=======
 Also you can change color of icons as simple as set color for an element.
 
 ####Example:
 `i.heart{color: red;}`
 
 
->>>>>>> master
 ##Available classes
 * `icono-home`
 * `icono-mail`
@@ -103,14 +94,16 @@ Also you can change color of icons as simple as set color for an element.
 * `icono-textAlignRight`
 * `icono-textAlignCenter`
 * `icono-textAlignLeft`
-<<<<<<< HEAD
-* `icono-keyboard`
-* `icono-plus`
-* `icono-mouse`
-* `icono-plus`
-* `icono-display`
-=======
->>>>>>> master
+* `icono-indent`
+* `icono-outdent`
+* `icono-frown`
+* `icono-meh`
+* `icono-locationArrow`
+* `icono-plusCircle`
+* `icono-checkCircle`
+* `icono-crossCircle`
+* `icono-exclamation`
+* `icono-exclamationCircle`
 
 [1]:http://saeedalipoor.github.io/icono/icono.min.css
 [2]:http://saeedalipoor.github.io/icono
