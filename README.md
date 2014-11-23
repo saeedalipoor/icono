@@ -6,7 +6,13 @@
 
 ##How to use
 
-You can download [icono.min.css][1] And then load it in your page:
+To get going with icono you can:
+
+* Download [icono.min.css][1] 
+or
+* Install it with [Bower](http://bower.io): `bower install https://github.com/saeedalipoor/icono.git`
+
+And then load it in your page:
 
 `<link rel="stylesheet" href="icono.min.css">`
 
