@@ -1,0 +1,28 @@
+//*-- Chart --*\\
+.icono-areaChart{
+    width: @30;
+    height: @22;
+    &:extend(.icono-stroke);
+    border-top-width: 0;
+    border-right-width: 0;
+    &:before{
+        @bSpace: @7;
+        position: absolute;
+        left: @2;
+        bottom: @bSpace+@2;
+        border: @6 solid transparent;
+        border-bottom-color: currentColor;
+        box-shadow: 0 @bSpace;
+    }
+    &:after{
+        @bSpace: @4;
+        position: absolute;
+        left: @13;
+        bottom: @bSpace+@2;
+        border-width: 0 @6 @13;
+        border-style: solid;
+        border-color: transparent;
+        border-bottom-color: currentColor;
+        box-shadow: 0 @bSpace;
+    }
+}
