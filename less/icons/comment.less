@@ -1,5 +1,5 @@
 //*-- Comment --*\\
-.icono-comment{
+.icono-commentEmpty{
     width: @30;
     height: @22;
     &:extend(.icono-stroke);
@@ -24,5 +24,21 @@
         border-style: solid;
         bottom: 0;
         left: 0;
+    }
+}
+.icono-comment{
+    width: @30;
+    height: @20;
+    box-shadow: inset 0 0 0 @32;
+    .border-radius(@4);
+    margin: @5 @2 @9;
+    &:before{
+        position: absolute;
+        width: @8;
+        height: @8;
+        box-shadow: inset 0 0 0 @32;
+        .transform(rotate(-45deg));
+        bottom: -1*@4;
+        left: @6;
     }
 }
