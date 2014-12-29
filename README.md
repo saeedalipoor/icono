@@ -110,6 +110,26 @@ Also you can change color of icons as simple as set color for an element.
 * `icono-crossCircle`
 * `icono-exclamation`
 * `icono-exclamationCircle`
+* `icono-comment`
+* `icono-commentEmpty`
+* `icono-areaChart`
+* `icono-pieChart`
+* `icono-barChart`
+* `icono-bookmark`
+* `icono-bookmarkEmpty`
+* `icono-filter`
+* `icono-volume`
+* `icono-volumeLow`
+* `icono-volumeMedium`
+* `icono-volumeHigh`
+* `icono-volumeDecrease`
+* `icono-volumeIncrease`
+* `icono-volumeMute`
+* `icono-tag`
+* `icono-calendar`
+* `icono-camera`
+* `icono-piano`
+* `icono-ruler`
 
 [1]:http://saeedalipoor.github.io/icono/icono.min.css
 [2]:http://saeedalipoor.github.io/icono
