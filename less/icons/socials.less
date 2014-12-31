@@ -42,8 +42,8 @@
     }
 }
 .icono-instagram{
-    width: @24;
-    height: @24;
+    width: @26;
+    height: @26;
     box-shadow: inset 0 0 0 @2;
     .border-radius(@4);
     &:before{
@@ -51,18 +51,16 @@
         width: @10;
         height: @10;
         .border-radius(50%);
-        &:extend(.icono-stroke);
+        box-shadow: 0 0 0 @3;
     }
     &:after{
         position: absolute;
-        width: @4;
-        height: @2;
-        box-shadow: inset 0 0 0 @32, @4 0, @8 0, @12 0,
-                            0 @2, @4 @2, @8 @2, @12 @2,
-                           0 @4, @3 @4, @14 @4, @16 @4,
-                                          0 @6, @16 @6;
-        left: @2;
-        top: @2;
+        width: @5;
+        height: @5;
+        .border-radius(@1);
+        right: @3;
+        top: @3;
+        box-shadow: 0 0  0 @2, @1 @1 0 @2, -1*@5 -1*@1 0 @1, -1*@10 -1*@1 0 @1, -1*@16 @1 0 @2;
     }
 }
 .icono-flickr{
