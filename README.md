@@ -55,6 +55,8 @@ Also you can change color of icons as simple as set color for an element.
 * `icono-image`
 * `icono-video`
 * `icono-music`
+* `icono-play`
+* `icono-pause`
 * `icono-headphone`
 * `icono-document`
 * `icono-folder`

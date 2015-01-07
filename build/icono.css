@@ -4,6 +4,7 @@
 .icono-home:after,
 .icono-mail,
 .icono-mail:before,
+.icono-pause,
 .icono-play,
 [class*="icono-check"][class*="Circle"],
 .icono-power,
@@ -88,7 +89,6 @@
   border: 2px solid;
 }
 .stickCenterV,
-.icono-play:before,
 .icono-dropper:before,
 .icono-list:before,
 .icono-chain:before,
@@ -364,6 +364,29 @@
   box-shadow: inset 0 0 0 32px, 0 -6px, 0 6px;
   margin: 16px 7px;
 }
+.icono-pause {
+  width: 20px;
+  height: 20px;
+  border: transparent;
+  margin: 7px 7px;
+}
+.icono-pause:before,
+.icono-pause:after {
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+}
+.icono-pause:after {
+  position: absolute;
+  width: 6px;
+  left: 15%;
+  height: 100%;
+  box-shadow: inset -20px 0, 11px 0;
+}
 [class*="icono-plus"],
 [class*="icono-cross"] {
   width: 30px;
@@ -405,7 +428,7 @@
 .icono-play:after {
   width: 0;
   height: 0;
-  border-width: 10px 0 10px 12px;
+  border-width: 10px 0 10px 15px;
   border-style: solid;
   border-top-color: transparent;
   border-bottom-color: transparent;

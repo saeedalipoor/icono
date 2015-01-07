@@ -38,6 +38,5 @@ gulp.task('browser-sync', function() {
 
 
 gulp.task('default', ['browser-sync'], function () {
-    gulp.watch('./less/**/*.less', ['less', 'cssmin', browserSync.reload]);
-    gulp.watch('./index.html', [browserSync.reload]);
+    gulp.watch(['./less/**/*.less', './index.html'], ['less', 'cssmin', browserSync.reload]);
 });
