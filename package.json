@@ -8,10 +8,10 @@
     "url": "https://github.com/saeedalipoor/icono.git"
   },
   "contributors": [
-      {
-    "name": "Adam Ellsworth",
-    "email": "adam.d.ellsworth@gmail.com",
-    "url": "https://github.com/adamellsworth"
+    {
+      "name": "Adam Ellsworth",
+      "email": "adam.d.ellsworth@gmail.com",
+      "url": "https://github.com/adamellsworth"
     }
   ],
   "keywords": [
@@ -30,6 +30,7 @@
     "gulp": "^3.8.10",
     "gulp-cssmin": "^0.1.6",
     "gulp-less": "^2.0.1",
+    "gulp-plumber": "^0.6.6",
     "gulp-rename": "^1.2.0",
     "gulp-watch": "^3.0.0"
   }

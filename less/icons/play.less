@@ -1,0 +1,23 @@
+.icono-play {
+  width: @20;
+  height: @20;
+
+  border: transparent;
+
+  &:extend(.icono-stroke);
+
+  margin: @7 @7;
+  
+  &:before{
+    &:extend(.stickCenterV);
+  }
+  &:after{
+    &:extend(.stickCenter);
+    width: 0;
+    height: 0;
+    border-width: @10 0 @10 @12;
+    border-style: solid;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+  }
+}

@@ -4,6 +4,7 @@
 .icono-home:after,
 .icono-mail,
 .icono-mail:before,
+.icono-play,
 [class*="icono-check"][class*="Circle"],
 .icono-power,
 .icono-heart,
@@ -87,6 +88,7 @@
   border: 2px solid;
 }
 .stickCenterV,
+.icono-play:before,
 .icono-dropper:before,
 .icono-list:before,
 .icono-chain:before,
@@ -152,6 +154,7 @@
 [class*="icono-cross"]:before,
 [class*="icono-plus"]:after,
 [class*="icono-cross"]:after,
+.icono-play:after,
 .icono-document:after,
 .icono-pin:before,
 .icono-eye:before,
@@ -392,6 +395,20 @@
 [class*="icono-plus"][class*="Circle"]:after,
 [class*="icono-cross"][class*="Circle"]:after {
   height: 18px;
+}
+.icono-play {
+  width: 20px;
+  height: 20px;
+  border: transparent;
+  margin: 7px 7px;
+}
+.icono-play:after {
+  width: 0;
+  height: 0;
+  border-width: 10px 0 10px 12px;
+  border-style: solid;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
 }
 .icono-cross,
 .icono-crossCircle {

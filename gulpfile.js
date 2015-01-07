@@ -3,12 +3,14 @@ var gulp        = require('gulp'),
     watch       = require('gulp-watch'),
     cssmin      = require('gulp-cssmin'),
     rename      = require('gulp-rename'),
+    plumber     = require('gulp-plumber'),
     browserSync = require('browser-sync');
 
 
 // less -> css
 gulp.task('less', function () {
     return gulp.src('./less/icono.less')
+        .pipe(plumber())
         .pipe(less())
         .pipe(gulp.dest('./build'));
 });
@@ -25,15 +27,17 @@ gulp.task('cssmin', function () {
 
 // live realod the browser
 gulp.task('browser-sync', function() {
-    browserSync(null, {
+    browserSync({
         server: {
             baseDir: './',
-            index: 'index.html'
+            index: 'index.html',
+            reloadDelay: 2000
         }
     });
 });
 
 
 gulp.task('default', ['browser-sync'], function () {
-    gulp.watch(['./less/**/*.less', './index.html'], ['less', 'cssmin', browserSync.reload]);
+    gulp.watch('./less/**/*.less', ['less', 'cssmin', browserSync.reload]);
+    gulp.watch('./index.html', [browserSync.reload]);
 });
