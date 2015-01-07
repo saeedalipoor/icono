@@ -8,7 +8,7 @@
 
 To get going with icono you can:
 
-* Download [icono.min.css][1] 
+* Download [icono.min.css][1]
 or
 * Install it with [Bower](http://bower.io): `bower install https://github.com/saeedalipoor/icono.git`
 
@@ -130,6 +130,18 @@ Also you can change color of icons as simple as set color for an element.
 * `icono-camera`
 * `icono-piano`
 * `icono-ruler`
+
+##Development & Contributing
+
+Using npm install the dependencies:
+
+    $ npm install
+
+Run Gulp
+
+    $ gulp
+
+---
 
 [1]:http://saeedalipoor.github.io/icono/icono.min.css
 [2]:http://saeedalipoor.github.io/icono
