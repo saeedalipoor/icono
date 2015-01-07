@@ -1,0 +1,27 @@
+.icono-pause {
+  width: @20;
+  height: @20;
+
+  border: transparent;
+
+  &:extend(.icono-stroke);
+
+  margin: @7 @7;
+
+  &:before, &:after{
+    .transform(translateX(-50%));
+    left: 50%;
+    position: absolute;
+  }
+
+  &:before{
+  }
+
+  &:after{
+    position: absolute;
+    width: @6;
+    left: 15%;
+    height: 100%;
+    box-shadow: inset -1*@20 0, @11 0;
+  }
+}
