@@ -1,0 +1,8 @@
+{
+  "name": "icono",
+  "version": "1.0.0",
+  "main": "icono.min.css",
+  "ignore": [
+  ],
+  "private": false
+}
