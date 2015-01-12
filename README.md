@@ -10,11 +10,15 @@ To get going with icono you can:
 
 * Download [icono.min.css][1] 
 or
-* Install it with [Bower](http://bower.io): `bower install https://github.com/saeedalipoor/icono.git`
+* Install it with [Bower](http://bower.io):
+```
+$ bower install icono
+```
 
 And then load it in your page:
-
-`<link rel="stylesheet" href="icono.min.css">`
+```
+<link rel="stylesheet" href="icono.min.css">
+```
 
 or
 
