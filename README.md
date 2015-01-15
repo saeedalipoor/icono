@@ -134,6 +134,16 @@ Also you can change color of icons as simple as set color for an element.
 * `icono-camera`
 * `icono-piano`
 * `icono-ruler`
+* `icono-cup`
+* `icono-creditCard`
+* `icono-facebook`
+* `icono-twitter`
+* `icono-linkedIn`
+* `icono-instagram`
+* `icono-flickr`
+* `icono-delicious`
+* `icono-codepen`
+* `icono-blogger`
 
 [1]:http://saeedalipoor.github.io/icono/icono.min.css
 [2]:http://saeedalipoor.github.io/icono
