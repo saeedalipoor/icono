@@ -1,6 +1,6 @@
 {
   "name": "icono",
-  "version": "1.0.0",
+  "version": "0.9.5",
   "description": "Pure CSS Icons",
   "main": "gulpfile.js",
   "repository": {
@@ -8,6 +8,11 @@
     "url": "https://github.com/saeedalipoor/icono.git"
   },
   "contributors": [
+    {
+      "name": "Saeed Alipoor",
+      "email": "alipoor.sa@gmail.com",
+      "url": "https://github.com/saeedalipoor"
+    },
     {
       "name": "Adam Ellsworth",
       "email": "adam.d.ellsworth@gmail.com",
@@ -32,6 +37,7 @@
     "gulp-less": "^2.0.1",
     "gulp-plumber": "^0.6.6",
     "gulp-rename": "^1.2.0",
-    "gulp-watch": "^3.0.0"
+    "gulp-watch": "^3.0.0",
+    "gulp-html-replace": "~1.4.1"
   }
 }
