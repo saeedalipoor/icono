@@ -10,11 +10,20 @@ To get going with icono you can:
 
 * Download [icono.min.css][1]
 or
-* Install it with [Bower](http://bower.io): `bower install https://github.com/saeedalipoor/icono.git`
+* Install it with [Bower](http://bower.io):
+```
+$ bower install icono
+```
+or
+* Install it with [npm](https://www.npmjs.com):
+```
+$ npm install icono
+```
 
 And then load it in your page:
-
-`<link rel="stylesheet" href="icono.min.css">`
+```
+<link rel="stylesheet" href="icono.min.css">
+```
 
 or
 
@@ -55,8 +64,6 @@ Also you can change color of icons as simple as set color for an element.
 * `icono-image`
 * `icono-video`
 * `icono-music`
-* `icono-play`
-* `icono-pause`
 * `icono-headphone`
 * `icono-document`
 * `icono-folder`
@@ -142,6 +149,12 @@ Also you can change color of icons as simple as set color for an element.
 * `icono-delicious`
 * `icono-codepen`
 * `icono-blogger`
+* `icono-play`
+* `icono-pause`
+* `icono-stop`
+* `icono-forward`
+* `icono-rewind`
+
 
 ##Development & Contributing
 
@@ -152,8 +165,6 @@ Using npm install the dependencies:
 Run Gulp
 
     $ gulp
-
----
 
 [1]:http://saeedalipoor.github.io/icono/icono.min.css
 [2]:http://saeedalipoor.github.io/icono

@@ -1,0 +1,9 @@
+//*-- Rewind --*\\
+.icono-rewind{
+	&:extend(.icono-forward);
+	.transform(rotate(180deg));
+	transform-origin: @13 center;
+	&:before{
+	&:extend(.icono-forward:before);
+	}
+}
