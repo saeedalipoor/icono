@@ -1,0 +1,38 @@
+//* Carets *\\
+.icono-rightCaret {
+    width: @16;
+    height: @16;
+    margin: @9 @9;
+    .transform(translateX(-25%));
+    &:before {
+        .stickCenter(0, 0, 0, 0);
+        .transform(rotate(-45deg));
+        border: @stroke;
+        border-width: 0 2px 2px 0;
+        .border-radius(@1);
+    }
+}
+
+.icono-leftCaret {
+    &:extend(.icono-rightCaret all);
+    .transform(translateX(25%));
+    &:before {
+        .transform(rotate(135deg));
+    }
+}
+
+.icono-upCaret {
+    &:extend(.icono-rightCaret all);
+    .transform(translateY(25%));
+    &:before {
+        .transform(rotate(-135deg));
+    }
+}
+
+.icono-downCaret {
+    &:extend(.icono-rightCaret all);
+    .transform(translateY(-25%));
+    &:before {
+        .transform(rotate(45deg));
+    }
+}

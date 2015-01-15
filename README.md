@@ -154,6 +154,14 @@ Also you can change color of icons as simple as set color for an element.
 * `icono-stop`
 * `icono-forward`
 * `icono-rewind`
+* `icono-rightCaret`
+* `icono-leftCaret`
+* `icono-upCaret`
+* `icono-downCaret`
+* `icono-rightArrow`
+* `icono-leftArrow`
+* `icono-upArrow`
+* `icono-downArrow`
 
 
 ##Development & Contributing
