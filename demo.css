@@ -351,3 +351,6 @@ body.c1 a:hover {
     margin-top: 20px;
     padding: 10px 20px;
 }
+.fb_iframe_widget{
+    vertical-align: top;
+}
