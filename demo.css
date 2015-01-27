@@ -354,3 +354,51 @@ body.c1 a:hover {
 .fb_iframe_widget{
     vertical-align: top;
 }
+/*--Carbon Ads--*/
+.ads{
+    background-color: rgba(255, 255, 255, 0.3);
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+.ads .remove{
+    float: right;
+    transform: scale(0.6);
+    cursor: pointer;
+    transition: all 0.2s;
+    text-align: right;
+    margin: -5px -5px 0 0;
+}
+.ads .remove i{
+    color: #104048;
+}
+.ads .remove:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+#carbonads {
+    clear: both;
+    max-width: 400px;
+    padding: 0 10px 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+}
+#carbonads a:hover{
+    color: #11555d;    
+}
+.carbon-img { 
+    
+}
+.carbon-text { 
+    display: block;
+}
+.carbon-text { 
+    display: block;
+    padding: 8px 0;
+    width: 130px;
+}
+.carbon-poweredby {
+    font-size: 80%;
+    display: block;
+}
