@@ -105,24 +105,6 @@ footer i {
     width: 640px;
 }
 
-@media (max-width:768px) {
-    .stage {
-        width: 512px;
-    }
-}
-
-@media (max-width:540px) {
-    .stage {
-        width: 320px;
-    }
-}
-
-@media (max-width:320px) {
-    .stage {
-        width: 192px;
-    }
-}
-
 .stage input[type=radio] {
     position: fixed;
     opacity: 0;
@@ -351,17 +333,18 @@ body.c1 a:hover {
     margin-top: 20px;
     padding: 10px 20px;
 }
-.fb_iframe_widget{
+.fb_iframe_widget {
     vertical-align: top;
 }
 /*--Carbon Ads--*/
-.ads{
+.ads {
     background-color: rgba(255, 255, 255, 0.3);
     position: fixed;
     bottom: 5px;
     right: 5px;
 }
-.ads .remove{
+.ads .remove {
+    display: none;
     float: right;
     transform: scale(0.6);
     cursor: pointer;
@@ -369,16 +352,16 @@ body.c1 a:hover {
     text-align: right;
     margin: -5px -5px 0 0;
 }
-.ads .remove i{
+.ads .remove i {
     color: #104048;
 }
-.ads .remove:hover{
+.ads .remove:hover {
     background-color: rgba(255, 255, 255, 0.2);
 }
 #carbonads {
     clear: both;
     max-width: 400px;
-    padding: 0 10px 10px;
+    padding: 10px;
     font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-size: 12px;
     font-weight: 700;
@@ -386,9 +369,6 @@ body.c1 a:hover {
 }
 #carbonads a:hover{
     color: #11555d;    
-}
-.carbon-img { 
-    
 }
 .carbon-text { 
     display: block;
@@ -401,4 +381,73 @@ body.c1 a:hover {
 .carbon-poweredby {
     font-size: 80%;
     display: block;
+}
+
+@media (max-width:970px) {
+    .ads {
+        top: 5px;
+        bottom: auto;
+    }
+}
+
+@media (max-width:768px) {
+    .stage {
+        width: 512px;
+    }
+}
+
+@media (max-width:650px) {
+    .ads {
+        top: auto; bottom: 0;
+        right: 0; left: 0;
+        margin: 5px;
+        background-color: rgba(255, 255, 255, 0.6)
+    }
+    #carbonads{
+        max-width: initial;
+    }
+    .carbon-img, .carbon-text{
+        float: left;
+    }
+    #carbonads img{
+        height: auto;
+        max-width: 80px !important;
+        display: block;
+        margin-right: 10px;
+    }
+    .carbon-text {
+        text-align: left;
+        width: auto;
+        max-width: 65%;
+    }
+    .carbon-poweredby {
+        clear: both;
+        float: right;
+        position: relative;
+        top: -5px;
+    }
+    .ads .remove{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: scale(0.8);
+        margin: 0;
+    }
+    body{
+        height: auto;
+        margin-bottom: 110px;
+    }
+}
+
+@media (max-width:540px) {
+    .stage {
+        width: 320px;
+    }
+}
+
+@media (max-width:320px) {
+    .stage {
+        width: 192px;
+    }
 }
