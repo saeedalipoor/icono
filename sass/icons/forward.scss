@@ -1,0 +1,19 @@
+//*-- Fast Forward --*\\
+.icono-forward{
+    width: 0;
+    height: 0;
+    margin:$U8 $U13 $U8 $U4;
+    border-top: $U11 solid transparent;
+    border-bottom: $U11 solid transparent;
+    border-left: $U10 solid;
+	&:before{
+	    position: absolute;
+	    left: 0;
+	    top: -$U11;
+	    width: 0;
+	    height: 0;
+	    border-top: $U11 solid transparent;
+	    border-bottom: $U11 solid transparent;
+	    border-left: $U10 solid;
+	}
+}

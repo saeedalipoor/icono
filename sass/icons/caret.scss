@@ -1,0 +1,38 @@
+//* Carets *\\
+.icono-rightCaret {
+    width: $U16;
+    height: $U16;
+    margin: $U9 $U9;
+    @include transform(translateX(-25%));
+    &:before {
+        .stickCenter(0, 0, 0, 0);
+        @include transform(rotate(-45deg));
+        border: @stroke;
+        border-width: 0 2px 2px 0;
+        @include border-radius($U1);
+    }
+}
+
+.icono-leftCaret {
+    @extend .icono-rightCaret all;
+    @include transform(translateX(25%));
+    &:before {
+        @include transform(rotate(135deg));
+    }
+}
+
+.icono-upCaret {
+    @extend .icono-rightCaret all;
+    @include transform(translateY(25%));
+    &:before {
+        @include transform(rotate(-135deg));
+    }
+}
+
+.icono-downCaret {
+    @extend .icono-rightCaret all;
+    @include transform(translateY(-25%));
+    &:before {
+        @include transform(rotate(45deg));
+    }
+}
