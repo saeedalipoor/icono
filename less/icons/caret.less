@@ -8,7 +8,7 @@
         .stickCenter(0, 0, 0, 0);
         .transform(rotate(-45deg));
         border: @stroke;
-        border-width: 0 2px 2px 0;
+        border-width: 0 @2 @2 0;
         .border-radius(@1);
     }
 }
@@ -35,4 +35,40 @@
     &:before {
         .transform(rotate(45deg));
     }
+}
+
+.icono-rightCaretCircle {
+    &:extend(.icono-rightCaret all);
+    border-radius: 0 !important;
+    border: 0 !important;
+    width: @12;
+    height: @12;
+    margin: @11;
+    .transform(translateX(0%));
+    &:before {
+        .transform(rotate(-45deg) translate(-10%, -10%));
+        border-width: 0 @3 @3 0;
+    }
+    &:after {
+        .stickCenter();
+        width: @27;
+        height: @27;
+        border: @stroke;
+        .border-radius(50%);
+    }
+}
+
+.icono-leftCaretCircle {
+    &:extend(.icono-rightCaretCircle all);
+    .transform(rotate(180deg));
+}
+
+.icono-upCaretCircle {
+    &:extend(.icono-rightCaretCircle all);
+    .transform(rotate(-90deg));
+}
+
+.icono-downCaretCircle {
+    &:extend(.icono-rightCaretCircle all);
+    .transform(rotate(90deg));
 }
