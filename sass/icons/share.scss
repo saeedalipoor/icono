@@ -3,7 +3,7 @@
     height: $U9;
     width: $U9;
     @include border-radius(50%);
-    box-shadow: inset 0 0 0 $U32, $U22 -1*$U11 0 0, $U22 1*$U11 0 0;
+    box-shadow: inset 0 0 0 $U32, $U22 -1*$U11 0 0, $U22 $U11 0 0;
     margin: $U12 $U24 $U13 $U1;
     &:before, &:after{
         position: absolute;

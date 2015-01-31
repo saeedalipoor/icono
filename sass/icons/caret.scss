@@ -5,16 +5,17 @@
     margin: $U9 $U9;
     @include transform(translateX(-25%));
     &:before {
-        .stickCenter(0, 0, 0, 0);
+        position: absolute;
+        left: 0; right: 0; top: 0; bottom: 0;
         @include transform(rotate(-45deg));
-        border: @stroke;
+        border: $stroke;
         border-width: 0 2px 2px 0;
         @include border-radius($U1);
     }
 }
 
 .icono-leftCaret {
-    @extend .icono-rightCaret all;
+    @extend .icono-rightCaret;
     @include transform(translateX(25%));
     &:before {
         @include transform(rotate(135deg));
@@ -22,7 +23,7 @@
 }
 
 .icono-upCaret {
-    @extend .icono-rightCaret all;
+    @extend .icono-rightCaret;
     @include transform(translateY(25%));
     &:before {
         @include transform(rotate(-135deg));
@@ -30,7 +31,7 @@
 }
 
 .icono-downCaret {
-    @extend .icono-rightCaret all;
+    @extend .icono-rightCaret;
     @include transform(translateY(-25%));
     &:before {
         @include transform(rotate(45deg));

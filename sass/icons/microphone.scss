@@ -4,7 +4,7 @@
     height: $U15;
     @extend .icono-stroke;
     border-width: 0 $U2 $U2;
-    @include border-radius($U20~'/'0 0 $U20 $U20);
+    @include border-radius($U20#{'/'}0 0 $U20 $U20);
     margin: $U12 $U6 $U7;
     &:before{
         width: $U10;

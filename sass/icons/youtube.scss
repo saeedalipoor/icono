@@ -17,7 +17,7 @@
         left: 0;
         border-top-color: transparent;
         border-bottom-color: transparent;
-        @include border-radius($U6 ~'/' $U3);
+        @include border-radius($U6 #{'/'} $U3);
     }
     &:after{
         width: 0;

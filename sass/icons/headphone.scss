@@ -4,7 +4,7 @@
     height: $U27;
     @extend .icono-stroke;
     border-bottom-color: transparent;
-    @include border-radius($U32~'/'$U32 $U32 $U16 $U16);
+    @include border-radius($U32#{'/'}$U32 $U32 $U16 $U16);
     margin: $U2 $U2 $U5;
     &:before{
         position: absolute;

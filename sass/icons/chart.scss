@@ -10,29 +10,35 @@
     overflow: hidden;
     margin: $U4 0 $U8 $U4;
     &:before{
-        @bSpace: $U7;
+        $bSpace: $U7;
         position: absolute;
         left: 0;
-        bottom: @bSpace;
+        bottom: $bSpace;
         border: $U6 solid transparent;
         border-bottom-color: currentColor;
-        box-shadow: 0 @bSpace;
+        box-shadow: 0 $bSpace;
     }
     &:after{
-        @bSpace: $U4;
+        $bSpace: $U4;
         position: absolute;
         left: $U11;
-        bottom: @bSpace;
+        bottom: $bSpace;
         border-width: 0 $U6 $U13;
         border-style: solid;
         border-color: transparent;
         border-bottom-color: currentColor;
-        box-shadow: 0 @bSpace;
+        box-shadow: 0 $bSpace;
     }
 }
 .icono-barChart{
-    @extend .icono-areaChart;
+    width: $U30;
+    height: $U22;
+    @extend .icono-stroke;
+    border-top-width: 0;
+    border-right-width: 0;
     border-color: transparent;
+    box-shadow: -1*$U2 $U2;
+    overflow: hidden;
     box-shadow: -1*$U2 $U2;
     margin: $U4 0 $U8 $U4;
     &:before{

@@ -9,7 +9,7 @@
     margin: $U3 $U3;
     &:before{
         @include border-radius(50%);
-        box-shadow: 0px -1*$U3 0 $U3 inset;
+        box-shadow: 0 -1*$U3 0 $U3 inset;
         height: $U11;
         width: $U11;
         @extend .stickCenter;

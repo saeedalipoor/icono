@@ -27,7 +27,7 @@
     }
 }
 .icono-volumeMedium{
-    @extend .icono-volumeLow all;
+    @extend .icono-volumeLow;
     margin: $U4 $U16 $U4 $U5;
     &:before{
         border-style: double;
@@ -36,7 +36,7 @@
     }
 }
 .icono-volumeHigh{
-    @extend .icono-volumeMedium all;
+    @extend .icono-volumeMedium;
     margin: $U4 $U18 $U4 $U3;
     &:after{
         @extend .icono-volumeLow:before;
@@ -59,7 +59,7 @@
     }
 }
 .icono-volumeIncrease{
-    @extend .icono-volumeDecrease all;
+    @extend .icono-volumeDecrease;
     &:after{
         height: $U10;
         width: $U2;
@@ -67,7 +67,7 @@
     }
 }
 .icono-volumeMute{
-    @extend .icono-volumeIncrease all;
+    @extend .icono-volumeIncrease;
     &:after, &:before{
         @include transform(translateY(-50%) rotate(45deg));
     }

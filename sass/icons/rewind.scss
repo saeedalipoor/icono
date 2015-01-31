@@ -4,6 +4,6 @@
 	@include transform(rotate(180deg));
 	transform-origin: $U13 center;
 	&:before{
-	@extend .icono-forward:before;
+    	@extend .icono-forward:before;
 	}
 }

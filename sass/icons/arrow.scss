@@ -4,7 +4,7 @@
     height: $U4;
     margin: $U15 $U9;
     box-shadow: inset 0 0 0 $U2;
-    @include transform(translateX(-$U3));
+    @include transform(translateX(-1*$U3));
     &:before {
         @extend .stickCenterV;
         border-style: solid;
@@ -17,16 +17,16 @@
 }
 
 .icono-leftArrow {
-    @extend .icono-rightArrow all;
+    @extend .icono-rightArrow;
     @include transform(translateX($U3) rotate(180deg));
 }
 
 .icono-upArrow {
-    @extend .icono-rightArrow all;
+    @extend .icono-rightArrow;
     @include transform(translateY($U3) rotate(-90deg));
 }
 
 .icono-downArrow {
-    @extend .icono-rightArrow all;
-    @include transform(translateY(-$U3) rotate(90deg));
+    @extend .icono-rightArrow;
+    @include transform(translateY(-1*$U3) rotate(90deg));
 }

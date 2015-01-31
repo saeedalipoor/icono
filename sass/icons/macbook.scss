@@ -3,7 +3,7 @@
     width: $U32;
     height: $U2;
     box-shadow: inset 0 0 0 $U32;
-    @include border-radius(0 0 $U32 $U32 ~'/' $U3);
+    @include border-radius(0 0 $U32 $U32 #{'/'} $U3);
     margin: $U25 $U1 $U7 $U1;
     &:before{
         width: $U20;

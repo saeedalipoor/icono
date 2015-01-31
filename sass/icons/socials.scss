@@ -61,7 +61,7 @@
         border-right: $U1 solid;
         left: $U11;
         bottom: 0;
-        @include border-radius($U8 $U5 0 0~'/'$U11 $U5 0 0);
+        @include border-radius($U8 $U5 0 0#{'/'}$U11 $U5 0 0);
         box-shadow: inset -1*$U4 $U4;
     }
 }

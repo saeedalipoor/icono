@@ -1,7 +1,9 @@
-.icono-stroke, .icono-home, .icono-home:before, .icono-home:after, .icono-mail, .icono-mail:before, [class*="icono-check"][class*="Circle"], .icono-power, .icono-heart, .icono-heart:before, .icono-heart:after, .icono-infinity:before, .icono-infinity:after, .icono-flag:before, .icono-flag:after, .icono-file, .icono-document, .icono-folder, .icono-pin, .icono-pin:before, .icono-smile, .icono-smile:after, .icono-eye, .icono-sync, .icono-signIn, .icono-signIn:before, .icono-signOut, .icono-signOut:before {
+/* line 1, D:/Alipoor/Projects/icono/sass/generals */
+.icono-stroke, .icono-home, .icono-home:before, .icono-home:after, .icono-mail, .icono-mail:before, [class*="icono-check"][class*="Circle"], .icono-power, .icono-heart, .icono-heart:before, .icono-heart:after, .icono-infinity:before, .icono-infinity:after, .icono-flag:before, .icono-flag:after, .icono-file, .icono-document, .icono-folder, .icono-pin, .icono-pin:before, .icono-smile, .icono-frown, .icono-meh, .icono-smile:after, .icono-frown:after, .icono-meh:after, .icono-eye, .icono-sync, .icono-signIn, .icono-signIn:before, .icono-signOut, .icono-signOut:before, .icono-chain:before, .icono-chain:after, .icono-youtube, .icono-youtube:before, .icono-rename, .icono-search, .icono-book, .icono-book:before, .icono-book:after, .icono-forbidden, .icono-trash, .icono-keyboard, .icono-mouse, .icono-mouse:before, .icono-user, .icono-user:before, .icono-crop, .icono-crop:before, .icono-display, .icono-imac, .icono-imacBold, .icono-iphone, .icono-iphoneBold, .icono-macbook:before, .icono-macbookBold:before, .icono-image, .icono-headphone, .icono-video, .icono-nexus, .icono-microphone, .icono-microphone:before, .icono-terminal, .icono-paperClip, .icono-paperClip:before, .icono-paperClip:after, .icono-market, .icono-market:after, .icono-clock, .icono-commentEmpty, .icono-areaChart, .icono-barChart, .icono-bookmarkEmpty, .icono-bookmarkEmpty:before, .icono-volumeLow:before, .icono-volumeMedium:before, .icono-volumeHigh:before, .icono-volumeHigh:after, .icono-tag, .icono-tag:after, .icono-camera, .icono-piano, .icono-ruler, .icono-creditCard, [class*="icono-"][class*="Circle"] {
   border: 2px solid; }
 
-.stickCenterV {
+/* line 5, D:/Alipoor/Projects/icono/sass/generals */
+.stickCenterV, .icono-dropper:before, .icono-list:before, .icono-chain:before, .icono-chain:after, .icono-rename:before, .icono-video:before, .icono-paperClip:before, .icono-indent:before, .icono-outdent:before, .icono-volumeLow:before, .icono-volumeMedium:before, .icono-volumeHigh:before, .icono-volumeHigh:after, .icono-volumeDecrease:before, .icono-volumeIncrease:before, .icono-volumeMute:before, .icono-volumeDecrease:after, .icono-volumeIncrease:after, .icono-volumeMute:after, .icono-flickr:before, .icono-flickr:after, .icono-rightArrow:before, .icono-leftArrow:before, .icono-upArrow:before, .icono-downArrow:before {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -10,7 +12,8 @@
   -o-transform: translateY(-50%);
   transform: translateY(-50%); }
 
-.stickCenterH {
+/* line 9, D:/Alipoor/Projects/icono/sass/generals */
+.stickCenterH, .icono-search:before, .icono-trash:before, .icono-mouse:before, .icono-mouse:after, .icono-user:before, .icono-display:before, .icono-display:after, .icono-imac:after, .icono-imacBold:before, .icono-imacBold:after, .icono-iphone:before, .icono-iphone:after, .icono-macbook:before, .icono-macbookBold:before, .icono-microphone:before, .icono-microphone:after, .icono-market:after, [class*="icono-textAlign"].icono-textAlignCenter:before, [class*="icono-textAlign"].icono-textAlignCenter:after, [class*="icono-exclamation"]:after, .icono-tag:after, .icono-cup:after {
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -19,7 +22,8 @@
   -o-transform: translateX(-50%);
   transform: translateX(-50%); }
 
-.stickCenter, [class*="icono-plus"]:before, [class*="icono-check"]:before, [class*="icono-plus"]:after, [class*="icono-cross"]:before, [class*="icono-cross"]:after, .icono-document:after, .icono-pin:before, .icono-eye:before, .icono-gear:before {
+/* line 13, D:/Alipoor/Projects/icono/sass/generals */
+.stickCenter, [class*="icono-plus"]:before, [class*="icono-check"]:before, [class*="icono-plus"]:after, [class*="icono-cross"]:before, [class*="icono-cross"]:after, .icono-document:after, .icono-pin:before, .icono-eye:before, .icono-gear:before, .icono-youtube:after, .icono-forbidden:before, .icono-keyboard:before, .icono-video:after, .icono-clock:before, .icono-clock:after, .icono-camera:before, .icono-instagram:before {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -29,6 +33,7 @@
   -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%); }
 
+/* line 17, D:/Alipoor/Projects/icono/sass/generals */
 .spin[class*="spin"] {
   -webkit-animation: loading-spinner 2s infinite linear;
   /* Safari 4+ */
@@ -40,71 +45,90 @@
   /* IE 10+, Fx 29+ */ }
 
 @-webkit-keyframes loading-spinner {
+  /* line 25, D:/Alipoor/Projects/icono/sass/generals */
   0% {
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
     -o-transform: rotate(0deg);
     transform: rotate(0deg); }
+
+  /* line 26, D:/Alipoor/Projects/icono/sass/generals */
   100% {
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     -o-transform: rotate(360deg);
     transform: rotate(360deg); } }
+
 @-moz-keyframes loading-spinner {
+  /* line 30, D:/Alipoor/Projects/icono/sass/generals */
   0% {
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
     -o-transform: rotate(0deg);
     transform: rotate(0deg); }
+
+  /* line 31, D:/Alipoor/Projects/icono/sass/generals */
   100% {
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     -o-transform: rotate(360deg);
     transform: rotate(360deg); } }
+
 @-o-keyframes loading-spinner {
+  /* line 35, D:/Alipoor/Projects/icono/sass/generals */
   0% {
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
     -o-transform: rotate(0deg);
     transform: rotate(0deg); }
+
+  /* line 36, D:/Alipoor/Projects/icono/sass/generals */
   100% {
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     -o-transform: rotate(360deg);
     transform: rotate(360deg); } }
+
 @keyframes loading-spinner {
+  /* line 40, D:/Alipoor/Projects/icono/sass/generals */
   0% {
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
     -o-transform: rotate(0deg);
     transform: rotate(0deg); }
+
+  /* line 41, D:/Alipoor/Projects/icono/sass/generals */
   100% {
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     -o-transform: rotate(360deg);
     transform: rotate(360deg); } }
+
+/* line 1, D:/Alipoor/Projects/icono/sass/icons/icono */
 .icono-icono {
   width: 13px;
   height: 4px;
-  box-shadow: inset 0 0 0 32px, 0 16px, -1px;
+  box-shadow: inset 0 0 0 32px, 0 16px, 17px -18px;
   transform: skew(0, 30deg);
   margin: 11px 19px 19px 2px; }
+  /* line 7, D:/Alipoor/Projects/icono/sass/icons/icono */
   .icono-icono:before {
     position: absolute;
     width: 13px;
     height: 4px;
-    box-shadow: inset 0 0 0 32px, 0 16px, -34px;
+    box-shadow: inset 0 0 0 32px, 0 16px, -17px -17px;
     right: -17px;
     top: -10px;
     transform: skew(0, -48deg); }
+  /* line 16, D:/Alipoor/Projects/icono/sass/icons/icono */
   .icono-icono:after {
     position: absolute;
     width: 22px;
@@ -116,11 +140,13 @@
     border-bottom: none;
     transform: skew(0, -30deg) scaleY(0.6); }
 
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/home */
 .icono-home {
   width: 22px;
   height: 16px;
   border-top: none;
   margin: 15px 6px 3px; }
+  /* line 8, D:/Alipoor/Projects/icono/sass/icons/home */
   .icono-home:before {
     width: 18px;
     height: 18px;
@@ -134,6 +160,7 @@
     top: -7px;
     border-right-color: transparent;
     border-bottom-color: transparent; }
+  /* line 18, D:/Alipoor/Projects/icono/sass/icons/home */
   .icono-home:after {
     position: absolute;
     width: 6px;
@@ -149,15 +176,17 @@
     border-width: 1px;
     border-bottom: none; }
 
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/mail */
 .icono-mail {
   width: 28px;
   height: 18px;
   overflow: hidden;
   margin: 8px 3px; }
+  /* line 7, D:/Alipoor/Projects/icono/sass/icons/mail */
   .icono-mail:before {
     position: absolute;
-    width: 24.61538px;
-    height: 24.61538px;
+    width: 24.615384615px;
+    height: 24.615384615px;
     -webkit-transform: rotate(50deg) skew(-10deg, -20deg);
     -moz-transform: rotate(50deg) skew(-10deg, -20deg);
     -ms-transform: rotate(50deg) skew(-10deg, -20deg);
@@ -166,23 +195,27 @@
     top: -20px;
     left: -3px; }
 
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/rss */
 .icono-rss {
   width: 22px;
   height: 22px;
   overflow: hidden;
   margin: 6px; }
+  /* line 6, D:/Alipoor/Projects/icono/sass/icons/rss */
   .icono-rss:before, .icono-rss:after {
     position: absolute;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -o-border-radius: 50%;
     border-radius: 50%; }
+  /* line 10, D:/Alipoor/Projects/icono/sass/icons/rss */
   .icono-rss:before {
     width: 6px;
     height: 6px;
     box-shadow: 0 0 32px inset;
     left: 0;
     bottom: 0; }
+  /* line 16, D:/Alipoor/Projects/icono/sass/icons/rss */
   .icono-rss:after {
     width: 27px;
     height: 27px;
@@ -191,29 +224,37 @@
     border: 4px solid transparent;
     box-shadow: inset 0 0 0 2px, 0 0 0 2px; }
 
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/bars */
 .icono-bars, .icono-hamburger {
   width: 20px;
   height: 2px;
   box-shadow: inset 0 0 0 32px, 0 -6px, 0 6px;
   margin: 16px 7px; }
 
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/plus */
 [class*="icono-plus"], [class*="icono-cross"] {
   width: 30px;
   height: 30px;
   margin: 2px; }
+  /* line 6, D:/Alipoor/Projects/icono/sass/icons/plus */
   [class*="icono-plus"]:before, [class*="icono-check"]:before, [class*="icono-plus"]:after, [class*="icono-cross"]:before, [class*="icono-cross"]:after {
     box-shadow: inset 0 0 0 32px; }
+  /* line 10, D:/Alipoor/Projects/icono/sass/icons/plus */
   [class*="icono-plus"]:before, [class*="icono-check"]:before, [class*="icono-cross"]:before {
     width: 20px;
     height: 2px; }
+  /* line 14, D:/Alipoor/Projects/icono/sass/icons/plus */
   [class*="icono-plus"]:after, [class*="icono-cross"]:after {
     height: 20px;
     width: 2px; }
+  /* line 19, D:/Alipoor/Projects/icono/sass/icons/plus */
   [class*="icono-plus"][class*="Circle"]:before, [class*="Circle"][class*="icono-check"]:before, [class*="icono-cross"][class*="Circle"]:before {
     width: 18px; }
+  /* line 22, D:/Alipoor/Projects/icono/sass/icons/plus */
   [class*="icono-plus"][class*="Circle"]:after, [class*="icono-cross"][class*="Circle"]:after {
     height: 18px; }
 
+/* line 3, D:/Alipoor/Projects/icono/sass/icons/cross */
 .icono-cross, .icono-crossCircle {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
@@ -221,6 +262,7 @@
   -o-transform: rotate(45deg);
   transform: rotate(45deg); }
 
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/check */
 [class*="icono-check"] {
   width: 28px;
   height: 28px;
@@ -230,14 +272,17 @@
   -ms-transform: rotate(-45deg);
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg); }
+  /* line 7, D:/Alipoor/Projects/icono/sass/icons/check */
   [class*="icono-check"]:before, [class*="icono-check"]:after {
     box-shadow: inset 0 0 0 32px; }
+  /* line 13, D:/Alipoor/Projects/icono/sass/icons/check */
   [class*="icono-check"]:after {
     position: absolute;
     height: 12px;
     width: 2px;
     left: 4px;
     bottom: 14px; }
+  /* line 20, D:/Alipoor/Projects/icono/sass/icons/check */
   [class*="icono-check"][class*="Circle"] {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -246,15 +291,18 @@
     width: 30px;
     height: 30px;
     margin: 2px; }
+    /* line 26, D:/Alipoor/Projects/icono/sass/icons/check */
     [class*="icono-check"][class*="Circle"]:before {
       width: 14px;
       top: 15px;
       left: 14px; }
+    /* line 31, D:/Alipoor/Projects/icono/sass/icons/check */
     [class*="icono-check"][class*="Circle"]:after {
       height: 8px;
       left: 7px;
       bottom: 10px; }
 
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/power */
 .icono-power {
   width: 22px;
   height: 22px;
@@ -264,6 +312,7 @@
   border-radius: 50%;
   border-top-color: transparent;
   margin: 6px; }
+  /* line 9, D:/Alipoor/Projects/icono/sass/icons/power */
   .icono-power:before {
     position: absolute;
     top: -15%;
@@ -272,6 +321,7 @@
     height: 60%;
     box-shadow: inset 0 0 0 32px; }
 
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/heart */
 .icono-heart {
   width: 20px;
   height: 20px;
@@ -287,8 +337,10 @@
   -o-border-radius: 7px 0;
   border-radius: 7px 0;
   margin: 9px 7px 5px; }
+  /* line 11, D:/Alipoor/Projects/icono/sass/icons/heart */
   .icono-heart:before, .icono-heart:after {
     position: absolute; }
+  /* line 15, D:/Alipoor/Projects/icono/sass/icons/heart */
   .icono-heart:before {
     width: 8px;
     height: 14px;
@@ -299,6 +351,7 @@
     -o-border-radius: 20px 0 0 20px;
     border-radius: 20px 0 0 20px;
     border-right-color: transparent; }
+  /* line 23, D:/Alipoor/Projects/icono/sass/icons/heart */
   .icono-heart:after {
     width: 14px;
     height: 8px;
@@ -310,10 +363,12 @@
     border-radius: 20px 20px 0 0;
     border-bottom-color: transparent; }
 
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/infinity */
 .icono-infinity {
   width: 32px;
   height: 16px;
   margin: 9px 1px; }
+  /* line 6, D:/Alipoor/Projects/icono/sass/icons/infinity */
   .icono-infinity:before, .icono-infinity:after {
     width: 10px;
     height: 10px;
@@ -323,12 +378,14 @@
     -ms-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     transform: rotate(45deg); }
+  /* line 13, D:/Alipoor/Projects/icono/sass/icons/infinity */
   .icono-infinity:before {
     left: 0;
     -webkit-border-radius: 32px 0 32px 32px;
     -moz-border-radius: 32px 0 32px 32px;
     -o-border-radius: 32px 0 32px 32px;
     border-radius: 32px 0 32px 32px; }
+  /* line 17, D:/Alipoor/Projects/icono/sass/icons/infinity */
   .icono-infinity:after {
     right: 1px;
     -webkit-border-radius: 32px 32px 32px 0;
@@ -336,15 +393,18 @@
     -o-border-radius: 32px 32px 32px 0;
     border-radius: 32px 32px 32px 0; }
 
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/flag */
 .icono-flag {
   width: 22px;
   height: 25px;
   border-left: 3px solid;
   margin: 5px 6px 4px; }
+  /* line 7, D:/Alipoor/Projects/icono/sass/icons/flag */
   .icono-flag:before, .icono-flag:after {
     position: absolute;
     width: 9px;
     height: 8px; }
+  /* line 13, D:/Alipoor/Projects/icono/sass/icons/flag */
   .icono-flag:before {
     left: -2px;
     top: 1px;
@@ -353,6 +413,7 @@
     -o-border-radius: 0 2px 0 0;
     border-radius: 0 2px 0 0;
     border-right-width: 3px; }
+  /* line 19, D:/Alipoor/Projects/icono/sass/icons/flag */
   .icono-flag:after {
     width: 5px;
     left: 9px;
@@ -363,6 +424,7 @@
     -o-border-radius: 2px 2px 0 2px;
     border-radius: 2px 2px 0 2px; }
 
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/file */
 .icono-file {
   width: 26px;
   height: 32px;
@@ -371,6 +433,7 @@
   -o-border-radius: 0 12px 0 0;
   border-radius: 0 12px 0 0;
   margin: 1px 4px; }
+  /* line 8, D:/Alipoor/Projects/icono/sass/icons/file */
   .icono-file:before {
     position: absolute;
     top: -2px;
@@ -382,6 +445,7 @@
     border-top-color: transparent;
     border-right-color: transparent; }
 
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/document */
 .icono-document {
   width: 26px;
   height: 32px;
@@ -390,6 +454,7 @@
   -o-border-radius: 0 0 0 10px;
   border-radius: 0 0 0 10px;
   margin: 1px 4px; }
+  /* line 8, D:/Alipoor/Projects/icono/sass/icons/document */
   .icono-document:before {
     position: absolute;
     width: 0;
@@ -400,11 +465,13 @@
     border-style: solid;
     border-bottom-color: transparent;
     border-left-color: transparent; }
+  /* line 18, D:/Alipoor/Projects/icono/sass/icons/document */
   .icono-document:after {
     width: 13px;
     height: 2px;
     box-shadow: inset 0 0 0 32px, 0 -5px 0 0, 0 5px 0 0; }
 
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/folder */
 .icono-folder {
   width: 18px;
   height: 22px;
@@ -414,6 +481,7 @@
   -o-border-radius: 0 3px 3px 0;
   border-radius: 0 3px 3px 0;
   margin: 8px 2px 4px 14px; }
+  /* line 9, D:/Alipoor/Projects/icono/sass/icons/folder */
   .icono-folder:before {
     position: absolute;
     width: 12px;
@@ -426,6 +494,7 @@
     -moz-border-radius: 0 0 0 3px;
     -o-border-radius: 0 0 0 3px;
     border-radius: 0 0 0 3px; }
+  /* line 19, D:/Alipoor/Projects/icono/sass/icons/folder */
   .icono-folder:after {
     position: absolute;
     width: 10px;
@@ -439,6 +508,7 @@
     -o-border-radius: 3px 3px 0 0;
     border-radius: 3px 3px 0 0; }
 
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/pin */
 .icono-pin {
   width: 26px;
   height: 26px;
@@ -452,6 +522,7 @@
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
   margin: 1px 4px 7px; }
+  /* line 9, D:/Alipoor/Projects/icono/sass/icons/pin */
   .icono-pin:before {
     position: absolute;
     width: 6px;
@@ -461,7 +532,8 @@
     -o-border-radius: 50%;
     border-radius: 50%; }
 
-.icono-smile {
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/smile */
+.icono-smile, .icono-frown, .icono-meh {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -o-border-radius: 50%;
@@ -469,7 +541,8 @@
   height: 30px;
   width: 30px;
   margin: 2px; }
-  .icono-smile:before {
+  /* line 8, D:/Alipoor/Projects/icono/sass/icons/smile */
+  .icono-smile:before, .icono-frown:before, .icono-meh:before {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -o-border-radius: 50%;
@@ -480,7 +553,8 @@
     left: 7px;
     position: absolute;
     top: 27%; }
-  .icono-smile:after {
+  /* line 17, D:/Alipoor/Projects/icono/sass/icons/smile */
+  .icono-smile:after, .icono-frown:after, .icono-meh:after {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -o-border-radius: 50%;
@@ -499,6 +573,7 @@
     top: 6%;
     width: 16px; }
 
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/eye */
 .icono-eye {
   -webkit-border-radius: 80% 20%;
   -moz-border-radius: 80% 20%;
@@ -513,19 +588,22 @@
   height: 28px;
   width: 28px;
   margin: 3px 3px; }
+  /* line 10, D:/Alipoor/Projects/icono/sass/icons/eye */
   .icono-eye:before {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -o-border-radius: 50%;
     border-radius: 50%;
-    box-shadow: 0px -3px 0 3px inset;
+    box-shadow: 0 -3px 0 3px inset;
     height: 11px;
     width: 11px; }
 
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/sliders */
 .icono-sliders {
   height: 30px;
   width: 30px;
   margin: 2px; }
+  /* line 6, D:/Alipoor/Projects/icono/sass/icons/sliders */
   .icono-sliders:before, .icono-sliders:after {
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
@@ -534,6 +612,7 @@
     transform: translateX(-50%);
     left: 50%;
     position: absolute; }
+  /* line 11, D:/Alipoor/Projects/icono/sass/icons/sliders */
   .icono-sliders:before {
     width: 8px;
     height: 7px;
@@ -543,12 +622,14 @@
     border-radius: 2px;
     top: 67%;
     box-shadow: inset 0 0 0 32px, 10px -10px, -10px -14px; }
+  /* line 18, D:/Alipoor/Projects/icono/sass/icons/sliders */
   .icono-sliders:after {
     position: absolute;
     width: 2px;
     height: 100%;
     box-shadow: inset 0 0 0 32px, 10px 0, -10px 0; }
 
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/share */
 .icono-share {
   height: 9px;
   width: 9px;
@@ -558,12 +639,14 @@
   border-radius: 50%;
   box-shadow: inset 0 0 0 32px, 22px -11px 0 0, 22px 11px 0 0;
   margin: 12px 24px 13px 1px; }
+  /* line 8, D:/Alipoor/Projects/icono/sass/icons/share */
   .icono-share:before, .icono-share:after {
     position: absolute;
     width: 24px;
     height: 2px;
     box-shadow: inset 0 0 0 32px;
     left: 0; }
+  /* line 15, D:/Alipoor/Projects/icono/sass/icons/share */
   .icono-share:before {
     top: -2px;
     -webkit-transform: rotate(-25deg);
@@ -571,6 +654,7 @@
     -ms-transform: rotate(-25deg);
     -o-transform: rotate(-25deg);
     transform: rotate(-25deg); }
+  /* line 19, D:/Alipoor/Projects/icono/sass/icons/share */
   .icono-share:after {
     top: 9px;
     -webkit-transform: rotate(25deg);
@@ -579,6 +663,7 @@
     -o-transform: rotate(25deg);
     transform: rotate(25deg); }
 
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/sync */
 .icono-sync {
   width: 26px;
   height: 26px;
@@ -589,6 +674,7 @@
   border-right-color: transparent;
   border-left-color: transparent;
   margin: 4px; }
+  /* line 10, D:/Alipoor/Projects/icono/sass/icons/sync */
   .icono-sync:before, .icono-sync:after {
     position: absolute;
     width: 0;
@@ -598,6 +684,7 @@
     border-right-color: transparent;
     border-bottom-color: transparent;
     border-left-color: transparent; }
+  /* line 19, D:/Alipoor/Projects/icono/sass/icons/sync */
   .icono-sync:before {
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
@@ -606,6 +693,7 @@
     transform: rotate(-45deg);
     right: -7px;
     top: 0; }
+  /* line 24, D:/Alipoor/Projects/icono/sass/icons/sync */
   .icono-sync:after {
     -webkit-transform: rotate(135deg);
     -moz-transform: rotate(135deg);
@@ -615,6 +703,7 @@
     left: -7px;
     bottom: 0; }
 
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/reset */
 .icono-reset {
   width: 26px;
   height: 26px;
@@ -626,6 +715,7 @@
   border-style: solid;
   border-left-color: transparent;
   margin: 4px; }
+  /* line 10, D:/Alipoor/Projects/icono/sass/icons/reset */
   .icono-reset:before {
     position: absolute;
     width: 0;
@@ -643,6 +733,7 @@
     -o-transform: rotate(135deg);
     transform: rotate(135deg); }
 
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/gear */
 .icono-gear {
   width: 32px;
   height: 32px;
@@ -652,6 +743,7 @@
   -o-border-radius: 50%;
   border-radius: 50%;
   margin: 1px; }
+  /* line 8, D:/Alipoor/Projects/icono/sass/icons/gear */
   .icono-gear:before {
     width: 22px;
     height: 22px;
@@ -663,6 +755,7 @@
     border: 6px solid transparent;
     box-sizing: border-box; }
 
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/signIn */
 .icono-signIn {
   width: 18px;
   height: 32px;
@@ -673,6 +766,7 @@
   -o-border-radius: 0 3px 3px 0;
   border-radius: 0 3px 3px 0;
   margin: 1px 8px; }
+  /* line 10, D:/Alipoor/Projects/icono/sass/icons/signIn */
   .icono-signIn:before {
     position: absolute;
     width: 11px;
@@ -691,6 +785,7 @@
     -o-border-radius: 0 4px 0 0;
     border-radius: 0 4px 0 0; }
 
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/signOut */
 .icono-signOut {
   width: 18px;
   height: 32px;
@@ -701,6 +796,7 @@
   -o-border-radius: 3px 0 0 3px;
   border-radius: 3px 0 0 3px;
   margin: 1px 8px; }
+  /* line 10, D:/Alipoor/Projects/icono/sass/icons/signOut */
   .icono-signOut:before {
     position: absolute;
     width: 11px;
@@ -719,6 +815,7 @@
     -o-border-radius: 0 4px 0 0;
     border-radius: 0 4px 0 0; }
 
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/support */
 .icono-support {
   width: 26px;
   height: 26px;
@@ -729,6 +826,7 @@
   -o-border-radius: 50%;
   border-radius: 50%;
   margin: 4px; }
+  /* line 9, D:/Alipoor/Projects/icono/sass/icons/support */
   .icono-support:before {
     position: absolute;
     width: 7px;
@@ -741,6 +839,7 @@
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
     box-shadow: inset 0 0 0 32px, 21px 0 0 0; }
+  /* line 18, D:/Alipoor/Projects/icono/sass/icons/support */
   .icono-support:after {
     position: absolute;
     width: 7px;
@@ -754,6 +853,1795 @@
     transform: rotate(135deg);
     box-shadow: inset 0 0 0 32px, 21px 0 0 0; }
 
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/dropper */
+.icono-dropper {
+  width: 40px;
+  height: 14px;
+  border-width: 3px;
+  border-style: solid;
+  border-right: none;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  box-shadow: -9px 0 0 2px inset, 0 0 0 2px inset;
+  -webkit-border-radius: 50% 6px 6px 50%;
+  -moz-border-radius: 50% 6px 6px 50%;
+  -o-border-radius: 50% 6px 6px 50%;
+  border-radius: 50% 6px 6px 50%;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  margin: 12px -2px 8px -4px; }
+  /* line 16, D:/Alipoor/Projects/icono/sass/icons/dropper */
+  .icono-dropper:before {
+    width: 4px;
+    height: 14px;
+    right: 10px;
+    box-shadow: inset 0 0 0 32px; }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/tiles */
+.icono-tiles {
+  width: 4px;
+  height: 4px;
+  box-shadow: 0 -8px 0, -8px -8px 0, 8px -8px 0, 0 0 0 32px inset, -8px 0 0, 8px 0 0, 0 8px 0, -8px 8px 0, 8px 8px 0;
+  margin: 15px; }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/list */
+.icono-list {
+  width: 4px;
+  height: 4px;
+  box-shadow: inset 0 0 0 32px, 0 -8px 0 0, 0 8px 0 0;
+  margin: 15px 26px 15px 4px; }
+  /* line 6, D:/Alipoor/Projects/icono/sass/icons/list */
+  .icono-list:before {
+    width: 18px;
+    height: 4px;
+    left: 8px;
+    box-shadow: inset 0 0 0 32px, 0 -8px 0 0, 0 8px 0 0; }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/chain */
+.icono-chain {
+  width: 16px;
+  height: 2px;
+  box-shadow: inset 0 0 0 32px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  margin: 16px 9px; }
+  /* line 8, D:/Alipoor/Projects/icono/sass/icons/chain */
+  .icono-chain:before, .icono-chain:after {
+    width: 12px;
+    height: 8px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px; }
+  /* line 14, D:/Alipoor/Projects/icono/sass/icons/chain */
+  .icono-chain:before {
+    right: -10px; }
+  /* line 17, D:/Alipoor/Projects/icono/sass/icons/chain */
+  .icono-chain:after {
+    left: -10px; }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/youtube */
+.icono-youtube {
+  border-right-color: transparent;
+  border-left-color: transparent;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  width: 32px;
+  height: 22.288778993px;
+  margin: 6px 1px; }
+  /* line 12, D:/Alipoor/Projects/icono/sass/icons/youtube */
+  .icono-youtube:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    -webkit-border-radius: 6px / 3px;
+    -moz-border-radius: 6px / 3px;
+    -o-border-radius: 6px / 3px;
+    border-radius: 6px / 3px; }
+  /* line 22, D:/Alipoor/Projects/icono/sass/icons/youtube */
+  .icono-youtube:after {
+    width: 0;
+    height: 0;
+    border-width: 4px 0 4px 8px;
+    border-style: solid;
+    border-top-color: transparent;
+    border-bottom-color: transparent; }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/rename */
+.icono-rename {
+  width: 26px;
+  height: 10px;
+  border-color: transparent;
+  border-width: 3px;
+  box-shadow: 0 0 0 1px, 11px 0 0 0 inset;
+  margin: 12px 4px; }
+  /* line 10, D:/Alipoor/Projects/icono/sass/icons/rename */
+  .icono-rename:before {
+    width: 1px;
+    height: 18px;
+    left: 9px;
+    border-width: 2px 4px;
+    border-style: solid;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    box-shadow: 0 0 0 1px inset; }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/search */
+.icono-search {
+  width: 22px;
+  height: 22px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  margin: 4px 4px 8px 8px; }
+  /* line 8, D:/Alipoor/Projects/icono/sass/icons/search */
+  .icono-search:before {
+    width: 4px;
+    height: 11px;
+    box-shadow: inset 0 0 0 32px;
+    top: 19px;
+    -webkit-border-radius: 0 0 1px 1px;
+    -moz-border-radius: 0 0 1px 1px;
+    -o-border-radius: 0 0 1px 1px;
+    border-radius: 0 0 1px 1px; }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/book */
+.icono-book {
+  width: 26px;
+  height: 22px;
+  -webkit-border-radius: 0 0 0 6px;
+  -moz-border-radius: 0 0 0 6px;
+  -o-border-radius: 0 0 0 6px;
+  border-radius: 0 0 0 6px;
+  border-top: none;
+  margin: 10px 4px 2px; }
+  /* line 9, D:/Alipoor/Projects/icono/sass/icons/book */
+  .icono-book:before {
+    position: absolute;
+    width: 24px;
+    height: 7px;
+    box-sizing: border-box;
+    border-top: none;
+    border-right: none;
+    left: -2px;
+    top: -5px;
+    -webkit-border-radius: 0 0 0 6px;
+    -moz-border-radius: 0 0 0 6px;
+    -o-border-radius: 0 0 0 6px;
+    border-radius: 0 0 0 6px; }
+  /* line 21, D:/Alipoor/Projects/icono/sass/icons/book */
+  .icono-book:after {
+    position: absolute;
+    width: 24px;
+    height: 8px;
+    box-sizing: border-box;
+    left: -2px;
+    top: -8px;
+    border-bottom: none;
+    -webkit-border-radius: 6px 0 0 0;
+    -moz-border-radius: 6px 0 0 0;
+    -o-border-radius: 6px 0 0 0;
+    border-radius: 6px 0 0 0; }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/forbidden */
+.icono-forbidden {
+  width: 28px;
+  height: 28px;
+  border-width: 3px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  margin: 3px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg); }
+  /* line 9, D:/Alipoor/Projects/icono/sass/icons/forbidden */
+  .icono-forbidden:before {
+    width: 24px;
+    height: 4px;
+    box-shadow: inset 0 0 0 32px; }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/trash */
+.icono-trash {
+  width: 22px;
+  height: 22px;
+  -webkit-border-radius: 0 0 3px 3px;
+  -moz-border-radius: 0 0 3px 3px;
+  -o-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px;
+  border-top: none;
+  margin: 9px 6px 3px; }
+  /* line 9, D:/Alipoor/Projects/icono/sass/icons/trash */
+  .icono-trash:before {
+    width: 8px;
+    height: 2px;
+    top: -6px;
+    box-shadow: inset 0 0 0 32px, -10px 2px 0 0, -6px 2px 0 0, 0 2px 0 0, 6px 2px 0 0, 10px 2px 0 0; }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/keyboard */
+.icono-keyboard {
+  width: 32px;
+  height: 22px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  margin: 6px 1px; }
+  /* line 8, D:/Alipoor/Projects/icono/sass/icons/keyboard */
+  .icono-keyboard:before {
+    width: 2px;
+    height: 2px;
+    box-shadow: -2px -4px 0, -6px -4px 0, -10px -4px 0, 2px -4px 0, 6px -4px 0, 8px -4px 0, 10px -4px 0, -4px 0 0, -8px 0 0, -10px 0 0, inset 0 0 0 32px, 4px 0 0, 8px 0 0, 10px 0 0, 4px 4px 0, 2px 4px 0, 0 4px 0, -2px 4px 0, -6px 4px 0, -10px 4px 0, 6px 4px 0, 10px 4px 0; }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/mouse */
+.icono-mouse {
+  width: 23px;
+  height: 32px;
+  -webkit-border-radius: 11px 11px 12px 12px;
+  -moz-border-radius: 11px 11px 12px 12px;
+  -o-border-radius: 11px 11px 12px 12px;
+  border-radius: 11px 11px 12px 12px;
+  margin: 1px 5px 1px 6px; }
+  /* line 8, D:/Alipoor/Projects/icono/sass/icons/mouse */
+  .icono-mouse:before {
+    width: 1px;
+    height: 6px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    border-color: transparent;
+    border-width: 1px;
+    top: 5px;
+    box-shadow: 0 0 0 1px, 0 0 0 2px inset; }
+  /* line 19, D:/Alipoor/Projects/icono/sass/icons/mouse */
+  .icono-mouse:after {
+    width: 1px;
+    height: 4px;
+    top: 0;
+    box-shadow: inset 0 0 0 32px, 0 13px 0 0; }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/user */
+.icono-user {
+  width: 32px;
+  height: 14px;
+  -webkit-border-radius: 64px 64px 0 0 / 64px;
+  -moz-border-radius: 64px 64px 0 0 / 64px;
+  -o-border-radius: 64px 64px 0 0 / 64px;
+  border-radius: 64px 64px 0 0 / 64px;
+  margin: 18px 1px 2px; }
+  /* line 8, D:/Alipoor/Projects/icono/sass/icons/user */
+  .icono-user:before {
+    width: 12px;
+    height: 12px;
+    top: -20px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%; }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/crop */
+.icono-crop {
+  width: 21px;
+  height: 21px;
+  border-left: none;
+  border-bottom: none;
+  margin: 9px 9px 4px 4px; }
+  /* line 8, D:/Alipoor/Projects/icono/sass/icons/crop */
+  .icono-crop:before {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    top: -7px;
+    right: -7px;
+    border-top: none;
+    border-right: none;
+    box-sizing: border-box; }
+  /* line 18, D:/Alipoor/Projects/icono/sass/icons/crop */
+  .icono-crop:after {
+    width: 27px;
+    height: 1px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 12px;
+    left: 2px;
+    margin: auto;
+    box-shadow: inset 0 0 0 32px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg); }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/display */
+.icono-display {
+  width: 26px;
+  height: 22px;
+  margin: 4px 4px 8px; }
+  /* line 7, D:/Alipoor/Projects/icono/sass/icons/display */
+  .icono-display:before {
+    width: 4px;
+    height: 3px;
+    bottom: -5px;
+    box-shadow: inset 0 0 0 32px; }
+  /* line 14, D:/Alipoor/Projects/icono/sass/icons/display */
+  .icono-display:after {
+    width: 14px;
+    height: 2px;
+    bottom: -6px;
+    box-shadow: inset 0 0 0 32px; }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/imac */
+.icono-imac {
+  width: 28px;
+  height: 24px;
+  border-width: 2px 2px 6px;
+  border-color: transparent;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  box-shadow: 0 0 0 1px, 0 0 0 1px inset;
+  margin: 3px 3px 7px; }
+  /* line 11, D:/Alipoor/Projects/icono/sass/icons/imac */
+  .icono-imac:before {
+    position: absolute;
+    height: 4px;
+    right: -3px;
+    left: -3px;
+    bottom: -6px;
+    box-shadow: inset 0 0 0 32px;
+    -webkit-border-radius: 0 0 3px 3px;
+    -moz-border-radius: 0 0 3px 3px;
+    -o-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px; }
+  /* line 20, D:/Alipoor/Projects/icono/sass/icons/imac */
+  .icono-imac:after {
+    width: 9px;
+    height: 7px;
+    box-shadow: inset 0 0 0 32px;
+    bottom: -12px;
+    -webkit-border-radius: 32px 32px 0 0 / 64px;
+    -moz-border-radius: 32px 32px 0 0 / 64px;
+    -o-border-radius: 32px 32px 0 0 / 64px;
+    border-radius: 32px 32px 0 0 / 64px; }
+
+/* line 29, D:/Alipoor/Projects/icono/sass/icons/imac */
+.icono-imacBold {
+  width: 28px;
+  height: 22px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  margin: 4px 3px 8px; }
+  /* line 35, D:/Alipoor/Projects/icono/sass/icons/imac */
+  .icono-imacBold:before {
+    width: 9px;
+    height: 7px;
+    box-shadow: inset 0 0 0 32px;
+    bottom: -6px;
+    -webkit-border-radius: 32px 32px 0 0 / 64px;
+    -moz-border-radius: 32px 32px 0 0 / 64px;
+    -o-border-radius: 32px 32px 0 0 / 64px;
+    border-radius: 32px 32px 0 0 / 64px; }
+  /* line 43, D:/Alipoor/Projects/icono/sass/icons/imac */
+  .icono-imacBold:after {
+    width: 24px;
+    height: 3px;
+    box-shadow: inset 0 0 0 32px;
+    bottom: 0; }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/iphone */
+.icono-iphone {
+  width: 19px;
+  height: 31px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  border-width: 5px 1px;
+  border-color: transparent;
+  box-shadow: 0 0 0 1px, 0 0 0 1px inset;
+  margin: 2px 8px 1px 7px; }
+  /* line 11, D:/Alipoor/Projects/icono/sass/icons/iphone */
+  .icono-iphone:before, .icono-iphone:after {
+    box-shadow: inset 0 0 0 32px; }
+  /* line 15, D:/Alipoor/Projects/icono/sass/icons/iphone */
+  .icono-iphone:before {
+    width: 3px;
+    height: 1px;
+    top: -3px; }
+  /* line 20, D:/Alipoor/Projects/icono/sass/icons/iphone */
+  .icono-iphone:after {
+    width: 3px;
+    height: 3px;
+    bottom: -4px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%; }
+
+/* line 27, D:/Alipoor/Projects/icono/sass/icons/iphone */
+.icono-iphoneBold {
+  width: 20px;
+  height: 32px;
+  margin: 1px 7px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  border-width: 5px 2px; }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/macbook */
+.icono-macbook {
+  width: 32px;
+  height: 2px;
+  box-shadow: inset 0 0 0 32px;
+  -webkit-border-radius: 0 0 32px 32px / 3px;
+  -moz-border-radius: 0 0 32px 32px / 3px;
+  -o-border-radius: 0 0 32px 32px / 3px;
+  border-radius: 0 0 32px 32px / 3px;
+  margin: 25px 1px 7px 1px; }
+  /* line 8, D:/Alipoor/Projects/icono/sass/icons/macbook */
+  .icono-macbook:before {
+    width: 20px;
+    height: 14px;
+    bottom: 2px;
+    border-width: 3px 1px 1px 1px;
+    border-color: transparent;
+    -webkit-border-radius: 3px 3px 0 0;
+    -moz-border-radius: 3px 3px 0 0;
+    -o-border-radius: 3px 3px 0 0;
+    border-radius: 3px 3px 0 0;
+    box-shadow: 0 0 0 1px, 0 0 0 1px inset; }
+
+/* line 20, D:/Alipoor/Projects/icono/sass/icons/macbook */
+.icono-macbookBold {
+  width: 32px;
+  height: 2px;
+  box-shadow: inset 0 0 0 32px;
+  margin: 25px 1px 7px 1px; }
+  /* line 25, D:/Alipoor/Projects/icono/sass/icons/macbook */
+  .icono-macbookBold:before {
+    width: 20px;
+    height: 14px;
+    bottom: 2px;
+    border-width: 3px 2px 1px;
+    -webkit-border-radius: 3px 3px 0 0;
+    -moz-border-radius: 3px 3px 0 0;
+    -o-border-radius: 3px 3px 0 0;
+    border-radius: 3px 3px 0 0; }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/image */
+.icono-image {
+  width: 30px;
+  height: 26px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  overflow: hidden;
+  margin: 4px 2px; }
+  /* line 9, D:/Alipoor/Projects/icono/sass/icons/image */
+  .icono-image:before {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: -2px;
+    top: 14px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    box-shadow: inset 0 0 0 32px, 10px -6px 0 0; }
+  /* line 18, D:/Alipoor/Projects/icono/sass/icons/image */
+  .icono-image:after {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 32px;
+    top: 5px;
+    right: 5px; }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/headphone */
+.icono-headphone {
+  width: 30px;
+  height: 27px;
+  border-bottom-color: transparent;
+  -webkit-border-radius: 32px / 32px 32px 16px 16px;
+  -moz-border-radius: 32px / 32px 32px 16px 16px;
+  -o-border-radius: 32px / 32px 32px 16px 16px;
+  border-radius: 32px / 32px 32px 16px 16px;
+  margin: 2px 2px 5px; }
+  /* line 9, D:/Alipoor/Projects/icono/sass/icons/headphone */
+  .icono-headphone:before {
+    position: absolute;
+    width: 4px;
+    height: 12px;
+    left: 1px;
+    bottom: -4px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: inset 0 0 0 32px, 20px 0 0 0; }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/music */
+.icono-music {
+  width: 18px;
+  height: 6px;
+  -webkit-transform: skewY(-15deg);
+  -moz-transform: skewY(-15deg);
+  -ms-transform: skewY(-15deg);
+  -o-transform: skewY(-15deg);
+  transform: skewY(-15deg);
+  box-shadow: inset 0 0 0 32px;
+  -webkit-border-radius: 2px 2px 0 0;
+  -moz-border-radius: 2px 2px 0 0;
+  -o-border-radius: 2px 2px 0 0;
+  border-radius: 2px 2px 0 0;
+  margin: 4px 5px 24px 11px; }
+  /* line 9, D:/Alipoor/Projects/icono/sass/icons/music */
+  .icono-music:before {
+    position: absolute;
+    width: 2px;
+    height: 16px;
+    left: 0;
+    top: 4px;
+    box-shadow: inset 0 0 0 32px, 16px 0 0 0; }
+  /* line 17, D:/Alipoor/Projects/icono/sass/icons/music */
+  .icono-music:after {
+    position: absolute;
+    width: 10px;
+    height: 8px;
+    left: -8px;
+    top: 17px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 32px, 16px 0 0 0; }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/video */
+.icono-video {
+  width: 20px;
+  height: 20px;
+  margin: 7px 7px; }
+  /* line 7, D:/Alipoor/Projects/icono/sass/icons/video */
+  .icono-video:before {
+    width: 3px;
+    height: 3px;
+    left: -8px;
+    box-shadow: inset 0 0 0 32px, 0 -8px 0 0, 0 8px 0 0, 29px 0 0 0, 29px -8px 0 0, 29px 8px 0 0; }
+  /* line 14, D:/Alipoor/Projects/icono/sass/icons/video */
+  .icono-video:after {
+    width: 0;
+    height: 0;
+    border-width: 4px 0 4px 6px;
+    border-style: solid;
+    border-top-color: transparent;
+    border-bottom-color: transparent; }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/nexus */
+.icono-nexus {
+  width: 21px;
+  height: 32px;
+  border-width: 3px 1px;
+  -webkit-border-radius: 16px / 3px;
+  -moz-border-radius: 16px / 3px;
+  -o-border-radius: 16px / 3px;
+  border-radius: 16px / 3px;
+  margin: 1px 7px 1px 6px; }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/microphone */
+.icono-microphone {
+  width: 22px;
+  height: 15px;
+  border-width: 0 2px 2px;
+  -webkit-border-radius: 20px /0 0 20px 20px;
+  -moz-border-radius: 20px /0 0 20px 20px;
+  -o-border-radius: 20px /0 0 20px 20px;
+  border-radius: 20px /0 0 20px 20px;
+  margin: 12px 6px 7px; }
+  /* line 9, D:/Alipoor/Projects/icono/sass/icons/microphone */
+  .icono-microphone:before {
+    width: 10px;
+    height: 18px;
+    top: -11px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-radius: 20px; }
+  /* line 17, D:/Alipoor/Projects/icono/sass/icons/microphone */
+  .icono-microphone:after {
+    width: 2px;
+    height: 2px;
+    bottom: -4px;
+    box-shadow: inset 0 0 0 32px, 0 2px, 0 4px, -2px 4px, -4px 4px, -6px 4px, 2px 4px, 4px 4px, 6px 4px; }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/asterisk */
+.icono-asterisk, .icono-asterisk:before, .icono-asterisk:after {
+  width: 4px;
+  height: 20px;
+  box-shadow: inset 0 0 0 32px;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  -o-border-radius: 1px;
+  border-radius: 1px;
+  margin: 7px 15px; }
+  /* line 8, D:/Alipoor/Projects/icono/sass/icons/asterisk */
+  .icono-asterisk:before, .icono-asterisk:after {
+    position: absolute;
+    margin: 0;
+    left: 0;
+    top: 0; }
+  /* line 15, D:/Alipoor/Projects/icono/sass/icons/asterisk */
+  .icono-asterisk:before {
+    -webkit-transform: rotate(-58deg);
+    -moz-transform: rotate(-58deg);
+    -ms-transform: rotate(-58deg);
+    -o-transform: rotate(-58deg);
+    transform: rotate(-58deg); }
+  /* line 18, D:/Alipoor/Projects/icono/sass/icons/asterisk */
+  .icono-asterisk:after {
+    -webkit-transform: rotate(58deg);
+    -moz-transform: rotate(58deg);
+    -ms-transform: rotate(58deg);
+    -o-transform: rotate(58deg);
+    transform: rotate(58deg); }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/terminal */
+.icono-terminal {
+  width: 28px;
+  height: 24px;
+  margin: 5px 3px; }
+  /* line 7, D:/Alipoor/Projects/icono/sass/icons/terminal */
+  .icono-terminal:before {
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%) rotate(45deg);
+    -moz-transform: translateY(-50%) rotate(45deg);
+    -ms-transform: translateY(-50%) rotate(45deg);
+    -o-transform: translateY(-50%) rotate(45deg);
+    transform: translateY(-50%) rotate(45deg);
+    left: 3px;
+    border-width: 2px 2px 0 0;
+    border-style: solid; }
+  /* line 17, D:/Alipoor/Projects/icono/sass/icons/terminal */
+  .icono-terminal:after {
+    position: absolute;
+    width: 5px;
+    height: 0;
+    border-bottom: 2px solid;
+    right: 6px;
+    bottom: 4px; }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/paperClip */
+.icono-paperClip {
+  width: 24px;
+  height: 18px;
+  border-left: none;
+  -webkit-border-radius: 0 16px 16px 0;
+  -moz-border-radius: 0 16px 16px 0;
+  -o-border-radius: 0 16px 16px 0;
+  border-radius: 0 16px 16px 0;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  margin: 5px 0 11px 10px; }
+  /* line 10, D:/Alipoor/Projects/icono/sass/icons/paperClip */
+  .icono-paperClip:before {
+    width: 18px;
+    height: 6px;
+    right: 2px;
+    -webkit-border-radius: 0 16px 16px 0;
+    -moz-border-radius: 0 16px 16px 0;
+    -o-border-radius: 0 16px 16px 0;
+    border-radius: 0 16px 16px 0;
+    border-left: none; }
+  /* line 19, D:/Alipoor/Projects/icono/sass/icons/paperClip */
+  .icono-paperClip:after {
+    position: absolute;
+    width: 12px;
+    height: 10px;
+    left: -12px;
+    top: -2px;
+    border-right: none;
+    -webkit-border-radius: 16px 0 0 16px;
+    -moz-border-radius: 16px 0 0 16px;
+    -o-border-radius: 16px 0 0 16px;
+    border-radius: 16px 0 0 16px; }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/market */
+.icono-market {
+  width: 32px;
+  height: 12px;
+  border-top: none;
+  margin: 19px 1px 3px; }
+  /* line 8, D:/Alipoor/Projects/icono/sass/icons/market */
+  .icono-market:before {
+    width: 6px;
+    height: 13px;
+    position: absolute;
+    top: -15px;
+    left: -5px;
+    -webkit-border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    -o-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
+    border-left: none;
+    box-shadow: inset 0 0 0 32px, 8px 0 0, 16px 0 0, 24px 0 0, 32px 0 0; }
+  /* line 18, D:/Alipoor/Projects/icono/sass/icons/market */
+  .icono-market:after {
+    width: 6px;
+    height: 6px;
+    bottom: -2px; }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/clock */
+.icono-clock {
+  width: 26px;
+  height: 26px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  margin: 4px; }
+  /* line 8, D:/Alipoor/Projects/icono/sass/icons/clock */
+  .icono-clock:before, .icono-clock:after {
+    top: 35%;
+    box-shadow: inset 0 0 0 32px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px; }
+  /* line 14, D:/Alipoor/Projects/icono/sass/icons/clock */
+  .icono-clock:before {
+    width: 2px;
+    height: 9px; }
+  /* line 18, D:/Alipoor/Projects/icono/sass/icons/clock */
+  .icono-clock:after {
+    width: 6px;
+    height: 2px;
+    transform-origin: left center;
+    -webkit-transform: rotate(45deg) translate(1px, 2px);
+    -moz-transform: rotate(45deg) translate(1px, 2px);
+    -ms-transform: rotate(45deg) translate(1px, 2px);
+    -o-transform: rotate(45deg) translate(1px, 2px);
+    transform: rotate(45deg) translate(1px, 2px); }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/textAlign */
+[class*="icono-textAlign"] {
+  width: 28px;
+  height: 22px;
+  margin: 6px 3px; }
+  /* line 6, D:/Alipoor/Projects/icono/sass/icons/textAlign */
+  [class*="icono-textAlign"]:before, [class*="icono-textAlign"]:after {
+    position: absolute;
+    height: 2px;
+    box-shadow: inset 0 0 0 32px, 0 8px 0 0, 0 16px 0 0;
+    right: 0; }
+  /* line 12, D:/Alipoor/Projects/icono/sass/icons/textAlign */
+  [class*="icono-textAlign"]:before {
+    width: 28px;
+    top: 0; }
+  /* line 16, D:/Alipoor/Projects/icono/sass/icons/textAlign */
+  [class*="icono-textAlign"]:after {
+    width: 18px;
+    top: 4px; }
+  /* line 26, D:/Alipoor/Projects/icono/sass/icons/textAlign */
+  [class*="icono-textAlign"].icono-textAlignLeft:before, [class*="icono-textAlign"].icono-textAlignLeft:after {
+    left: 0; }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/exclamation */
+[class*="icono-exclamation"] {
+  overflow: visible;
+  width: 30px;
+  border-bottom: 2px solid;
+  -webkit-border-radius: 0 0 4px 4px;
+  -moz-border-radius: 0 0 4px 4px;
+  -o-border-radius: 0 0 4px 4px;
+  border-radius: 0 0 4px 4px;
+  margin: 26px 2px 6px; }
+  /* line 8, D:/Alipoor/Projects/icono/sass/icons/exclamation */
+  [class*="icono-exclamation"]:before {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 1px;
+    top: -14px;
+    border-width: 2px 0 0 2px;
+    border-style: solid;
+    -webkit-border-radius: 4px 0;
+    -moz-border-radius: 4px 0;
+    -o-border-radius: 4px 0;
+    border-radius: 4px 0;
+    -webkit-transform: rotate(45deg) skew(12deg, 12deg);
+    -moz-transform: rotate(45deg) skew(12deg, 12deg);
+    -ms-transform: rotate(45deg) skew(12deg, 12deg);
+    -o-transform: rotate(45deg) skew(12deg, 12deg);
+    transform: rotate(45deg) skew(12deg, 12deg); }
+  /* line 19, D:/Alipoor/Projects/icono/sass/icons/exclamation */
+  [class*="icono-exclamation"]:after {
+    width: 4px;
+    height: 3px;
+    top: -14px;
+    box-shadow: inset 0 0 0 32px, 0 3px, 0 8px; }
+  /* line 26, D:/Alipoor/Projects/icono/sass/icons/exclamation */
+  [class*="icono-exclamation"][class*="Circle"] {
+    height: 30px;
+    margin: 2px; }
+    /* line 29, D:/Alipoor/Projects/icono/sass/icons/exclamation */
+    [class*="icono-exclamation"][class*="Circle"]:before {
+      display: none; }
+    /* line 32, D:/Alipoor/Projects/icono/sass/icons/exclamation */
+    [class*="icono-exclamation"][class*="Circle"]:after {
+      box-shadow: inset 0 0 0 32px, 0 3px, 0 5px, 0 10px;
+      top: 6px; }
+
+/* line 7, D:/Alipoor/Projects/icono/sass/icons/frown */
+.icono-frown:after {
+  -webkit-transform: translateX(-50%) rotate(180deg);
+  -moz-transform: translateX(-50%) rotate(180deg);
+  -ms-transform: translateX(-50%) rotate(180deg);
+  -o-transform: translateX(-50%) rotate(180deg);
+  transform: translateX(-50%) rotate(180deg);
+  transform-origin: center 85%; }
+
+/* line 7, D:/Alipoor/Projects/icono/sass/icons/meh */
+.icono-meh:after {
+  top: 0;
+  width: 12px;
+  border-left-width: 0;
+  border-right-width: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0; }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/indent */
+.icono-indent, .icono-outdent {
+  width: 20px;
+  height: 16px;
+  border-width: 4px 0 4px 8px;
+  border-style: solid;
+  border-color: transparent;
+  box-shadow: 0 -2px, 0 2px, inset 0 2px, inset 0 -2px;
+  margin: 9px 7px; }
+  /* line 10, D:/Alipoor/Projects/icono/sass/icons/indent */
+  .icono-indent:before, .icono-outdent:before {
+    left: -8px;
+    border: 5px solid;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-right-width: 0; }
+
+/* line 4, D:/Alipoor/Projects/icono/sass/icons/outdent */
+.icono-outdent:before {
+  border-left-width: 0;
+  border-right-width: 5px; }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/locationArrow */
+.icono-locationArrow {
+  width: 32px;
+  height: 32px;
+  margin: 1px; }
+  /* line 6, D:/Alipoor/Projects/icono/sass/icons/locationArrow */
+  .icono-locationArrow:before {
+    position: absolute;
+    left: 7px;
+    top: 16px;
+    border-width: 6px 0 6px 6px;
+    border-style: solid;
+    border-left-color: transparent;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg); }
+  /* line 15, D:/Alipoor/Projects/icono/sass/icons/locationArrow */
+  .icono-locationArrow:after {
+    position: absolute;
+    top: 10px;
+    left: 2px;
+    border-width: 10px;
+    border-style: solid;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    -webkit-transform: skew(-30deg, -30deg);
+    -moz-transform: skew(-30deg, -30deg);
+    -ms-transform: skew(-30deg, -30deg);
+    -o-transform: skew(-30deg, -30deg);
+    transform: skew(-30deg, -30deg); }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/comment */
+.icono-commentEmpty {
+  width: 30px;
+  height: 22px;
+  -webkit-border-radius: 4px 4px 7px 7px;
+  -moz-border-radius: 4px 4px 7px 7px;
+  -o-border-radius: 4px 4px 7px 7px;
+  border-radius: 4px 4px 7px 7px;
+  border-bottom-color: transparent;
+  margin: 5px 2px 7px; }
+  /* line 9, D:/Alipoor/Projects/icono/sass/icons/comment */
+  .icono-commentEmpty:before {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-width: 0 0 2px 2px;
+    border-style: solid;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    bottom: -4px;
+    left: 6px; }
+  /* line 19, D:/Alipoor/Projects/icono/sass/icons/comment */
+  .icono-commentEmpty:after {
+    position: absolute;
+    width: 8px;
+    height: 2px;
+    border-width: 0 12px 0 6px;
+    border-style: solid;
+    bottom: 0;
+    left: 0; }
+
+/* line 29, D:/Alipoor/Projects/icono/sass/icons/comment */
+.icono-comment {
+  width: 30px;
+  height: 20px;
+  box-shadow: inset 0 0 0 32px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  margin: 5px 2px 9px; }
+  /* line 35, D:/Alipoor/Projects/icono/sass/icons/comment */
+  .icono-comment:before {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    box-shadow: inset 0 0 0 32px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    bottom: -4px;
+    left: 6px; }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/chart */
+.icono-areaChart {
+  width: 30px;
+  height: 22px;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-color: transparent;
+  box-shadow: -2px 2px;
+  overflow: hidden;
+  margin: 4px 0 8px 4px; }
+  /* line 12, D:/Alipoor/Projects/icono/sass/icons/chart */
+  .icono-areaChart:before {
+    position: absolute;
+    left: 0;
+    bottom: 7px;
+    border: 6px solid transparent;
+    border-bottom-color: currentColor;
+    box-shadow: 0 7px; }
+  /* line 21, D:/Alipoor/Projects/icono/sass/icons/chart */
+  .icono-areaChart:after {
+    position: absolute;
+    left: 11px;
+    bottom: 4px;
+    border-width: 0 6px 13px;
+    border-style: solid;
+    border-color: transparent;
+    border-bottom-color: currentColor;
+    box-shadow: 0 4px; }
+
+/* line 33, D:/Alipoor/Projects/icono/sass/icons/chart */
+.icono-barChart {
+  width: 30px;
+  height: 22px;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-color: transparent;
+  box-shadow: -2px 2px;
+  overflow: hidden;
+  box-shadow: -2px 2px;
+  margin: 4px 0 8px 4px; }
+  /* line 44, D:/Alipoor/Projects/icono/sass/icons/chart */
+  .icono-barChart:before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 4px;
+    height: 15px;
+    box-shadow: inset 0 -8px 0 0, 6px 0, 12px 7px, 18px 5px; }
+
+/* line 53, D:/Alipoor/Projects/icono/sass/icons/chart */
+.icono-pieChart {
+  width: 0;
+  height: 0;
+  border: 15px solid;
+  border-right-color: transparent;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  margin: 2px; }
+  /* line 61, D:/Alipoor/Projects/icono/sass/icons/chart */
+  .icono-pieChart:before {
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: -11px;
+    top: -14px;
+    border: 14px solid;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+    border-top-color: transparent;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%; }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/bookmark */
+.icono-bookmark {
+  width: 0;
+  height: 0;
+  border: 9px solid;
+  border-bottom-color: transparent;
+  box-shadow: 0 -4px;
+  -webkit-border-radius: 3px 3px 0 0;
+  -moz-border-radius: 3px 3px 0 0;
+  -o-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+  margin: 10px 8px 6px; }
+
+/* line 11, D:/Alipoor/Projects/icono/sass/icons/bookmark */
+.icono-bookmarkEmpty {
+  width: 18px;
+  height: 22px;
+  border-bottom: none;
+  -webkit-border-radius: 3px 3px 2px 2px;
+  -moz-border-radius: 3px 3px 2px 2px;
+  -o-border-radius: 3px 3px 2px 2px;
+  border-radius: 3px 3px 2px 2px;
+  overflow: hidden;
+  margin: 6px 8px; }
+  /* line 19, D:/Alipoor/Projects/icono/sass/icons/bookmark */
+  .icono-bookmarkEmpty:before {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    bottom: 0;
+    left: 0;
+    border-right: none;
+    border-bottom: none;
+    -webkit-transform: rotate(45deg) translate(35%, 35%);
+    -moz-transform: rotate(45deg) translate(35%, 35%);
+    -ms-transform: rotate(45deg) translate(35%, 35%);
+    -o-transform: rotate(45deg) translate(35%, 35%);
+    transform: rotate(45deg) translate(35%, 35%); }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/filter */
+.icono-filter {
+  width: 0;
+  height: 0;
+  border: 10px solid;
+  border-bottom: none;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  padding: 3px;
+  box-shadow: inset 0 7px;
+  margin: 9px 4px; }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/volume */
+.icono-volume, .icono-volumeLow, .icono-volumeMedium, .icono-volumeHigh, .icono-volumeDecrease, .icono-volumeIncrease, .icono-volumeMute {
+  width: 0;
+  height: 0;
+  border: 7px solid;
+  border-left: none;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  padding: 6px 3px;
+  box-shadow: inset 4px 0;
+  margin: 4px 10px 4px 11px; }
+
+/* line 13, D:/Alipoor/Projects/icono/sass/icons/volume */
+.icono-volumeLow, .icono-volumeMedium, .icono-volumeHigh {
+  margin: 4px 14px 4px 7px; }
+  /* line 16, D:/Alipoor/Projects/icono/sass/icons/volume */
+  .icono-volumeLow:before, .icono-volumeMedium:before, .icono-volumeHigh:before, .icono-volumeHigh:after {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    left: 2px; }
+
+/* line 29, D:/Alipoor/Projects/icono/sass/icons/volume */
+.icono-volumeMedium, .icono-volumeHigh {
+  margin: 4px 16px 4px 5px; }
+  /* line 32, D:/Alipoor/Projects/icono/sass/icons/volume */
+  .icono-volumeMedium:before, .icono-volumeHigh:before {
+    border-style: double;
+    border-width: 6px;
+    left: -2px; }
+
+/* line 38, D:/Alipoor/Projects/icono/sass/icons/volume */
+.icono-volumeHigh {
+  margin: 4px 18px 4px 3px; }
+  /* line 41, D:/Alipoor/Projects/icono/sass/icons/volume */
+  .icono-volumeHigh:after {
+    width: 32px;
+    height: 32px;
+    left: -7px; }
+
+/* line 48, D:/Alipoor/Projects/icono/sass/icons/volume */
+.icono-volumeDecrease, .icono-volumeIncrease, .icono-volumeMute {
+  margin: 4px 16px 4px 5px; }
+  /* line 51, D:/Alipoor/Projects/icono/sass/icons/volume */
+  .icono-volumeDecrease:before, .icono-volumeIncrease:before, .icono-volumeMute:before, .icono-volumeDecrease:after, .icono-volumeIncrease:after, .icono-volumeMute:after {
+    box-shadow: inset 0 0 0 32px; }
+  /* line 55, D:/Alipoor/Projects/icono/sass/icons/volume */
+  .icono-volumeDecrease:before, .icono-volumeIncrease:before, .icono-volumeMute:before {
+    width: 10px;
+    height: 2px;
+    left: 17px; }
+
+/* line 63, D:/Alipoor/Projects/icono/sass/icons/volume */
+.icono-volumeIncrease:after, .icono-volumeMute:after {
+  height: 10px;
+  width: 2px;
+  left: 21px; }
+
+/* line 71, D:/Alipoor/Projects/icono/sass/icons/volume */
+.icono-volumeMute:after, .icono-volumeMute:before {
+  -webkit-transform: translateY(-50%) rotate(45deg);
+  -moz-transform: translateY(-50%) rotate(45deg);
+  -ms-transform: translateY(-50%) rotate(45deg);
+  -o-transform: translateY(-50%) rotate(45deg);
+  transform: translateY(-50%) rotate(45deg); }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/tag */
+.icono-tag {
+  width: 18px;
+  height: 24px;
+  -webkit-border-radius: 6px 6px 4px 4px;
+  -moz-border-radius: 6px 6px 4px 4px;
+  -o-border-radius: 6px 6px 4px 4px;
+  border-radius: 6px 6px 4px 4px;
+  border-top: none;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  margin: 5px 8px; }
+  /* line 10, D:/Alipoor/Projects/icono/sass/icons/tag */
+  .icono-tag:before {
+    position: absolute;
+    top: -4px;
+    left: 1px;
+    width: 10px;
+    height: 10px;
+    border-width: 2px 0 0 2px;
+    border-style: solid;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-border-radius: 5px 0 0 0;
+    -moz-border-radius: 5px 0 0 0;
+    -o-border-radius: 5px 0 0 0;
+    border-radius: 5px 0 0 0; }
+  /* line 21, D:/Alipoor/Projects/icono/sass/icons/tag */
+  .icono-tag:after {
+    top: 1px;
+    width: 3px;
+    height: 3px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%; }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/calendar */
+.icono-calendar {
+  width: 32px;
+  height: 28px;
+  border-width: 4px 2px 2px;
+  border-style: solid;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  margin: 5px 1px 1px; }
+  /* line 9, D:/Alipoor/Projects/icono/sass/icons/calendar */
+  .icono-calendar:before {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    top: 3px;
+    left: 3px;
+    box-shadow: inset 0 0 0 32px, 6px 0, 12px 0, 18px 0, 0 6px, 6px 6px, 12px 6px, 18px 6px, 0 12px, 6px 12px, 12px 12px, 18px 12px; }
+  /* line 19, D:/Alipoor/Projects/icono/sass/icons/calendar */
+  .icono-calendar:after {
+    position: absolute;
+    width: 4px;
+    height: 8px;
+    box-shadow: inset 0 0 0 32px, 16px 0;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    top: -8px;
+    left: 4px; }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/camera */
+.icono-camera {
+  width: 32px;
+  height: 24px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  margin: 5px 1px; }
+  /* line 8, D:/Alipoor/Projects/icono/sass/icons/camera */
+  .icono-camera:before {
+    width: 10px;
+    height: 10px;
+    border: 1px solid transparent;
+    box-shadow: inset 0 0 0 1px, 0 0 0 2px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%; }
+  /* line 16, D:/Alipoor/Projects/icono/sass/icons/camera */
+  .icono-camera:after {
+    position: absolute;
+    width: 4px;
+    height: 2px;
+    right: 2px;
+    top: 2px;
+    box-shadow: inset 0 0 0 32px; }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/piano */
+.icono-piano {
+  width: 28px;
+  height: 22px;
+  margin: 6px 3px; }
+  /* line 7, D:/Alipoor/Projects/icono/sass/icons/piano */
+  .icono-piano:before {
+    position: absolute;
+    left: 4px;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    box-shadow: inset 0 0 0 32px, 5px 0, 10px 0, 15px 0; }
+  /* line 15, D:/Alipoor/Projects/icono/sass/icons/piano */
+  .icono-piano:after {
+    position: absolute;
+    width: 3px;
+    height: 12px;
+    left: 3px;
+    top: 0;
+    box-shadow: inset 0 0 0 32px, 5px 0, 10px 0, 15px 0; }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/ruler */
+.icono-ruler {
+  width: 27px;
+  height: 12px;
+  margin: 11px 4px 11px 3px; }
+  /* line 7, D:/Alipoor/Projects/icono/sass/icons/ruler */
+  .icono-ruler:before {
+    position: absolute;
+    width: 1px;
+    height: 4px;
+    box-shadow: inset 0 0 0 32px, 6px 0, 12px 0;
+    left: 5px;
+    top: 0; }
+  /* line 15, D:/Alipoor/Projects/icono/sass/icons/ruler */
+  .icono-ruler:after {
+    position: absolute;
+    width: 1px;
+    height: 2px;
+    box-shadow: inset 0 0 0 32px, 2px 0, 6px 0, 8px 0, 12px 0, 14px 0, 18px 0, 20px 0;
+    left: 1px;
+    top: 0; }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/socials */
+.icono-facebook {
+  width: 9px;
+  height: 26px;
+  box-shadow: inset 2px 4px 0 0;
+  border-left: 3px solid;
+  -webkit-border-radius: 5px 0 0 0;
+  -moz-border-radius: 5px 0 0 0;
+  -o-border-radius: 5px 0 0 0;
+  border-radius: 5px 0 0 0;
+  margin: 4px 11px 4px 14px; }
+  /* line 9, D:/Alipoor/Projects/icono/sass/icons/socials */
+  .icono-facebook:before {
+    position: absolute;
+    top: 9px;
+    left: -6px;
+    width: 11px;
+    height: 0;
+    border-top: 4px solid;
+    border-right: 1px solid transparent; }
+
+/* line 19, D:/Alipoor/Projects/icono/sass/icons/socials */
+.icono-twitter {
+  width: 14px;
+  height: 23px;
+  -webkit-border-radius: 0 0 0 8px;
+  -moz-border-radius: 0 0 0 8px;
+  -o-border-radius: 0 0 0 8px;
+  border-radius: 0 0 0 8px;
+  box-shadow: -6px 2px 0 0;
+  margin: 4px 7px 7px 13px; }
+  /* line 25, D:/Alipoor/Projects/icono/sass/icons/socials */
+  .icono-twitter:before {
+    position: absolute;
+    bottom: -2px;
+    left: -6px;
+    width: 17px;
+    height: 6px;
+    -webkit-border-radius: 0 0 0 8px;
+    -moz-border-radius: 0 0 0 8px;
+    -o-border-radius: 0 0 0 8px;
+    border-radius: 0 0 0 8px;
+    box-shadow: inset 4px -6px, 0 -11px; }
+  /* line 34, D:/Alipoor/Projects/icono/sass/icons/socials */
+  .icono-twitter:after {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    box-shadow: inset 0 0 0 32px, 13px 8px, 13px 19px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    left: -6px; }
+
+/* line 43, D:/Alipoor/Projects/icono/sass/icons/socials */
+.icono-linkedIn {
+  width: 5px;
+  height: 16px;
+  box-shadow: inset 0 0 0 32px, 8px 0;
+  margin: 12px 24px 6px 5px; }
+  /* line 48, D:/Alipoor/Projects/icono/sass/icons/socials */
+  .icono-linkedIn:before {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    box-shadow: inset 0 0 0 32px;
+    top: -7px;
+    left: 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%; }
+  /* line 57, D:/Alipoor/Projects/icono/sass/icons/socials */
+  .icono-linkedIn:after {
+    position: absolute;
+    width: 12px;
+    height: 16px;
+    border-right: 1px solid;
+    left: 11px;
+    bottom: 0;
+    -webkit-border-radius: 8px 5px 0 0/ 11px 5px 0 0;
+    -moz-border-radius: 8px 5px 0 0/ 11px 5px 0 0;
+    -o-border-radius: 8px 5px 0 0/ 11px 5px 0 0;
+    border-radius: 8px 5px 0 0/ 11px 5px 0 0;
+    box-shadow: inset -4px 4px; }
+
+/* line 68, D:/Alipoor/Projects/icono/sass/icons/socials */
+.icono-instagram {
+  width: 26px;
+  height: 26px;
+  box-shadow: inset 0 0 0 2px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  margin: 4px; }
+  /* line 74, D:/Alipoor/Projects/icono/sass/icons/socials */
+  .icono-instagram:before {
+    width: 10px;
+    height: 10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px; }
+  /* line 81, D:/Alipoor/Projects/icono/sass/icons/socials */
+  .icono-instagram:after {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -o-border-radius: 1px;
+    border-radius: 1px;
+    right: 3px;
+    top: 3px;
+    box-shadow: 0 0 0 2px, 1px 1px 0 2px, -5px -1px 0 1px, -10px -1px 0 1px, -16px 1px 0 2px; }
+
+/* line 91, D:/Alipoor/Projects/icono/sass/icons/socials */
+.icono-flickr {
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  margin: 5px; }
+  /* line 97, D:/Alipoor/Projects/icono/sass/icons/socials */
+  .icono-flickr:before, .icono-flickr:after {
+    width: 7px;
+    height: 7px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%; }
+  /* line 103, D:/Alipoor/Projects/icono/sass/icons/socials */
+  .icono-flickr:before {
+    left: 4px;
+    box-shadow: 0 0 0 1px, 0 -10px 0 6px, 0 10px 0 6px, -4px 0 0 3px; }
+  /* line 107, D:/Alipoor/Projects/icono/sass/icons/socials */
+  .icono-flickr:after {
+    right: 4px;
+    box-shadow: 0 0 0 1px, 0 -10px 0 6px, 0 10px 0 6px, 4px 0 0 3px; }
+
+/* line 112, D:/Alipoor/Projects/icono/sass/icons/socials */
+.icono-delicious {
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 2px;
+  margin: 5px; }
+  /* line 119, D:/Alipoor/Projects/icono/sass/icons/socials */
+  .icono-delicious:before {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    box-shadow: inset 0 0 0 32px, 12px -12px 0 0;
+    left: 0;
+    bottom: 0; }
+
+/* line 128, D:/Alipoor/Projects/icono/sass/icons/socials */
+.icono-codepen {
+  width: 2px;
+  height: 10px;
+  box-shadow: inset 0 0 0 32px, 0 15px, -11px 7px, 11px 7px;
+  margin: 4px 16px 20px; }
+  /* line 133, D:/Alipoor/Projects/icono/sass/icons/socials */
+  .icono-codepen:before {
+    position: absolute;
+    right: 2px;
+    top: 3px;
+    width: 11px;
+    height: 4px;
+    transform: skew(0, -35deg) scaleY(0.6);
+    box-shadow: inset 0 0 0 32px, 0 13px, 11px 26px, 12px 39px; }
+  /* line 142, D:/Alipoor/Projects/icono/sass/icons/socials */
+  .icono-codepen:after {
+    position: absolute;
+    left: 2px;
+    top: 3px;
+    width: 11px;
+    height: 4px;
+    transform: skew(0, 35deg) scaleY(0.6);
+    box-shadow: inset 0 0 0 32px, 0 13px, -11px 26px, -12px 39px; }
+
+/* line 152, D:/Alipoor/Projects/icono/sass/icons/socials */
+.icono-blogger {
+  width: 24px;
+  height: 14px;
+  -webkit-border-radius: 0 0 7px 7px;
+  -moz-border-radius: 0 0 7px 7px;
+  -o-border-radius: 0 0 7px 7px;
+  border-radius: 0 0 7px 7px;
+  margin: 14px 5px 6px; }
+  /* line 157, D:/Alipoor/Projects/icono/sass/icons/socials */
+  .icono-blogger, .icono-blogger:before {
+    border-width: 6px;
+    border-style: solid; }
+  /* line 161, D:/Alipoor/Projects/icono/sass/icons/socials */
+  .icono-blogger:before {
+    position: absolute;
+    width: 8px;
+    height: 2px;
+    left: -6px;
+    top: -15px;
+    -webkit-border-radius: 6px 6px 0 0;
+    -moz-border-radius: 6px 6px 0 0;
+    -o-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0; }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/creditCard */
+.icono-creditCard {
+  width: 32px;
+  height: 24px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  margin: 4px 0; }
+  /* line 8, D:/Alipoor/Projects/icono/sass/icons/creditCard */
+  .icono-creditCard:before {
+    position: absolute;
+    top: 4px;
+    width: 100%;
+    height: 6px;
+    box-shadow: inset 0 0 0 32px; }
+  /* line 15, D:/Alipoor/Projects/icono/sass/icons/creditCard */
+  .icono-creditCard:after {
+    left: 3px;
+    bottom: 3px;
+    position: absolute;
+    width: 4px;
+    height: 2px;
+    box-shadow: inset 0 0 0 32px, 6px 0; }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/cup */
+.icono-cup {
+  width: 22px;
+  height: 16px;
+  box-shadow: inset 0 0 0 32px;
+  -webkit-border-radius: 0 0 5px 5px;
+  -moz-border-radius: 0 0 5px 5px;
+  -o-border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
+  margin: 6px 6px 12px; }
+  /* line 8, D:/Alipoor/Projects/icono/sass/icons/cup */
+  .icono-cup:before {
+    position: absolute;
+    right: -3px;
+    top: 4px;
+    width: 5px;
+    height: 5px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px; }
+  /* line 17, D:/Alipoor/Projects/icono/sass/icons/cup */
+  .icono-cup:after {
+    bottom: -5px;
+    width: 26px;
+    height: 3px;
+    -webkit-border-radius: 0 0 3px 3px;
+    -moz-border-radius: 0 0 3px 3px;
+    -o-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+    box-shadow: inset 0 0 0 32px; }
+
+/* line 1, D:/Alipoor/Projects/icono/sass/icons/play */
+.icono-play {
+  width: 0;
+  height: 0;
+  border-width: 10px 0 10px 16px;
+  border-style: solid;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  margin: 7px 9px; }
+
+/* line 1, D:/Alipoor/Projects/icono/sass/icons/pause */
+.icono-pause {
+  width: 6px;
+  height: 20px;
+  margin: 4px;
+  margin-right: 16px;
+  box-shadow: inset 0 0 0 32px, 12px 0 0 0; }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/stop */
+.icono-stop {
+  width: 0;
+  height: 0;
+  border: solid 10px;
+  margin: 4px; }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/rewind */
+.icono-rewind {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  transform-origin: 13px center; }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/forward */
+.icono-forward, .icono-rewind {
+  width: 0;
+  height: 0;
+  margin: 8px 13px 8px 4px;
+  border-top: 11px solid transparent;
+  border-bottom: 11px solid transparent;
+  border-left: 10px solid; }
+  /* line 9, D:/Alipoor/Projects/icono/sass/icons/forward */
+  .icono-forward:before, .icono-rewind:before {
+    position: absolute;
+    left: 0;
+    top: -11px;
+    width: 0;
+    height: 0;
+    border-top: 11px solid transparent;
+    border-bottom: 11px solid transparent;
+    border-left: 10px solid; }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/caret */
+.icono-rightCaret, .icono-leftCaret, .icono-upCaret, .icono-downCaret {
+  width: 16px;
+  height: 16px;
+  margin: 9px 9px;
+  -webkit-transform: translateX(-25%);
+  -moz-transform: translateX(-25%);
+  -ms-transform: translateX(-25%);
+  -o-transform: translateX(-25%);
+  transform: translateX(-25%); }
+  /* line 7, D:/Alipoor/Projects/icono/sass/icons/caret */
+  .icono-rightCaret:before, .icono-leftCaret:before, .icono-upCaret:before, .icono-downCaret:before {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    border: 2px solid;
+    border-width: 0 2px 2px 0;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -o-border-radius: 1px;
+    border-radius: 1px; }
+
+/* line 17, D:/Alipoor/Projects/icono/sass/icons/caret */
+.icono-leftCaret {
+  -webkit-transform: translateX(25%);
+  -moz-transform: translateX(25%);
+  -ms-transform: translateX(25%);
+  -o-transform: translateX(25%);
+  transform: translateX(25%); }
+  /* line 20, D:/Alipoor/Projects/icono/sass/icons/caret */
+  .icono-leftCaret:before {
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg); }
+
+/* line 25, D:/Alipoor/Projects/icono/sass/icons/caret */
+.icono-upCaret {
+  -webkit-transform: translateY(25%);
+  -moz-transform: translateY(25%);
+  -ms-transform: translateY(25%);
+  -o-transform: translateY(25%);
+  transform: translateY(25%); }
+  /* line 28, D:/Alipoor/Projects/icono/sass/icons/caret */
+  .icono-upCaret:before {
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    transform: rotate(-135deg); }
+
+/* line 33, D:/Alipoor/Projects/icono/sass/icons/caret */
+.icono-downCaret {
+  -webkit-transform: translateY(-25%);
+  -moz-transform: translateY(-25%);
+  -ms-transform: translateY(-25%);
+  -o-transform: translateY(-25%);
+  transform: translateY(-25%); }
+  /* line 36, D:/Alipoor/Projects/icono/sass/icons/caret */
+  .icono-downCaret:before {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg); }
+
+/* line 2, D:/Alipoor/Projects/icono/sass/icons/arrow */
+.icono-rightArrow, .icono-leftArrow, .icono-upArrow, .icono-downArrow {
+  width: 16px;
+  height: 4px;
+  margin: 15px 9px;
+  box-shadow: inset 0 0 0 2px;
+  -webkit-transform: translateX(-3px);
+  -moz-transform: translateX(-3px);
+  -ms-transform: translateX(-3px);
+  -o-transform: translateX(-3px);
+  transform: translateX(-3px); }
+  /* line 8, D:/Alipoor/Projects/icono/sass/icons/arrow */
+  .icono-rightArrow:before, .icono-leftArrow:before, .icono-upArrow:before, .icono-downArrow:before {
+    border-style: solid;
+    border-width: 8px 0 8px 8px;
+    border-color: transparent;
+    border-left-color: inherit;
+    left: 100%;
+    right: auto; }
+
+/* line 19, D:/Alipoor/Projects/icono/sass/icons/arrow */
+.icono-leftArrow {
+  -webkit-transform: translateX(3px) rotate(180deg);
+  -moz-transform: translateX(3px) rotate(180deg);
+  -ms-transform: translateX(3px) rotate(180deg);
+  -o-transform: translateX(3px) rotate(180deg);
+  transform: translateX(3px) rotate(180deg); }
+
+/* line 24, D:/Alipoor/Projects/icono/sass/icons/arrow */
+.icono-upArrow {
+  -webkit-transform: translateY(3px) rotate(-90deg);
+  -moz-transform: translateY(3px) rotate(-90deg);
+  -ms-transform: translateY(3px) rotate(-90deg);
+  -o-transform: translateY(3px) rotate(-90deg);
+  transform: translateY(3px) rotate(-90deg); }
+
+/* line 29, D:/Alipoor/Projects/icono/sass/icons/arrow */
+.icono-downArrow {
+  -webkit-transform: translateY(-3px) rotate(90deg);
+  -moz-transform: translateY(-3px) rotate(90deg);
+  -ms-transform: translateY(-3px) rotate(90deg);
+  -o-transform: translateY(-3px) rotate(90deg);
+  transform: translateY(-3px) rotate(90deg); }
+
+/* line 10, D:/Alipoor/Projects/icono/sass/icono.scss */
 [class*="icono-"] {
   display: inline-block;
   vertical-align: middle;
@@ -762,10 +2650,16 @@
   text-align: left;
   text-indent: -9999px;
   direction: ltr; }
+  /* line 19, D:/Alipoor/Projects/icono/sass/icono.scss */
   [class*="icono-"]:before, [class*="icono-"]:after {
     content: '';
     pointer-events: none; }
+  /* line 23, D:/Alipoor/Projects/icono/sass/icono.scss */
+  [class*="icono-"][class*="Circle"] {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%; }
+  /* line 27, D:/Alipoor/Projects/icono/sass/icono.scss */
   [class*="icono-"], [class*="icono-"] * {
     box-sizing: border-box; }
-
-/*# sourceMappingURL=sass.test.css.map */

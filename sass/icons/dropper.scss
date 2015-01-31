@@ -1,6 +1,7 @@
 //*-- Dropper --*\\
 .icono-dropper{
-    @include wDiagonal($U28);
+    // @include wDiagonal($U28);
+    width: 2*$U20;
     height: $U14;
     border-width: $U3;
     border-style: solid;
@@ -11,7 +12,7 @@
     box-shadow: -1*$U9 0 0 $U2 inset, 0 0 0 $U2 inset;
     @include border-radius(50% $U6 $U6 50%);
     @include transform(rotate(-45deg));
-    margin: $U12 -$U2 $U8 -$U4;
+    margin: $U12 -1*$U2 $U8 -1*$U4;
     &:before{
         width: $U4;
         height: $U14;
