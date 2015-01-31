@@ -40,6 +40,28 @@
         left: -1*@6;
     }
 }
+.icono-gplus{
+    width: @10;
+    height: @2;
+    box-shadow: inset 0 0 0 @32;
+    margin: @14 @4 @18 @20;
+    &:before{
+        position: absolute;
+        top: -@5;
+        right: @10;
+        content: "g" !important;
+        font-family: georgia;
+        font-size: @32;
+        text-indent: 0;
+        line-height: 0;
+    }
+    &:after{
+        &:extend(.stickCenter);
+        width: @2;
+        height: @10;
+        box-shadow: inset 0 0 0 @32;
+    }
+}
 .icono-linkedIn{
     width: @5;
     height: @16;
@@ -165,5 +187,22 @@
         left: -1*@6;
         top: -1*@15;
         .border-radius(@6 @6 0 0)
+    }
+}
+.icono-disqus{
+    width: @31;
+    height: @31;
+    box-shadow: inset 0 0 0 @32;
+    .border-radius(50%);
+    margin: @1 @1 @2 @2;
+    &:before{
+        position: absolute;
+        width: 0;
+        height: 0;
+        border: @5 solid transparent;
+        border-top: @10 solid;
+        .transform(rotate(60deg));
+        left: -@5;
+        top: @20;
     }
 }
