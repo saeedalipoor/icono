@@ -1,39 +1,59 @@
 //* Carets *\\
-.icono-rightCaret {
-    width: $U16;
-    height: $U16;
-    margin: $U9 $U9;
-    @include transform(translateX(-25%));
-    &:before {
+.icono-caretRight {
+    width: $U12;
+    height: $U20;
+    margin: $U7 $U11;
+    &:before, &:after {
+        width: $U14;
+        height: $U2;
         position: absolute;
-        left: 0; right: 0; top: 0; bottom: 0;
-        @include transform(rotate(-45deg));
-        border: $stroke;
-        border-width: 0 2px 2px 0;
-        @include border-radius($U1);
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+        right: $U2;
+        box-shadow: inset 0 0 0 $U32;
+        transform-origin: right;
     }
-}
-
-.icono-leftCaret {
-    @extend .icono-rightCaret;
-    @include transform(translateX(25%));
-    &:before {
-        @include transform(rotate(135deg));
-    }
-}
-
-.icono-upCaret {
-    @extend .icono-rightCaret;
-    @include transform(translateY(25%));
-    &:before {
-        @include transform(rotate(-135deg));
-    }
-}
-
-.icono-downCaret {
-    @extend .icono-rightCaret;
-    @include transform(translateY(-25%));
     &:before {
         @include transform(rotate(45deg));
+    }
+    &:after {
+        @include transform(rotate(-45deg));
+    }
+}
+
+.icono-caretRightCircle, .icono-caretRightSquare {
+    @extend .icono-caretRight;
+}
+
+.icono-caretLeft {
+    @extend .icono-caretRight;
+    @include transform(rotate(180deg));
+}
+.icono-caretLeftCircle, .icono-caretLeftSquare {
+    @extend .icono-caretLeft;
+}
+
+.icono-caretUp {
+    @extend .icono-caretRight;
+    @include transform(rotate(-90deg));
+}
+.icono-caretUpCircle, .icono-caretUpSquare {
+    @extend .icono-caretUp;
+}
+
+.icono-caretDown {
+    @extend .icono-caretRight;
+    @include transform(rotate(90deg));
+}
+.icono-caretDownCircle, .icono-caretDownSquare {
+    @extend .icono-caretDown;
+}
+[class*="icono-caret"] {
+    &[class*="Circle"], &[class*="Square"] {
+        &:before, &:after {
+            width: $U11;
+            right: $U8;
+        }
     }
 }

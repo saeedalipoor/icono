@@ -1,74 +1,59 @@
 //* Carets *\\
-.icono-rightCaret {
-    width: @16;
-    height: @16;
-    margin: @9 @9;
-    .transform(translateX(-25%));
-    &:before {
-        .stickCenter(0, 0, 0, 0);
-        .transform(rotate(-45deg));
-        border: @stroke;
-        border-width: 0 @2 @2 0;
-        .border-radius(@1);
+.icono-caretRight {
+    width: @12;
+    height: @20;
+    margin: @7 @11;
+    &:before, &:after {
+        width: @14;
+        height: @2;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+        right: @2;
+        box-shadow: inset 0 0 0 @32;
+        transform-origin: right;
     }
-}
-
-.icono-leftCaret {
-    &:extend(.icono-rightCaret all);
-    .transform(translateX(25%));
-    &:before {
-        .transform(rotate(135deg));
-    }
-}
-
-.icono-upCaret {
-    &:extend(.icono-rightCaret all);
-    .transform(translateY(25%));
-    &:before {
-        .transform(rotate(-135deg));
-    }
-}
-
-.icono-downCaret {
-    &:extend(.icono-rightCaret all);
-    .transform(translateY(-25%));
     &:before {
         .transform(rotate(45deg));
     }
-}
-
-.icono-rightCaretCircle {
-    &:extend(.icono-rightCaret all);
-    border-radius: 0 !important;
-    border: 0 !important;
-    width: @12;
-    height: @12;
-    margin: @11;
-    .transform(translateX(0%));
-    &:before {
-        .transform(rotate(-45deg) translate(-10%, -10%));
-        border-width: 0 @3 @3 0;
-    }
     &:after {
-        .stickCenter();
-        width: @27;
-        height: @27;
-        border: @stroke;
-        .border-radius(50%);
+        .transform(rotate(-45deg));
     }
 }
 
-.icono-leftCaretCircle {
-    &:extend(.icono-rightCaretCircle all);
+.icono-caretRightCircle, .icono-caretRightSquare {
+    &:extend(.icono-caretRight all);
+}
+
+.icono-caretLeft {
+    &:extend(.icono-caretRight all);
     .transform(rotate(180deg));
 }
-
-.icono-upCaretCircle {
-    &:extend(.icono-rightCaretCircle all);
-    .transform(rotate(-90deg));
+.icono-caretLeftCircle, .icono-caretLeftSquare {
+    &:extend(.icono-caretLeft all);
 }
 
-.icono-downCaretCircle {
-    &:extend(.icono-rightCaretCircle all);
+.icono-caretUp {
+    &:extend(.icono-caretRight all);
+    .transform(rotate(-90deg));
+}
+.icono-caretUpCircle, .icono-caretUpSquare {
+    &:extend(.icono-caretUp all);
+}
+
+.icono-caretDown {
+    &:extend(.icono-caretRight all);
     .transform(rotate(90deg));
+}
+.icono-caretDownCircle, .icono-caretDownSquare {
+    &:extend(.icono-caretDown all);
+}
+[class*="icono-caret"] {
+    &[class*="Circle"], &[class*="Square"] {
+        &:before, &:after {
+            width: @11;
+            right: @8;
+        }
+    }
 }

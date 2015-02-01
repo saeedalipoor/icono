@@ -206,3 +206,32 @@
         top: $U20;
     }
 }
+.icono-dribbble{
+    width: $U26;
+    height: $U26;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 $U2;
+    overflow: hidden;
+    position: relative;
+    background-image: radial-gradient(50% 100%, transparent 0, transparent $U9, currentColor $U10, currentColor $U11, transparent $U12);
+    background-repeat: no-repeat;
+    background-position: -$U8 center;
+    @include transform(rotate(-25deg));
+    margin: $U6;
+    &:after, &:before{
+        position: absolute;
+        @include border-radius(50%);
+        border: $U2 solid;
+        width: 2*$U20;
+        height: $U30;
+    }
+    &:after{
+        top: $U14;
+        left: -$U7;
+        width: $U32;
+    }
+    &:before{
+        left: -$U6;
+        top: -$U23;
+    }
+}
