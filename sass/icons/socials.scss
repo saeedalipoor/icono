@@ -217,7 +217,7 @@
     background-repeat: no-repeat;
     background-position: -$U8 center;
     @include transform(rotate(-25deg));
-    margin: $U6;
+    margin: $U4;
     &:after, &:before{
         position: absolute;
         @include border-radius(50%);
