@@ -6,7 +6,7 @@
     border-top-color: transparent;
     border-left-color: transparent;
     @include transform(rotate(45deg));
-    @include border-radius($U7 0);
+    @include border-radius($U4 0);
     margin: $U9 $U7 $U5;
     &:before, &:after{
         position: absolute;

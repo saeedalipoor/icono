@@ -201,7 +201,7 @@
         height: 0;
         border: $U5 solid transparent;
         border-top: $U10 solid;
-        @include transform(rotate(60deg));
+        @include transform(rotate(50deg));
         left: -$U5;
         top: $U20;
     }
