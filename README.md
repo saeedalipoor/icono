@@ -143,6 +143,7 @@ Also you can change color of icons as simple as set color for an element.
 * `icono-creditCard`
 * `icono-facebook`
 * `icono-twitter`
+* `icono-gplus`
 * `icono-linkedIn`
 * `icono-instagram`
 * `icono-flickr`
@@ -152,16 +153,32 @@ Also you can change color of icons as simple as set color for an element.
 * `icono-play`
 * `icono-pause`
 * `icono-stop`
-* `icono-forward`
 * `icono-rewind`
-* `icono-rightCaret`
-* `icono-leftCaret`
-* `icono-upCaret`
-* `icono-downCaret`
+* `icono-forward`
+* `icono-next`
+* `icono-previous`
+* `icono-caretRight`
+* `icono-caretLeft`
+* `icono-caretUp`
+* `icono-caretDown`
 * `icono-rightArrow`
 * `icono-leftArrow`
 * `icono-upArrow`
 * `icono-downArrow`
+* `icono-sun`
+* `icono-moon`
+* `icono-disqus`
+* `icono-cart`
+* `icono-caretRightCircle`
+* `icono-caretLeftCircle`
+* `icono-caretUpCircle`
+* `icono-caretDownCircle`
+* `icono-caretRightSquare`
+* `icono-caretLeftSquare`
+* `icono-caretUpSquare`
+* `icono-caretDownSquare`
+* `icono-dribbble`
+* `icono-sitemap`
 
 
 ##Development & Contributing
