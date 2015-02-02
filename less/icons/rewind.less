@@ -1,17 +1,5 @@
 //*-- Rewind --*\\
 .icono-rewind{
-    width: 0;
-    height: 0;
-    border: @10 solid transparent;
-    border-right: @10 solid;
-    margin: @7;
-    &:before{
-        position: absolute;
-        right: 0;
-        top: -@10;
-        width: 0;
-        height: 0;
-        border: @10 solid transparent;
-        border-right: @10 solid;
-    }
+    &:extend(.icono-forward all);
+    .transform(rotate(180deg));
 }

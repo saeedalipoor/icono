@@ -7,7 +7,6 @@
         width: @14;
         height: @2;
         position: absolute;
-        top: 0;
         bottom: 0;
         margin: auto 0;
         right: @2;
@@ -15,9 +14,11 @@
         transform-origin: right;
     }
     &:before {
+        top: @2;
         .transform(rotate(45deg));
     }
     &:after {
+        top: 0;
         .transform(rotate(-45deg));
     }
 }
