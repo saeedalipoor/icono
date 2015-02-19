@@ -1,6 +1,6 @@
 {
   "name": "icono",
-  "main": "icono.min.css",
+  "main": "dist/icono.min.css",
   "ignore": [
   ],
   "private": false
