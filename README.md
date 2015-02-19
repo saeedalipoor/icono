@@ -179,6 +179,9 @@ Also you can change color of icons as simple as set color for an element.
 * `icono-caretDownSquare`
 * `icono-dribbble`
 * `icono-sitemap`
+* `icono-spinner`
+* `icono-circle`
+* `icono-ellipsis`
 
 
 ##Development & Contributing
