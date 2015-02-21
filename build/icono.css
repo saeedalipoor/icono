@@ -2958,6 +2958,32 @@
   height: 10px;
   box-shadow: 0 -7px, 11px -5px, -11px -5px;
 }
+.icono-circle {
+  width: 22px;
+  height: 22px;
+  border: 2px solid;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  margin: 6px;
+}
+.icono-ellipsis {
+  width: 4px;
+  height: 4px;
+  box-shadow: 0 -8px 0, 0 0 0 32px inset, 0 8px 0;
+  margin: 15px;
+}
+.icono-spinner {
+  width: 22px;
+  height: 22px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  box-shadow: -15px 0 0 -9px, 15px 0 0 -7px, 0 -15px 0 -9px, 0 15px 0 -7px, 11px 11px 0 -7px, -11px -11px 0 -9px, 11px -11px 0 -8px, -11px 11px 0 -7px;
+  margin: 6px;
+}
 [class*="icono-"] {
   display: inline-block;
   vertical-align: middle;
