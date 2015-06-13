@@ -1,5 +1,7 @@
 #icono
 
+[![Join the chat at https://gitter.im/saeedalipoor/icono](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/saeedalipoor/icono?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 **icono** is an icon pack that needs no external resources. Every tags can be an icon made with **pure CSS**.
 
 [Demo][2]
