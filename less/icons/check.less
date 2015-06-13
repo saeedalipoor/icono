@@ -3,7 +3,7 @@
     width: @28;
     height: @28;
     margin: @3 0 @3 @6;
-    .transform(rotate(-45deg));
+    transform: rotate(-45deg);
     &:before, &:after{
         box-shadow: inset 0 0 0 @32;
     }
@@ -19,7 +19,7 @@
     }
     &[class*="Circle"]{
         &:extend(.icono-stroke);
-        .border-radius(50%);
+        border-radius: 50%;
         width: @30;
         height: @30;
         margin: @2;
