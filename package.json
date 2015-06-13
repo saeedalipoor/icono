@@ -2,7 +2,7 @@
   "name": "icono",
   "version": "0.9.5",
   "description": "Pure CSS Icons",
-  "main": "gulpfile.js",
+  "main": "./build/icono.css",
   "repository": {
     "type": "git",
     "url": "https://github.com/saeedalipoor/icono.git"
