@@ -10,8 +10,8 @@
     border-bottom-color: transparent;
     border-left-color: transparent;
     box-shadow: -1*$U9 0 0 $U2 inset, 0 0 0 $U2 inset;
-    @include border-radius(50% $U6 $U6 50%);
-    @include transform(rotate(-45deg));
+    border-radius: 50% $U6 $U6 50%;
+    transform: rotate(-45deg);
     margin: $U12 -1*$U2 $U8 -1*$U4;
     &:before{
         width: $U4;

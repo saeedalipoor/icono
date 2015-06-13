@@ -5,7 +5,7 @@
     @extend .icono-stroke;
     border-left: none;
     margin-left: $U5;
-    @include border-radius(0 $U3 $U3 0);
+    border-radius: 0 $U3 $U3 0;
     margin: $U1 $U8;
     &:before{
         position: absolute;
@@ -16,7 +16,7 @@
         @extend .icono-stroke;
         border-bottom: none;
         border-left: none;
-        @include transform(rotate(45deg));
-        @include border-radius(0 $U4 0 0);
+        transform: rotate(45deg);
+        border-radius: 0 $U4 0 0;
     }
 }

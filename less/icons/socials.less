@@ -4,7 +4,7 @@
     height: @26;
     box-shadow: inset @2 @4 0 0;
     border-left: @3 solid;
-    .border-radius(@5 0 0 0);
+    border-radius: @5 0 0 0;
     margin: @4 @11 @4 @14;
     &:before{
         position: absolute;
@@ -19,7 +19,7 @@
 .icono-twitter{
     width: @14;
     height: @23;
-    .border-radius(0 0 0 @8);
+    border-radius: 0 0 0 @8;
     box-shadow: -1*@6 @2 0 0;
     margin: @4 @7 @7 @13;
     &:before{
@@ -28,7 +28,7 @@
         left: -1*@6;
         width: @17;
         height: @6;
-        .border-radius(0 0 0 @8);
+        border-radius: 0 0 0 @8;
         box-shadow: inset @4 -1*@6, 0 -1*@11;
     }
     &:after{
@@ -36,7 +36,7 @@
         width: @6;
         height: @6;
         box-shadow: inset 0 0 0 @32, @13 @8, @13 @19;
-        .border-radius(50%);
+        border-radius: 50%;
         left: -1*@6;
     }
 }
@@ -74,7 +74,7 @@
         box-shadow: inset 0 0 0 @32;
         top: -1*@7;
         left: 0;
-        .border-radius(50%);
+        border-radius: 50%;
     }
     &:after{
         position: absolute;
@@ -83,7 +83,7 @@
         border-right: @1 solid;
         left: @11;
         bottom: 0;
-        .border-radius(@8 @5 0 0~'/'@11 @5 0 0);
+        border-radius: @8 @5 0 0~'/'@11 @5 0 0;
         box-shadow: inset -1*@4 @4;
     }
 }
@@ -91,20 +91,20 @@
     width: @26;
     height: @26;
     box-shadow: inset 0 0 0 @2;
-    .border-radius(@4);
+    border-radius: @4;
     margin: @4;
     &:before{
         &:extend(.stickCenter);
         width: @10;
         height: @10;
-        .border-radius(50%);
+        border-radius: 50%;
         box-shadow: 0 0 0 @3;
     }
     &:after{
         position: absolute;
         width: @5;
         height: @5;
-        .border-radius(@1);
+        border-radius: @1;
         right: @3;
         top: @3;
         box-shadow: 0 0  0 @2, @1 @1 0 @2, -1*@5 -1*@1 0 @1, -1*@10 -1*@1 0 @1, -1*@16 @1 0 @2;
@@ -114,13 +114,13 @@
     width: @24;
     height: @24;
     overflow: hidden;
-    .border-radius(@4);
+    border-radius: @4;
     margin: @5;
     &:before, &:after{
         &:extend(.stickCenterV);
         width: @7;
         height: @7;
-        .border-radius(50%);
+        border-radius: 50%;
     }
     &:before{
         left: @4;
@@ -135,7 +135,7 @@
     width: @24;
     height: @24;
     overflow: hidden;
-    .border-radius(@4);
+    border-radius: @4;
     box-shadow: inset 0 0 0 @2;
     margin: @5;
     &:before{
@@ -174,7 +174,7 @@
 .icono-blogger{
     width: @24;
     height: @14;
-    .border-radius(0 0 @7 @7);
+    border-radius: 0 0 @7 @7;
     margin: @14 @5 @6;
     &, &:before{
         border-width: @6;
@@ -186,14 +186,14 @@
         height: @2;
         left: -1*@6;
         top: -1*@15;
-        .border-radius(@6 @6 0 0)
+        border-radius: @6 @6 0 0;
     }
 }
 .icono-disqus{
     width: @31;
     height: @31;
     box-shadow: inset 0 0 0 @32;
-    .border-radius(50%);
+    border-radius: 50%;
     margin: @1 @1 @2 @2;
     &:before{
         position: absolute;
@@ -201,7 +201,7 @@
         height: 0;
         border: @5 solid transparent;
         border-top: @10 solid;
-        .transform(rotate(50deg));
+        transform: rotate(50deg);
         left: -@5;
         top: @20;
     }
@@ -209,14 +209,14 @@
 .icono-dribbble{
     width: @26;
     height: @26;
-    .border-radius(50%);
+    border-radius: 50%;
     box-shadow: inset 0 0 0 @2;
     overflow: hidden;
     position: relative;
     background-image: radial-gradient(50% 100%, transparent 0, transparent @9, currentColor @10, currentColor @11, transparent @12);
     background-repeat: no-repeat;
     background-position: -@8 center;
-    .transform(rotate(-25deg));
+    transform: rotate(-25deg);
     margin: @4;
     &:after, &:before{
         position: absolute;

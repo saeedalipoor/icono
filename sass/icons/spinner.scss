@@ -2,7 +2,7 @@
 .icono-spinner{
     width: $U22;
     height: $U22;
-    @include border-radius(50%);
+    border-radius: 50%;
     box-shadow: -1*$U16 0 0 -1*$U9,-1*$U11 -1*$U11 0 -1*$U9,0 -1*$U16 0 -1*$U9,1*$U11 -1*$U11 0 -1*$U8,1*$U16 0 0 -1*$U7,1*$U11 1*$U11 0 -1*$U7,0 1*$U16 0 -1*$U7,-1*$U11 1*$U11 0 -1*$U7
     margin: $U7;
 }

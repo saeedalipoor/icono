@@ -2,7 +2,7 @@
 .icono-sync{
     width: $U26;
     height: $U26;
-    @include border-radius(50%);
+    border-radius: 50%;
     @extend .icono-stroke;
     border-right-color: transparent;
     border-left-color: transparent;
@@ -17,12 +17,12 @@
         border-left-color: transparent;
     }
     &:before{
-        @include transform(rotate(-45deg));
+        transform: rotate(-45deg);
         right: -1*$U7;
         top:0;
     }
     &:after{
-        @include transform(rotate(135deg));
+        transform: rotate(135deg);
         left: -1*$U7;
         bottom: 0;
     }

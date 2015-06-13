@@ -8,7 +8,7 @@
         @extend .stickCenterH;
         width: $U6;
         height: $U6;
-        @include border-radius($U2);
+        border-radius: $U2;
         box-shadow: inset 0 0 0 $U32, $U11 0, -1*$U11 0, 0 -1*$U14 0 $U1;
     }
     &:after {

@@ -4,7 +4,7 @@
     height: $U22;
     @extend .icono-stroke;
     border-left-width: 0;
-    @include border-radius(0 $U3 $U3 0);
+    border-radius: 0 $U3 $U3 0;
     margin: $U8 $U2 $U4 $U14;
     &:before{
         position: absolute;
@@ -14,7 +14,7 @@
         bottom: -1*$U2;
         border-width: 0 0 $U2 $U2;
         border-style: solid;
-        @include border-radius(0 0 0 $U3);
+        border-radius: 0 0 0 $U3;
     }
     &:after{
         position: absolute;
@@ -24,6 +24,6 @@
         top: -1*$U7;
         border-width: $U2 $U2 0 $U2;
         border-style: solid;
-        @include border-radius($U3 $U3 0 0);
+        border-radius: $U3 $U3 0 0;
     }   
 }

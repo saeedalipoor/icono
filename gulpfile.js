@@ -4,7 +4,8 @@ var gulp        = require('gulp'),
     cssmin      = require('gulp-cssmin'),
     rename      = require('gulp-rename'),
     plumber     = require('gulp-plumber'),
-    browserSync = require('browser-sync');
+    browserSync = require('browser-sync'),
+    autoprefixer = require('gulp-autoprefixer');
 
 
 // less -> css
@@ -12,6 +13,7 @@ gulp.task('less', function () {
     return gulp.src('./less/icono.less')
         .pipe(plumber())
         .pipe(less())
+        .pipe(autoprefixer('last 10 versions', 'ie 10'))
         .pipe(gulp.dest('./build'));
 });
 
@@ -38,5 +40,6 @@ gulp.task('browser-sync', function() {
 
 
 gulp.task('default', ['browser-sync'], function () {
-    gulp.watch(['./less/**/*.less', './index.html'], ['less', 'cssmin', browserSync.reload]);
+    gulp.watch(['./less/**/*.less', './index.html'], ['less']);
+    gulp.watch(['./build/icono.css'], ['cssmin', browserSync.reload]);
 });

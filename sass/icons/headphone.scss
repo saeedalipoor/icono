@@ -4,7 +4,7 @@
     height: $U27;
     @extend .icono-stroke;
     border-bottom-color: transparent;
-    @include border-radius($U32#{'/'}$U32 $U32 $U16 $U16);
+    border-radius: $U32#{'/'}$U32 $U32 $U16 $U16;
     margin: $U2 $U2 $U5;
     &:before{
         position: absolute;
@@ -12,7 +12,7 @@
         height: $U12;
         left: $U1;
         bottom: -1*$U4;
-        @include border-radius($U5);
+        border-radius: $U5;
         box-shadow: inset 0 0 0 $U32, $U20 0 0 0;
     }
 }

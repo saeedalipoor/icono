@@ -17,7 +17,7 @@
         width: $U15;
         height: $U15;
         position: absolute;
-        @include border-radius(50%);
+        border-radius: 50%;
         @extend .icono-stroke;
         border-top-color: transparent;
         border-bottom-color: transparent;
@@ -69,6 +69,6 @@
 .icono-volumeMute{
     @extend .icono-volumeIncrease;
     &:after, &:before{
-        @include transform(translateY(-50%) rotate(45deg));
+        transform: translateY(-50%) rotate(45deg);
     }
 }

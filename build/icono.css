@@ -116,10 +116,8 @@
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 .stickCenterH,
 .icono-search:before,
@@ -149,10 +147,8 @@
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
-  transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 .stickCenter,
 [class*="icono-plus"]:before,
@@ -177,27 +173,17 @@
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 .spin {
   -webkit-animation: loading-spinner 2s infinite linear;
-  /* Safari 4+ */
-  -moz-animation: loading-spinner 2s infinite linear;
-  /* Fx 5+ */
-  -o-animation: loading-spinner 2s infinite linear;
-  /* Opera 12+ */
-  animation: loading-spinner 2s infinite linear;
-  /* IE 10+, Fx 29+ */
+          animation: loading-spinner 2s infinite linear;
 }
 .spin.step {
   -webkit-animation: loading-spinner 0.5s steps(8, end) infinite;
   /* Safari 4+ */
-  -moz-animation: loading-spinner 0.5s steps(8, end) infinite;
   /* Fx 5+ */
-  -o-animation: loading-spinner 0.5s steps(8, end) infinite;
   /* Opera 12+ */
   animation: loading-spinner 0.5s steps(8, end) infinite;
   /* IE 10+, Fx 29+ */
@@ -205,72 +191,30 @@
 @-webkit-keyframes loading-spinner {
   0% {
     -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
+            transform: rotate(0deg);
   }
   100% {
     -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-@-moz-keyframes loading-spinner {
-  0% {
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-@-o-keyframes loading-spinner {
-  0% {
-    -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    transform: rotate(360deg);
+            transform: rotate(360deg);
   }
 }
 @keyframes loading-spinner {
   0% {
     -webkit-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -ms-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
-    transform: rotate(0deg);
+            transform: rotate(0deg);
   }
   100% {
     -webkit-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -ms-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
-    transform: rotate(360deg);
+            transform: rotate(360deg);
   }
 }
 .icono-icono {
   width: 13px;
   height: 4px;
   box-shadow: inset 0 0 0 32px, 0 16px, 17px -18px;
-  transform: skew(0, 30deg);
+  -webkit-transform: skew(0, 30deg);
+      -ms-transform: skew(0, 30deg);
+          transform: skew(0, 30deg);
   margin: 11px 19px 19px 2px;
 }
 .icono-icono:before {
@@ -280,7 +224,9 @@
   box-shadow: inset 0 0 0 32px, 0 16px, -17px -17px;
   right: -17px;
   top: -10px;
-  transform: skew(0, -48deg);
+  -webkit-transform: skew(0, -48deg);
+      -ms-transform: skew(0, -48deg);
+          transform: skew(0, -48deg);
 }
 .icono-icono:after {
   position: absolute;
@@ -291,7 +237,9 @@
   border: 4px solid;
   border-top-color: transparent;
   border-bottom: none;
-  transform: skew(0, -30deg) scaleY(0.6);
+  -webkit-transform: skew(0, -30deg) scaleY(0.6);
+      -ms-transform: skew(0, -30deg) scaleY(0.6);
+          transform: skew(0, -30deg) scaleY(0.6);
 }
 .icono-home {
   width: 22px;
@@ -303,10 +251,8 @@
   width: 18px;
   height: 18px;
   -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
   position: absolute;
   left: -2px;
   top: -7px;
@@ -320,10 +266,8 @@
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
-  transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   border-width: 1px;
   border-bottom: none;
 }
@@ -338,10 +282,8 @@
   width: 24.61538462px;
   height: 24.61538462px;
   -webkit-transform: rotate(50deg) skew(-10deg, -20deg);
-  -moz-transform: rotate(50deg) skew(-10deg, -20deg);
-  -ms-transform: rotate(50deg) skew(-10deg, -20deg);
-  -o-transform: rotate(50deg) skew(-10deg, -20deg);
-  transform: rotate(50deg) skew(-10deg, -20deg);
+      -ms-transform: rotate(50deg) skew(-10deg, -20deg);
+          transform: rotate(50deg) skew(-10deg, -20deg);
   top: -20px;
   left: -3px;
 }
@@ -354,9 +296,6 @@
 .icono-rss:before,
 .icono-rss:after {
   position: absolute;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
 }
 .icono-rss:before {
@@ -416,20 +355,16 @@
 .icono-cross,
 .icono-crossCircle {
   -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
 [class*="icono-check"] {
   width: 28px;
   height: 28px;
   margin: 3px 0 3px 6px;
   -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
 [class*="icono-check"]:before,
 [class*="icono-check"]:after {
@@ -443,9 +378,6 @@
   bottom: 14px;
 }
 [class*="icono-check"][class*="Circle"] {
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
   width: 30px;
   height: 30px;
@@ -464,9 +396,6 @@
 .icono-power {
   width: 22px;
   height: 22px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
   border-top-color: transparent;
   margin: 6px;
@@ -485,13 +414,8 @@
   border-top-color: transparent;
   border-left-color: transparent;
   -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
-  -webkit-border-radius: 4px 0;
-  -moz-border-radius: 4px 0;
-  -o-border-radius: 4px 0;
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
   border-radius: 4px 0;
   margin: 9px 7px 5px;
 }
@@ -504,9 +428,6 @@
   height: 14px;
   left: -10px;
   bottom: -2px;
-  -webkit-border-radius: 20px 0 0 20px;
-  -moz-border-radius: 20px 0 0 20px;
-  -o-border-radius: 20px 0 0 20px;
   border-radius: 20px 0 0 20px;
   border-right-color: transparent;
 }
@@ -515,9 +436,6 @@
   height: 8px;
   right: -2px;
   top: -10px;
-  -webkit-border-radius: 20px 20px 0 0;
-  -moz-border-radius: 20px 20px 0 0;
-  -o-border-radius: 20px 20px 0 0;
   border-radius: 20px 20px 0 0;
   border-bottom-color: transparent;
 }
@@ -532,23 +450,15 @@
   height: 10px;
   position: absolute;
   -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
 .icono-infinity:before {
   left: 0;
-  -webkit-border-radius: 32px 0 32px 32px;
-  -moz-border-radius: 32px 0 32px 32px;
-  -o-border-radius: 32px 0 32px 32px;
   border-radius: 32px 0 32px 32px;
 }
 .icono-infinity:after {
   right: 1px;
-  -webkit-border-radius: 32px 32px 32px 0;
-  -moz-border-radius: 32px 32px 32px 0;
-  -o-border-radius: 32px 32px 32px 0;
   border-radius: 32px 32px 32px 0;
 }
 .icono-flag {
@@ -566,9 +476,6 @@
 .icono-flag:before {
   left: -2px;
   top: 1px;
-  -webkit-border-radius: 0 2px 0 0;
-  -moz-border-radius: 0 2px 0 0;
-  -o-border-radius: 0 2px 0 0;
   border-radius: 0 2px 0 0;
   border-right-width: 3px;
 }
@@ -577,17 +484,11 @@
   left: 9px;
   top: 4px;
   border-left-width: 3px;
-  -webkit-border-radius: 2px 2px 0 2px;
-  -moz-border-radius: 2px 2px 0 2px;
-  -o-border-radius: 2px 2px 0 2px;
   border-radius: 2px 2px 0 2px;
 }
 .icono-file {
   width: 26px;
   height: 32px;
-  -webkit-border-radius: 0 12px 0 0;
-  -moz-border-radius: 0 12px 0 0;
-  -o-border-radius: 0 12px 0 0;
   border-radius: 0 12px 0 0;
   margin: 1px 4px;
 }
@@ -605,9 +506,6 @@
 .icono-document {
   width: 26px;
   height: 32px;
-  -webkit-border-radius: 0 0 0 10px;
-  -moz-border-radius: 0 0 0 10px;
-  -o-border-radius: 0 0 0 10px;
   border-radius: 0 0 0 10px;
   margin: 1px 4px;
 }
@@ -631,9 +529,6 @@
   width: 18px;
   height: 22px;
   border-left-width: 0;
-  -webkit-border-radius: 0 3px 3px 0;
-  -moz-border-radius: 0 3px 3px 0;
-  -o-border-radius: 0 3px 3px 0;
   border-radius: 0 3px 3px 0;
   margin: 8px 2px 4px 14px;
 }
@@ -645,9 +540,6 @@
   bottom: -2px;
   border-width: 0 0 2px 2px;
   border-style: solid;
-  -webkit-border-radius: 0 0 0 3px;
-  -moz-border-radius: 0 0 0 3px;
-  -o-border-radius: 0 0 0 3px;
   border-radius: 0 0 0 3px;
 }
 .icono-folder:after {
@@ -658,40 +550,26 @@
   top: -7px;
   border-width: 2px 2px 0 2px;
   border-style: solid;
-  -webkit-border-radius: 3px 3px 0 0;
-  -moz-border-radius: 3px 3px 0 0;
-  -o-border-radius: 3px 3px 0 0;
   border-radius: 3px 3px 0 0;
 }
 .icono-pin {
   width: 26px;
   height: 26px;
-  -webkit-border-radius: 50% 50% 50% 0;
-  -moz-border-radius: 50% 50% 50% 0;
-  -o-border-radius: 50% 50% 50% 0;
   border-radius: 50% 50% 50% 0;
   -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
   margin: 1px 4px 7px;
 }
 .icono-pin:before {
   position: absolute;
   width: 6px;
   height: 6px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
 }
 .icono-smile,
 .icono-frown,
 .icono-meh {
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
   height: 30px;
   width: 30px;
@@ -700,9 +578,6 @@
 .icono-smile:before,
 .icono-frown:before,
 .icono-meh:before {
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
   box-shadow: 8px 0 0 0, 0 0 0 2px inset;
   height: 4px;
@@ -714,15 +589,10 @@
 .icono-smile:after,
 .icono-frown:after,
 .icono-meh:after {
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
   -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
-  transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   border-top-color: transparent;
   border-left-color: transparent;
   border-right-color: transparent;
@@ -733,24 +603,16 @@
   width: 16px;
 }
 .icono-eye {
-  -webkit-border-radius: 80% 20%;
-  -moz-border-radius: 80% 20%;
-  -o-border-radius: 80% 20%;
   border-radius: 80% 20%;
   -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
   border-width: 2px 1px 1px 2px;
   height: 28px;
   width: 28px;
   margin: 3px 3px;
 }
 .icono-eye:before {
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
   box-shadow: 0px -3px 0 3px inset;
   height: 11px;
@@ -764,19 +626,14 @@
 .icono-sliders:before,
 .icono-sliders:after {
   -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
-  transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
   left: 50%;
   position: absolute;
 }
 .icono-sliders:before {
   width: 8px;
   height: 7px;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  -o-border-radius: 2px;
   border-radius: 2px;
   top: 67%;
   box-shadow: inset 0 0 0 32px, 10px -10px, -10px -14px;
@@ -790,9 +647,6 @@
 .icono-share {
   height: 9px;
   width: 9px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
   box-shadow: inset 0 0 0 32px, 22px -11px 0 0, 22px 11px 0 0;
   margin: 12px 24px 13px 1px;
@@ -808,25 +662,18 @@
 .icono-share:before {
   top: -2px;
   -webkit-transform: rotate(-25deg);
-  -moz-transform: rotate(-25deg);
-  -ms-transform: rotate(-25deg);
-  -o-transform: rotate(-25deg);
-  transform: rotate(-25deg);
+      -ms-transform: rotate(-25deg);
+          transform: rotate(-25deg);
 }
 .icono-share:after {
   top: 9px;
   -webkit-transform: rotate(25deg);
-  -moz-transform: rotate(25deg);
-  -ms-transform: rotate(25deg);
-  -o-transform: rotate(25deg);
-  transform: rotate(25deg);
+      -ms-transform: rotate(25deg);
+          transform: rotate(25deg);
 }
 .icono-sync {
   width: 26px;
   height: 26px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
   border-right-color: transparent;
   border-left-color: transparent;
@@ -845,28 +692,21 @@
 }
 .icono-sync:before {
   -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
   right: -7px;
   top: 0;
 }
 .icono-sync:after {
   -webkit-transform: rotate(135deg);
-  -moz-transform: rotate(135deg);
-  -ms-transform: rotate(135deg);
-  -o-transform: rotate(135deg);
-  transform: rotate(135deg);
+      -ms-transform: rotate(135deg);
+          transform: rotate(135deg);
   left: -7px;
   bottom: 0;
 }
 .icono-reset {
   width: 26px;
   height: 26px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
   border-width: 2px;
   border-style: solid;
@@ -885,18 +725,13 @@
   border-left-color: transparent;
   border-bottom-color: transparent;
   -webkit-transform: rotate(135deg);
-  -moz-transform: rotate(135deg);
-  -ms-transform: rotate(135deg);
-  -o-transform: rotate(135deg);
-  transform: rotate(135deg);
+      -ms-transform: rotate(135deg);
+          transform: rotate(135deg);
 }
 .icono-gear {
   width: 32px;
   height: 32px;
   border: 3px dotted;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
   margin: 1px;
 }
@@ -904,9 +739,6 @@
   width: 22px;
   height: 22px;
   box-shadow: 0 0 0 3px, 0 0 0 2px inset;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
   border: 6px solid transparent;
   box-sizing: border-box;
@@ -916,9 +748,6 @@
   height: 32px;
   border-left: none;
   margin-left: 5px;
-  -webkit-border-radius: 0 3px 3px 0;
-  -moz-border-radius: 0 3px 3px 0;
-  -o-border-radius: 0 3px 3px 0;
   border-radius: 0 3px 3px 0;
   margin: 1px 8px;
 }
@@ -931,13 +760,8 @@
   border-bottom: none;
   border-left: none;
   -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
-  -webkit-border-radius: 0 4px 0 0;
-  -moz-border-radius: 0 4px 0 0;
-  -o-border-radius: 0 4px 0 0;
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
   border-radius: 0 4px 0 0;
 }
 .icono-signOut {
@@ -945,9 +769,6 @@
   height: 32px;
   border-right: none;
   margin-right: 5px;
-  -webkit-border-radius: 3px 0 0 3px;
-  -moz-border-radius: 3px 0 0 3px;
-  -o-border-radius: 3px 0 0 3px;
   border-radius: 3px 0 0 3px;
   margin: 1px 8px;
 }
@@ -960,13 +781,8 @@
   border-bottom: none;
   border-left: none;
   -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
-  -webkit-border-radius: 0 4px 0 0;
-  -moz-border-radius: 0 4px 0 0;
-  -o-border-radius: 0 4px 0 0;
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
   border-radius: 0 4px 0 0;
 }
 .icono-support {
@@ -974,9 +790,6 @@
   height: 26px;
   border: 5px solid transparent;
   box-shadow: 0 0 0 2px inset, 0 0 0 2px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
   margin: 4px;
 }
@@ -987,10 +800,8 @@
   top: -3px;
   left: -3px;
   -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
   box-shadow: inset 0 0 0 32px, 21px 0 0 0;
 }
 .icono-support:after {
@@ -1000,10 +811,8 @@
   top: -3px;
   right: -3px;
   -webkit-transform: rotate(135deg);
-  -moz-transform: rotate(135deg);
-  -ms-transform: rotate(135deg);
-  -o-transform: rotate(135deg);
-  transform: rotate(135deg);
+      -ms-transform: rotate(135deg);
+          transform: rotate(135deg);
   box-shadow: inset 0 0 0 32px, 21px 0 0 0;
 }
 .icono-dropper {
@@ -1016,15 +825,10 @@
   border-bottom-color: transparent;
   border-left-color: transparent;
   box-shadow: -9px 0 0 2px inset, 0 0 0 2px inset;
-  -webkit-border-radius: 50% 6px 6px 50%;
-  -moz-border-radius: 50% 6px 6px 50%;
-  -o-border-radius: 50% 6px 6px 50%;
   border-radius: 50% 6px 6px 50%;
   -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
   margin: 12px -2px 8px -4px;
 }
 .icono-dropper:before {
@@ -1056,19 +860,14 @@
   height: 2px;
   box-shadow: inset 0 0 0 32px;
   -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
   margin: 16px 9px;
 }
 .icono-chain:before,
 .icono-chain:after {
   width: 12px;
   height: 8px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -o-border-radius: 4px;
   border-radius: 4px;
 }
 .icono-chain:before {
@@ -1080,9 +879,6 @@
 .icono-youtube {
   border-right-color: transparent;
   border-left-color: transparent;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -o-border-radius: 10px;
   border-radius: 10px;
   width: 32px;
   height: 22.28877899px;
@@ -1096,9 +892,6 @@
   left: 0;
   border-top-color: transparent;
   border-bottom-color: transparent;
-  -webkit-border-radius: 6px / 3px;
-  -moz-border-radius: 6px / 3px;
-  -o-border-radius: 6px / 3px;
   border-radius: 6px / 3px;
 }
 .icono-youtube:after {
@@ -1130,15 +923,10 @@
 .icono-search {
   width: 22px;
   height: 22px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
   -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
   margin: 4px 4px 8px 8px;
 }
 .icono-search:before {
@@ -1146,17 +934,11 @@
   height: 11px;
   box-shadow: inset 0 0 0 32px;
   top: 19px;
-  -webkit-border-radius: 0 0 1px 1px;
-  -moz-border-radius: 0 0 1px 1px;
-  -o-border-radius: 0 0 1px 1px;
   border-radius: 0 0 1px 1px;
 }
 .icono-book {
   width: 26px;
   height: 22px;
-  -webkit-border-radius: 0 0 0 6px;
-  -moz-border-radius: 0 0 0 6px;
-  -o-border-radius: 0 0 0 6px;
   border-radius: 0 0 0 6px;
   border-top: none;
   margin: 10px 4px 2px;
@@ -1170,9 +952,6 @@
   border-right: none;
   left: -2px;
   top: -5px;
-  -webkit-border-radius: 0 0 0 6px;
-  -moz-border-radius: 0 0 0 6px;
-  -o-border-radius: 0 0 0 6px;
   border-radius: 0 0 0 6px;
 }
 .icono-book:after {
@@ -1183,25 +962,17 @@
   left: -2px;
   top: -8px;
   border-bottom: none;
-  -webkit-border-radius: 6px 0 0 0;
-  -moz-border-radius: 6px 0 0 0;
-  -o-border-radius: 6px 0 0 0;
   border-radius: 6px 0 0 0;
 }
 .icono-forbidden {
   width: 28px;
   height: 28px;
   border-width: 3px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
   margin: 3px;
   -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
 .icono-forbidden:before {
   width: 24px;
@@ -1211,9 +982,6 @@
 .icono-trash {
   width: 22px;
   height: 22px;
-  -webkit-border-radius: 0 0 3px 3px;
-  -moz-border-radius: 0 0 3px 3px;
-  -o-border-radius: 0 0 3px 3px;
   border-radius: 0 0 3px 3px;
   border-top: none;
   margin: 9px 6px 3px;
@@ -1227,9 +995,6 @@
 .icono-keyboard {
   width: 32px;
   height: 22px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -o-border-radius: 3px;
   border-radius: 3px;
   margin: 6px 1px;
 }
@@ -1241,18 +1006,12 @@
 .icono-mouse {
   width: 23px;
   height: 32px;
-  -webkit-border-radius: 11px 11px 12px 12px;
-  -moz-border-radius: 11px 11px 12px 12px;
-  -o-border-radius: 11px 11px 12px 12px;
   border-radius: 11px 11px 12px 12px;
   margin: 1px 5px 1px 6px;
 }
 .icono-mouse:before {
   width: 1px;
   height: 6px;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  -o-border-radius: 2px;
   border-radius: 2px;
   border-color: transparent;
   border-width: 1px;
@@ -1268,9 +1027,6 @@
 .icono-user {
   width: 32px;
   height: 14px;
-  -webkit-border-radius: 64px 64px 0 0 / 64px;
-  -moz-border-radius: 64px 64px 0 0 / 64px;
-  -o-border-radius: 64px 64px 0 0 / 64px;
   border-radius: 64px 64px 0 0 / 64px;
   margin: 18px 1px 2px;
 }
@@ -1278,9 +1034,6 @@
   width: 12px;
   height: 12px;
   top: -20px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
 }
 .icono-crop {
@@ -1308,10 +1061,8 @@
   top: 3px;
   box-shadow: inset 0 0 0 32px;
   -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
 .icono-display {
   width: 26px;
@@ -1335,9 +1086,6 @@
   height: 24px;
   border-width: 2px 2px 6px;
   border-color: transparent;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -o-border-radius: 3px;
   border-radius: 3px;
   box-shadow: 0 0 0 1px, 0 0 0 1px inset;
   margin: 3px 3px 7px;
@@ -1349,9 +1097,6 @@
   left: -3px;
   bottom: -6px;
   box-shadow: inset 0 0 0 32px;
-  -webkit-border-radius: 0 0 3px 3px;
-  -moz-border-radius: 0 0 3px 3px;
-  -o-border-radius: 0 0 3px 3px;
   border-radius: 0 0 3px 3px;
 }
 .icono-imac:after {
@@ -1359,17 +1104,11 @@
   height: 7px;
   box-shadow: inset 0 0 0 32px;
   bottom: -12px;
-  -webkit-border-radius: 32px 32px 0 0 / 64px;
-  -moz-border-radius: 32px 32px 0 0 / 64px;
-  -o-border-radius: 32px 32px 0 0 / 64px;
   border-radius: 32px 32px 0 0 / 64px;
 }
 .icono-imacBold {
   width: 28px;
   height: 22px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -o-border-radius: 4px;
   border-radius: 4px;
   margin: 4px 3px 8px;
 }
@@ -1378,9 +1117,6 @@
   height: 7px;
   box-shadow: inset 0 0 0 32px;
   bottom: -6px;
-  -webkit-border-radius: 32px 32px 0 0 / 64px;
-  -moz-border-radius: 32px 32px 0 0 / 64px;
-  -o-border-radius: 32px 32px 0 0 / 64px;
   border-radius: 32px 32px 0 0 / 64px;
 }
 .icono-imacBold:after {
@@ -1392,9 +1128,6 @@
 .icono-iphone {
   width: 19px;
   height: 31px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -o-border-radius: 3px;
   border-radius: 3px;
   border-width: 5px 1px;
   border-color: transparent;
@@ -1414,18 +1147,12 @@
   width: 3px;
   height: 3px;
   bottom: -4px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
 }
 .icono-iphoneBold {
   width: 20px;
   height: 32px;
   margin: 1px 7px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -o-border-radius: 4px;
   border-radius: 4px;
   border-width: 5px 2px;
 }
@@ -1433,9 +1160,6 @@
   width: 32px;
   height: 2px;
   box-shadow: inset 0 0 0 32px;
-  -webkit-border-radius: 0 0 32px 32px / 3px;
-  -moz-border-radius: 0 0 32px 32px / 3px;
-  -o-border-radius: 0 0 32px 32px / 3px;
   border-radius: 0 0 32px 32px / 3px;
   margin: 25px 1px 7px 1px;
 }
@@ -1445,9 +1169,6 @@
   bottom: 2px;
   border-width: 3px 1px 1px 1px;
   border-color: transparent;
-  -webkit-border-radius: 3px 3px 0 0;
-  -moz-border-radius: 3px 3px 0 0;
-  -o-border-radius: 3px 3px 0 0;
   border-radius: 3px 3px 0 0;
   box-shadow: 0 0 0 1px, 0 0 0 1px inset;
 }
@@ -1462,17 +1183,11 @@
   height: 14px;
   bottom: 2px;
   border-width: 3px 2px 1px;
-  -webkit-border-radius: 3px 3px 0 0;
-  -moz-border-radius: 3px 3px 0 0;
-  -o-border-radius: 3px 3px 0 0;
   border-radius: 3px 3px 0 0;
 }
 .icono-image {
   width: 30px;
   height: 26px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -o-border-radius: 3px;
   border-radius: 3px;
   overflow: hidden;
   margin: 4px 2px;
@@ -1484,19 +1199,14 @@
   left: -2px;
   top: 14px;
   -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
   box-shadow: inset 0 0 0 32px, 10px -6px 0 0;
 }
 .icono-image:after {
   position: absolute;
   width: 4px;
   height: 4px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
   box-shadow: inset 0 0 0 32px;
   top: 5px;
@@ -1506,9 +1216,6 @@
   width: 30px;
   height: 27px;
   border-bottom-color: transparent;
-  -webkit-border-radius: 32px / 32px 32px 16px 16px;
-  -moz-border-radius: 32px / 32px 32px 16px 16px;
-  -o-border-radius: 32px / 32px 32px 16px 16px;
   border-radius: 32px / 32px 32px 16px 16px;
   margin: 2px 2px 5px;
 }
@@ -1518,9 +1225,6 @@
   height: 12px;
   left: 1px;
   bottom: -4px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -o-border-radius: 5px;
   border-radius: 5px;
   box-shadow: inset 0 0 0 32px, 20px 0 0 0;
 }
@@ -1528,14 +1232,9 @@
   width: 18px;
   height: 6px;
   -webkit-transform: skewY(-15deg);
-  -moz-transform: skewY(-15deg);
-  -ms-transform: skewY(-15deg);
-  -o-transform: skewY(-15deg);
-  transform: skewY(-15deg);
+      -ms-transform: skewY(-15deg);
+          transform: skewY(-15deg);
   box-shadow: inset 0 0 0 32px;
-  -webkit-border-radius: 2px 2px 0 0;
-  -moz-border-radius: 2px 2px 0 0;
-  -o-border-radius: 2px 2px 0 0;
   border-radius: 2px 2px 0 0;
   margin: 4px 5px 24px 11px;
 }
@@ -1553,9 +1252,6 @@
   height: 8px;
   left: -8px;
   top: 17px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
   box-shadow: inset 0 0 0 32px, 16px 0 0 0;
 }
@@ -1582,9 +1278,6 @@
   width: 21px;
   height: 32px;
   border-width: 3px 1px;
-  -webkit-border-radius: 16px / 3px;
-  -moz-border-radius: 16px / 3px;
-  -o-border-radius: 16px / 3px;
   border-radius: 16px / 3px;
   margin: 1px 7px 1px 6px;
 }
@@ -1592,9 +1285,6 @@
   width: 22px;
   height: 15px;
   border-width: 0 2px 2px;
-  -webkit-border-radius: 20px / 0 0 20px 20px;
-  -moz-border-radius: 20px / 0 0 20px 20px;
-  -o-border-radius: 20px / 0 0 20px 20px;
   border-radius: 20px / 0 0 20px 20px;
   margin: 12px 6px 7px;
 }
@@ -1602,9 +1292,6 @@
   width: 10px;
   height: 18px;
   top: -11px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -o-border-radius: 20px;
   border-radius: 20px;
 }
 .icono-microphone:after {
@@ -1619,9 +1306,6 @@
   width: 4px;
   height: 20px;
   box-shadow: inset 0 0 0 32px;
-  -webkit-border-radius: 1px;
-  -moz-border-radius: 1px;
-  -o-border-radius: 1px;
   border-radius: 1px;
   margin: 7px 15px;
 }
@@ -1634,17 +1318,13 @@
 }
 .icono-asterisk:before {
   -webkit-transform: rotate(-58deg);
-  -moz-transform: rotate(-58deg);
-  -ms-transform: rotate(-58deg);
-  -o-transform: rotate(-58deg);
-  transform: rotate(-58deg);
+      -ms-transform: rotate(-58deg);
+          transform: rotate(-58deg);
 }
 .icono-asterisk:after {
   -webkit-transform: rotate(58deg);
-  -moz-transform: rotate(58deg);
-  -ms-transform: rotate(58deg);
-  -o-transform: rotate(58deg);
-  transform: rotate(58deg);
+      -ms-transform: rotate(58deg);
+          transform: rotate(58deg);
 }
 .icono-terminal {
   width: 28px;
@@ -1657,10 +1337,8 @@
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%) rotate(45deg);
-  -moz-transform: translateY(-50%) rotate(45deg);
-  -ms-transform: translateY(-50%) rotate(45deg);
-  -o-transform: translateY(-50%) rotate(45deg);
-  transform: translateY(-50%) rotate(45deg);
+      -ms-transform: translateY(-50%) rotate(45deg);
+          transform: translateY(-50%) rotate(45deg);
   left: 3px;
   border-width: 2px 2px 0 0;
   border-style: solid;
@@ -1677,24 +1355,16 @@
   width: 24px;
   height: 18px;
   border-left: none;
-  -webkit-border-radius: 0 16px 16px 0;
-  -moz-border-radius: 0 16px 16px 0;
-  -o-border-radius: 0 16px 16px 0;
   border-radius: 0 16px 16px 0;
   -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
   margin: 5px 0 11px 10px;
 }
 .icono-paperClip:before {
   width: 18px;
   height: 6px;
   right: 2px;
-  -webkit-border-radius: 0 16px 16px 0;
-  -moz-border-radius: 0 16px 16px 0;
-  -o-border-radius: 0 16px 16px 0;
   border-radius: 0 16px 16px 0;
   border-left: none;
 }
@@ -1705,9 +1375,6 @@
   left: -12px;
   top: -2px;
   border-right: none;
-  -webkit-border-radius: 16px 0 0 16px;
-  -moz-border-radius: 16px 0 0 16px;
-  -o-border-radius: 16px 0 0 16px;
   border-radius: 16px 0 0 16px;
 }
 .icono-market {
@@ -1722,9 +1389,6 @@
   position: absolute;
   top: -15px;
   left: -5px;
-  -webkit-border-radius: 0 0 10px 10px;
-  -moz-border-radius: 0 0 10px 10px;
-  -o-border-radius: 0 0 10px 10px;
   border-radius: 0 0 10px 10px;
   border-left: none;
   box-shadow: inset 0 0 0 32px, 8px 0 0, 16px 0 0, 24px 0 0, 32px 0 0;
@@ -1737,9 +1401,6 @@
 .icono-clock {
   width: 26px;
   height: 26px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
   margin: 4px;
 }
@@ -1747,9 +1408,6 @@
 .icono-clock:after {
   top: 35%;
   box-shadow: inset 0 0 0 32px;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  -o-border-radius: 2px;
   border-radius: 2px;
 }
 .icono-clock:before {
@@ -1759,12 +1417,12 @@
 .icono-clock:after {
   width: 6px;
   height: 2px;
-  transform-origin: left center;
+  -webkit-transform-origin: left center;
+      -ms-transform-origin: left center;
+          transform-origin: left center;
   -webkit-transform: rotate(45deg) translate(1px, 2px);
-  -moz-transform: rotate(45deg) translate(1px, 2px);
-  -ms-transform: rotate(45deg) translate(1px, 2px);
-  -o-transform: rotate(45deg) translate(1px, 2px);
-  transform: rotate(45deg) translate(1px, 2px);
+      -ms-transform: rotate(45deg) translate(1px, 2px);
+          transform: rotate(45deg) translate(1px, 2px);
 }
 [class*="icono-textAlign"] {
   width: 28px;
@@ -1794,9 +1452,6 @@
   overflow: visible;
   width: 30px;
   border-bottom: 2px solid;
-  -webkit-border-radius: 0 0 4px 4px;
-  -moz-border-radius: 0 0 4px 4px;
-  -o-border-radius: 0 0 4px 4px;
   border-radius: 0 0 4px 4px;
   margin: 26px 2px 6px;
 }
@@ -1808,15 +1463,10 @@
   top: -14px;
   border-width: 2px 0 0 2px;
   border-style: solid;
-  -webkit-border-radius: 4px 0;
-  -moz-border-radius: 4px 0;
-  -o-border-radius: 4px 0;
   border-radius: 4px 0;
   -webkit-transform: rotate(45deg) skew(12deg, 12deg);
-  -moz-transform: rotate(45deg) skew(12deg, 12deg);
-  -ms-transform: rotate(45deg) skew(12deg, 12deg);
-  -o-transform: rotate(45deg) skew(12deg, 12deg);
-  transform: rotate(45deg) skew(12deg, 12deg);
+      -ms-transform: rotate(45deg) skew(12deg, 12deg);
+          transform: rotate(45deg) skew(12deg, 12deg);
 }
 [class*="icono-exclamation"]:after {
   width: 4px;
@@ -1836,20 +1486,17 @@
 }
 .icono-frown:after {
   -webkit-transform: translateX(-50%) rotate(180deg);
-  -moz-transform: translateX(-50%) rotate(180deg);
-  -ms-transform: translateX(-50%) rotate(180deg);
-  -o-transform: translateX(-50%) rotate(180deg);
-  transform: translateX(-50%) rotate(180deg);
-  transform-origin: center 85%;
+      -ms-transform: translateX(-50%) rotate(180deg);
+          transform: translateX(-50%) rotate(180deg);
+  -webkit-transform-origin: center 85%;
+      -ms-transform-origin: center 85%;
+          transform-origin: center 85%;
 }
 .icono-meh:after {
   top: 0;
   width: 12px;
   border-left-width: 0;
   border-right-width: 0;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  -o-border-radius: 0;
   border-radius: 0;
 }
 .icono-indent,
@@ -1887,10 +1534,8 @@
   border-style: solid;
   border-left-color: transparent;
   -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
 .icono-locationArrow:after {
   position: absolute;
@@ -1901,17 +1546,12 @@
   border-bottom-color: transparent;
   border-left-color: transparent;
   -webkit-transform: skew(-30deg, -30deg);
-  -moz-transform: skew(-30deg, -30deg);
-  -ms-transform: skew(-30deg, -30deg);
-  -o-transform: skew(-30deg, -30deg);
-  transform: skew(-30deg, -30deg);
+      -ms-transform: skew(-30deg, -30deg);
+          transform: skew(-30deg, -30deg);
 }
 .icono-commentEmpty {
   width: 30px;
   height: 22px;
-  -webkit-border-radius: 4px 4px 7px 7px;
-  -moz-border-radius: 4px 4px 7px 7px;
-  -o-border-radius: 4px 4px 7px 7px;
   border-radius: 4px 4px 7px 7px;
   border-bottom-color: transparent;
   margin: 5px 2px 7px;
@@ -1923,10 +1563,8 @@
   border-width: 0 0 2px 2px;
   border-style: solid;
   -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
   bottom: -4px;
   left: 6px;
 }
@@ -1943,9 +1581,6 @@
   width: 30px;
   height: 20px;
   box-shadow: inset 0 0 0 32px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -o-border-radius: 4px;
   border-radius: 4px;
   margin: 5px 2px 9px;
 }
@@ -1955,10 +1590,8 @@
   height: 8px;
   box-shadow: inset 0 0 0 32px;
   -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
   bottom: -4px;
   left: 6px;
 }
@@ -2009,15 +1642,10 @@
   height: 0;
   border: 15px solid;
   border-right-color: transparent;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
   -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
   margin: 2px;
 }
 .icono-pieChart:before {
@@ -2030,9 +1658,6 @@
   border-left-color: transparent;
   border-bottom-color: transparent;
   border-top-color: transparent;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
 }
 .icono-bookmark {
@@ -2041,9 +1666,6 @@
   border: 9px solid;
   border-bottom-color: transparent;
   box-shadow: 0 -4px;
-  -webkit-border-radius: 3px 3px 0 0;
-  -moz-border-radius: 3px 3px 0 0;
-  -o-border-radius: 3px 3px 0 0;
   border-radius: 3px 3px 0 0;
   margin: 10px 8px 6px;
 }
@@ -2051,9 +1673,6 @@
   width: 18px;
   height: 22px;
   border-bottom: none;
-  -webkit-border-radius: 3px 3px 2px 2px;
-  -moz-border-radius: 3px 3px 2px 2px;
-  -o-border-radius: 3px 3px 2px 2px;
   border-radius: 3px 3px 2px 2px;
   overflow: hidden;
   margin: 6px 8px;
@@ -2067,10 +1686,8 @@
   border-right: none;
   border-bottom: none;
   -webkit-transform: rotate(45deg) translate(35%, 35%);
-  -moz-transform: rotate(45deg) translate(35%, 35%);
-  -ms-transform: rotate(45deg) translate(35%, 35%);
-  -o-transform: rotate(45deg) translate(35%, 35%);
-  transform: rotate(45deg) translate(35%, 35%);
+      -ms-transform: rotate(45deg) translate(35%, 35%);
+          transform: rotate(45deg) translate(35%, 35%);
 }
 .icono-filter {
   width: 0;
@@ -2112,9 +1729,6 @@
   width: 15px;
   height: 15px;
   position: absolute;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
   border-top-color: transparent;
   border-bottom-color: transparent;
@@ -2168,24 +1782,17 @@
 .icono-volumeMute:after,
 .icono-volumeMute:before {
   -webkit-transform: translateY(-50%) rotate(45deg);
-  -moz-transform: translateY(-50%) rotate(45deg);
-  -ms-transform: translateY(-50%) rotate(45deg);
-  -o-transform: translateY(-50%) rotate(45deg);
-  transform: translateY(-50%) rotate(45deg);
+      -ms-transform: translateY(-50%) rotate(45deg);
+          transform: translateY(-50%) rotate(45deg);
 }
 .icono-tag {
   width: 18px;
   height: 24px;
-  -webkit-border-radius: 6px 6px 4px 4px;
-  -moz-border-radius: 6px 6px 4px 4px;
-  -o-border-radius: 6px 6px 4px 4px;
   border-radius: 6px 6px 4px 4px;
   border-top: none;
   -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
   margin: 5px 8px;
 }
 .icono-tag:before {
@@ -2197,22 +1804,14 @@
   border-width: 2px 0 0 2px;
   border-style: solid;
   -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
-  -webkit-border-radius: 5px 0 0 0;
-  -moz-border-radius: 5px 0 0 0;
-  -o-border-radius: 5px 0 0 0;
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
   border-radius: 5px 0 0 0;
 }
 .icono-tag:after {
   top: 1px;
   width: 3px;
   height: 3px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
 }
 .icono-calendar {
@@ -2220,9 +1819,6 @@
   height: 28px;
   border-width: 4px 2px 2px;
   border-style: solid;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -o-border-radius: 4px;
   border-radius: 4px;
   margin: 5px 1px 1px;
 }
@@ -2239,9 +1835,6 @@
   width: 4px;
   height: 8px;
   box-shadow: inset 0 0 0 32px, 16px 0;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -o-border-radius: 4px;
   border-radius: 4px;
   top: -8px;
   left: 4px;
@@ -2249,9 +1842,6 @@
 .icono-camera {
   width: 32px;
   height: 24px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -o-border-radius: 4px;
   border-radius: 4px;
   margin: 5px 1px;
 }
@@ -2260,9 +1850,6 @@
   height: 10px;
   border: 1px solid transparent;
   box-shadow: inset 0 0 0 1px, 0 0 0 2px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
 }
 .icono-camera:after {
@@ -2320,9 +1907,6 @@
   height: 26px;
   box-shadow: inset 2px 4px 0 0;
   border-left: 3px solid;
-  -webkit-border-radius: 5px 0 0 0;
-  -moz-border-radius: 5px 0 0 0;
-  -o-border-radius: 5px 0 0 0;
   border-radius: 5px 0 0 0;
   margin: 4px 11px 4px 14px;
 }
@@ -2338,9 +1922,6 @@
 .icono-twitter {
   width: 14px;
   height: 23px;
-  -webkit-border-radius: 0 0 0 8px;
-  -moz-border-radius: 0 0 0 8px;
-  -o-border-radius: 0 0 0 8px;
   border-radius: 0 0 0 8px;
   box-shadow: -6px 2px 0 0;
   margin: 4px 7px 7px 13px;
@@ -2351,9 +1932,6 @@
   left: -6px;
   width: 17px;
   height: 6px;
-  -webkit-border-radius: 0 0 0 8px;
-  -moz-border-radius: 0 0 0 8px;
-  -o-border-radius: 0 0 0 8px;
   border-radius: 0 0 0 8px;
   box-shadow: inset 4px -6px, 0 -11px;
 }
@@ -2362,9 +1940,6 @@
   width: 6px;
   height: 6px;
   box-shadow: inset 0 0 0 32px, 13px 8px, 13px 19px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
   left: -6px;
 }
@@ -2402,9 +1977,6 @@
   box-shadow: inset 0 0 0 32px;
   top: -7px;
   left: 0;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
 }
 .icono-linkedIn:after {
@@ -2414,9 +1986,6 @@
   border-right: 1px solid;
   left: 11px;
   bottom: 0;
-  -webkit-border-radius: 8px 5px 0 0 / 11px 5px 0 0;
-  -moz-border-radius: 8px 5px 0 0 / 11px 5px 0 0;
-  -o-border-radius: 8px 5px 0 0 / 11px 5px 0 0;
   border-radius: 8px 5px 0 0 / 11px 5px 0 0;
   box-shadow: inset -4px 4px;
 }
@@ -2424,18 +1993,12 @@
   width: 26px;
   height: 26px;
   box-shadow: inset 0 0 0 2px;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -o-border-radius: 4px;
   border-radius: 4px;
   margin: 4px;
 }
 .icono-instagram:before {
   width: 10px;
   height: 10px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
   box-shadow: 0 0 0 3px;
 }
@@ -2443,9 +2006,6 @@
   position: absolute;
   width: 5px;
   height: 5px;
-  -webkit-border-radius: 1px;
-  -moz-border-radius: 1px;
-  -o-border-radius: 1px;
   border-radius: 1px;
   right: 3px;
   top: 3px;
@@ -2455,9 +2015,6 @@
   width: 24px;
   height: 24px;
   overflow: hidden;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -o-border-radius: 4px;
   border-radius: 4px;
   margin: 5px;
 }
@@ -2465,9 +2022,6 @@
 .icono-flickr:after {
   width: 7px;
   height: 7px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
 }
 .icono-flickr:before {
@@ -2482,9 +2036,6 @@
   width: 24px;
   height: 24px;
   overflow: hidden;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -o-border-radius: 4px;
   border-radius: 4px;
   box-shadow: inset 0 0 0 2px;
   margin: 5px;
@@ -2509,7 +2060,9 @@
   top: 3px;
   width: 11px;
   height: 4px;
-  transform: skew(0, -35deg) scaleY(0.6);
+  -webkit-transform: skew(0, -35deg) scaleY(0.6);
+      -ms-transform: skew(0, -35deg) scaleY(0.6);
+          transform: skew(0, -35deg) scaleY(0.6);
   box-shadow: inset 0 0 0 32px, 0 13px, 11px 26px, 12px 39px;
 }
 .icono-codepen:after {
@@ -2518,15 +2071,14 @@
   top: 3px;
   width: 11px;
   height: 4px;
-  transform: skew(0, 35deg) scaleY(0.6);
+  -webkit-transform: skew(0, 35deg) scaleY(0.6);
+      -ms-transform: skew(0, 35deg) scaleY(0.6);
+          transform: skew(0, 35deg) scaleY(0.6);
   box-shadow: inset 0 0 0 32px, 0 13px, -11px 26px, -12px 39px;
 }
 .icono-blogger {
   width: 24px;
   height: 14px;
-  -webkit-border-radius: 0 0 7px 7px;
-  -moz-border-radius: 0 0 7px 7px;
-  -o-border-radius: 0 0 7px 7px;
   border-radius: 0 0 7px 7px;
   margin: 14px 5px 6px;
 }
@@ -2541,18 +2093,12 @@
   height: 2px;
   left: -6px;
   top: -15px;
-  -webkit-border-radius: 6px 6px 0 0;
-  -moz-border-radius: 6px 6px 0 0;
-  -o-border-radius: 6px 6px 0 0;
   border-radius: 6px 6px 0 0;
 }
 .icono-disqus {
   width: 31px;
   height: 31px;
   box-shadow: inset 0 0 0 32px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
   margin: 1px 1px 2px 2px;
 }
@@ -2563,31 +2109,25 @@
   border: 5px solid transparent;
   border-top: 10px solid;
   -webkit-transform: rotate(50deg);
-  -moz-transform: rotate(50deg);
-  -ms-transform: rotate(50deg);
-  -o-transform: rotate(50deg);
-  transform: rotate(50deg);
+      -ms-transform: rotate(50deg);
+          transform: rotate(50deg);
   left: -5px;
   top: 20px;
 }
 .icono-dribbble {
   width: 26px;
   height: 26px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
   box-shadow: inset 0 0 0 2px;
   overflow: hidden;
   position: relative;
+  background-image: -webkit-radial-gradient(50% 100%, transparent 0, transparent 9px, currentColor 10px, currentColor 11px, transparent 12px);
   background-image: radial-gradient(50% 100%, transparent 0, transparent 9px, currentColor 10px, currentColor 11px, transparent 12px);
   background-repeat: no-repeat;
   background-position: -8px center;
   -webkit-transform: rotate(-25deg);
-  -moz-transform: rotate(-25deg);
-  -ms-transform: rotate(-25deg);
-  -o-transform: rotate(-25deg);
-  transform: rotate(-25deg);
+      -ms-transform: rotate(-25deg);
+          transform: rotate(-25deg);
   margin: 4px;
 }
 .icono-dribbble:after,
@@ -2610,9 +2150,6 @@
 .icono-creditCard {
   width: 32px;
   height: 24px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -o-border-radius: 3px;
   border-radius: 3px;
   margin: 5px 1px;
 }
@@ -2635,9 +2172,6 @@
   width: 22px;
   height: 16px;
   box-shadow: inset 0 0 0 32px;
-  -webkit-border-radius: 0 0 5px 5px;
-  -moz-border-radius: 0 0 5px 5px;
-  -o-border-radius: 0 0 5px 5px;
   border-radius: 0 0 5px 5px;
   margin: 6px 6px 12px;
 }
@@ -2647,9 +2181,6 @@
   top: 4px;
   width: 5px;
   height: 5px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
   box-shadow: 0 0 0 2px;
 }
@@ -2657,9 +2188,6 @@
   bottom: -5px;
   width: 26px;
   height: 3px;
-  -webkit-border-radius: 0 0 3px 3px;
-  -moz-border-radius: 0 0 3px 3px;
-  -o-border-radius: 0 0 3px 3px;
   border-radius: 0 0 3px 3px;
   box-shadow: inset 0 0 0 32px;
 }
@@ -2686,10 +2214,8 @@
 }
 .icono-rewind {
   -webkit-transform: rotate(180deg);
-  -moz-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
-  transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 .icono-forward,
 .icono-rewind {
@@ -2721,10 +2247,8 @@
 }
 .icono-previous {
   -webkit-transform: rotate(180deg);
-  -moz-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
-  transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
   margin: 7px 10px 7px 14px;
 }
 .icono-caretRight,
@@ -2774,7 +2298,9 @@
   margin: auto 0;
   right: 2px;
   box-shadow: inset 0 0 0 32px;
-  transform-origin: right;
+  -webkit-transform-origin: right;
+      -ms-transform-origin: right;
+          transform-origin: right;
 }
 .icono-caretRight:before,
 .icono-caretRightCircle:before,
@@ -2790,10 +2316,8 @@
 .icono-caretDownSquare:before {
   top: 2px;
   -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
 .icono-caretRight:after,
 .icono-caretRightCircle:after,
@@ -2809,37 +2333,29 @@
 .icono-caretDownSquare:after {
   top: 0;
   -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
 .icono-caretLeft,
 .icono-caretLeftCircle,
 .icono-caretLeftSquare {
   -webkit-transform: rotate(180deg);
-  -moz-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
-  transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 .icono-caretUp,
 .icono-caretUpCircle,
 .icono-caretUpSquare {
   -webkit-transform: rotate(-90deg);
-  -moz-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  -o-transform: rotate(-90deg);
-  transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg);
 }
 .icono-caretDown,
 .icono-caretDownCircle,
 .icono-caretDownSquare {
   -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
 }
 [class*="icono-caret"][class*="Circle"]:before,
 [class*="icono-caret"][class*="Square"]:before,
@@ -2857,10 +2373,8 @@
   margin: 15px 9px;
   box-shadow: inset 0 0 0 2px;
   -webkit-transform: translateX(-3px);
-  -moz-transform: translateX(-3px);
-  -ms-transform: translateX(-3px);
-  -o-transform: translateX(-3px);
-  transform: translateX(-3px);
+      -ms-transform: translateX(-3px);
+          transform: translateX(-3px);
 }
 .icono-rightArrow:before,
 .icono-leftArrow:before,
@@ -2875,32 +2389,23 @@
 }
 .icono-leftArrow {
   -webkit-transform: translateX(3px) rotate(180deg);
-  -moz-transform: translateX(3px) rotate(180deg);
-  -ms-transform: translateX(3px) rotate(180deg);
-  -o-transform: translateX(3px) rotate(180deg);
-  transform: translateX(3px) rotate(180deg);
+      -ms-transform: translateX(3px) rotate(180deg);
+          transform: translateX(3px) rotate(180deg);
 }
 .icono-upArrow {
   -webkit-transform: translateY(3px) rotate(-90deg);
-  -moz-transform: translateY(3px) rotate(-90deg);
-  -ms-transform: translateY(3px) rotate(-90deg);
-  -o-transform: translateY(3px) rotate(-90deg);
-  transform: translateY(3px) rotate(-90deg);
+      -ms-transform: translateY(3px) rotate(-90deg);
+          transform: translateY(3px) rotate(-90deg);
 }
 .icono-downArrow {
   -webkit-transform: translateY(-3px) rotate(90deg);
-  -moz-transform: translateY(-3px) rotate(90deg);
-  -ms-transform: translateY(-3px) rotate(90deg);
-  -o-transform: translateY(-3px) rotate(90deg);
-  transform: translateY(-3px) rotate(90deg);
+      -ms-transform: translateY(-3px) rotate(90deg);
+          transform: translateY(-3px) rotate(90deg);
 }
 .icono-sun {
   width: 22px;
   height: 22px;
   border: 2px solid;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
   box-shadow: -15px 0 0 -9px, 15px 0 0 -9px, 0 -15px 0 -9px, 0 15px 0 -9px, 11px 11px 0 -9px, -11px -11px 0 -9px, 11px -11px 0 -9px, -11px 11px 0 -9px;
   margin: 6px;
@@ -2908,9 +2413,6 @@
 .icono-moon {
   width: 22px;
   height: 22px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
   overflow: hidden;
   margin: 6px;
@@ -2921,9 +2423,6 @@
   height: 20px;
   top: -2px;
   left: 6px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
   box-shadow: 0 0 0 32px;
 }
@@ -2940,9 +2439,6 @@
   position: absolute;
   width: 4px;
   height: 4px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
   box-shadow: inset 0 0 0 32px, 13px 0, -4px -20px 0 1px;
   top: 2px;
@@ -2957,9 +2453,6 @@
 .icono-sitemap:before {
   width: 6px;
   height: 6px;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  -o-border-radius: 2px;
   border-radius: 2px;
   box-shadow: inset 0 0 0 32px, 11px 0, -11px 0, 0 -14px 0 1px;
 }
@@ -2972,9 +2465,6 @@
   width: 22px;
   height: 22px;
   border: 2px solid;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
   margin: 6px;
 }
@@ -2987,9 +2477,6 @@
 .icono-spinner {
   width: 20px;
   height: 20px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
   box-shadow: -16px 0 0 -9px, -11px -11px 0 -9px, 0 -16px 0 -9px, 11px -11px 0 -8px, 16px 0 0 -7px, 11px 11px 0 -7px, 0 16px 0 -7px, -11px 11px 0 -7px;
   margin: 7px;
@@ -3011,18 +2498,13 @@
   top: 2px;
   left: -13px;
   -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
 .icono-bluetooth:after {
   top: 9px;
   -webkit-transform: rotate(45deg) rotateX(180deg);
-  -moz-transform: rotate(45deg) rotateX(180deg);
-  -ms-transform: rotate(45deg) rotateX(180deg);
-  -o-transform: rotate(45deg) rotateX(180deg);
-  transform: rotate(45deg) rotateX(180deg);
+          transform: rotate(45deg) rotateX(180deg);
 }
 [class*="icono-"] {
   display: inline-block;
@@ -3040,18 +2522,12 @@
   pointer-events: none;
 }
 [class*="icono-"][class*="Circle"] {
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
   border-radius: 50%;
   width: 30px;
   height: 30px;
   margin: 2px;
 }
 [class*="icono-"][class*="Square"] {
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -o-border-radius: 4px;
   border-radius: 4px;
   width: 30px;
   height: 30px;

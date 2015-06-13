@@ -15,11 +15,11 @@
     }
     &:before {
         top: @2;
-        .transform(rotate(45deg));
+        transform: rotate(45deg);
     }
     &:after {
         top: 0;
-        .transform(rotate(-45deg));
+        transform: rotate(-45deg);
     }
 }
 
@@ -29,7 +29,7 @@
 
 .icono-caretLeft {
     &:extend(.icono-caretRight all);
-    .transform(rotate(180deg));
+    transform: rotate(180deg);
 }
 .icono-caretLeftCircle, .icono-caretLeftSquare {
     &:extend(.icono-caretLeft all);
@@ -37,7 +37,7 @@
 
 .icono-caretUp {
     &:extend(.icono-caretRight all);
-    .transform(rotate(-90deg));
+    transform: rotate(-90deg);
 }
 .icono-caretUpCircle, .icono-caretUpSquare {
     &:extend(.icono-caretUp all);
@@ -45,7 +45,7 @@
 
 .icono-caretDown {
     &:extend(.icono-caretRight all);
-    .transform(rotate(90deg));
+    transform: rotate(90deg);
 }
 .icono-caretDownCircle, .icono-caretDownSquare {
     &:extend(.icono-caretDown all);

@@ -5,7 +5,7 @@
     border: @9 solid;
     border-bottom-color: transparent;
     box-shadow: 0 -1*@4;
-    .border-radius(@3 @3 0 0);
+    border-radius: @3 @3 0 0;
     margin: @10 @8 @6;
 }
 .icono-bookmarkEmpty{
@@ -13,7 +13,7 @@
     height: @22;
     &:extend(.icono-stroke);
     border-bottom: none;
-    .border-radius(@3 @3 @2 @2);
+    border-radius: @3 @3 @2 @2;
     overflow: hidden;
     margin: @6 @8;
     &:before{
@@ -25,6 +25,6 @@
         &:extend(.icono-stroke);
         border-right: none;
         border-bottom: none;
-        .transform(rotate(45deg) translate(35%, 35%));
+        transform: rotate(45deg) translate(35%, 35%);
     }
 }

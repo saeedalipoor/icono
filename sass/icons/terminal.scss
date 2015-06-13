@@ -9,7 +9,7 @@
         height: $U5;
         position: absolute;
         top: 50%;
-        @include transform(translateY(-50%) rotate(45deg));
+        transform: translateY(-50%) rotate(45deg);
         left: $U3;
         border-width: $U2 $U2 0 0;
         border-style: solid;
