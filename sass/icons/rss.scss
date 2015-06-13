@@ -5,7 +5,7 @@
     margin: $U6;
     &:before, &:after{
         position: absolute;
-        @include border-radius(50%);
+        border-radius: 50%;
     }
     &:before{
         @include square($U6);

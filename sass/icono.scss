@@ -22,14 +22,14 @@
     }
     &[class*="Circle"]{
         @extend .icono-stroke;
-        @include border-radius(50%);
+        border-radius: 50%;
         width: $U30;
         height: $U30;
         margin: $U2;
     }
     &[class*="Square"]{
         @extend .icono-stroke;
-        @include border-radius($U4);
+        border-radius: $U4;
         width: $U30;
         height: $U30;
         margin: $U2;

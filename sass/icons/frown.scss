@@ -6,7 +6,7 @@
     }
     &:after{
         @extend .icono-smile:after;
-        @include transform(translateX(-50%) rotate(180deg));
+        transform: translateX(-50%) rotate(180deg);
         transform-origin: center 85%;
     }
 }

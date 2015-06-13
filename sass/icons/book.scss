@@ -2,7 +2,7 @@
 .icono-book{
     width: $U26;
     height: $U22;
-    @include border-radius(0 0 0 $U6);
+    border-radius: 0 0 0 $U6;
     @extend .icono-stroke;
     border-top: none;
     margin: $U10 $U4 $U2;
@@ -16,7 +16,7 @@
         border-right: none;
         left: -1*$U2;
         top: -1*$U5;
-        @include border-radius(0 0 0 $U6);
+        border-radius: 0 0 0 $U6;
     }
     &:after{
         position: absolute;
@@ -27,6 +27,6 @@
         top: -1*$U8;
         @extend .icono-stroke;
         border-bottom: none;
-        @include border-radius($U6 0 0 0);
+        border-radius: $U6 0 0 0;
     }
 }

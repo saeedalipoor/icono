@@ -5,11 +5,11 @@
             //stick center method 1
             left: 50%;
             top: 50%;
-            @include transform(translate(-50%, -50%));
+            transform: translate(-50%, -50%);
         }@else{
             //stick center V
             top: 50%;
-            @include transform(translateY(-50%));
+            transform: translateY(-50%);
             right: $right;
             left: $left;
             margin: 0 auto;
@@ -17,7 +17,7 @@
     }@else if ($left == $right){
         //stick center H
         left: 50%;
-        @include transform(translateX(-50%));
+        transform: translateX(-50%);
         top: $top;
         bottom: $bottom;
         margin: auto 0;
@@ -33,12 +33,12 @@
 @mixin stickCenterH{
 	position: absolute;
 	left: 50%;
-	@include transform(translateX(-50%));
+	transform: translateX(-50%);
 }
 @mixin stickCenterV{
 	position: absolute;
 	top: 50%;
-	@include transform(translateY(-50%));
+	transform: translateY(-50%);
 }
 @mixin square($length){
 	width: $length; height: $length;
@@ -57,18 +57,3 @@
 @mixin hDiagonal($length){
 	height: ceil(sqrt(2 * $length * $length));
 }
-//CSS3 Prefixes
-@mixin transform($params){
-  -webkit-transform: $params;
-     -moz-transform: $params;
-      -ms-transform: $params;
-       -o-transform: $params;
-          transform: $params;
-}
-@mixin border-radius($radius) {
-  -webkit-border-radius: $radius;
-     -moz-border-radius: $radius;
-       -o-border-radius: $radius;
-          border-radius: $radius;
-}
-	

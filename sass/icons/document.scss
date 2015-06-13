@@ -2,7 +2,7 @@
 .icono-document{
     width: $U26;
     height: $U32;
-    @include border-radius(0 0 0 $U10);
+    border-radius: 0 0 0 $U10;
     @extend .icono-stroke;
     margin: $U1 $U4;
     &:before{

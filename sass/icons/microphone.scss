@@ -4,14 +4,14 @@
     height: $U15;
     @extend .icono-stroke;
     border-width: 0 $U2 $U2;
-    @include border-radius($U20#{'/'}0 0 $U20 $U20);
+    border-radius: $U20#{'/'}0 0 $U20 $U20;
     margin: $U12 $U6 $U7;
     &:before{
         width: $U10;
         height: $U18;
         @extend .stickCenterH;
         top: -1*$U11;
-        @include border-radius($U20);
+        border-radius: $U20;
         @extend .icono-stroke;
     }
     &:after{
