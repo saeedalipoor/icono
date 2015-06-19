@@ -2,17 +2,17 @@
 	position: absolute;
 	left: 50%;
 	top: 50%;
-	.transform(translate(-50%, -50%));
+	transform: translate(-50%, -50%);
 }
 .stickCenterH(){
 	position: absolute;
 	left: 50%;
-	.transform(translateX(-50%));
+	transform: translateX(-50%);
 }
 .stickCenterV(){
 	position: absolute;
 	top: 50%;
-	.transform(translateY(-50%));
+	transform: translateY(-50%);
 }
 .stickCenter(@top, @right, @bottom, @left){
 	position: absolute;
@@ -39,18 +39,3 @@
 .hDiagonal(@length){
 	height: ceil(sqrt(2*@length*@length));
 }
-//CSS3 Prefixes
-.transform(@params){
-  -webkit-transform: @params;
-     -moz-transform: @params;
-      -ms-transform: @params;
-       -o-transform: @params;
-          transform: @params;
-}
-.border-radius(@radius) {
-  -webkit-border-radius: @radius;
-     -moz-border-radius: @radius;
-       -o-border-radius: @radius;
-          border-radius: @radius;
-}
-	

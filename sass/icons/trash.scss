@@ -2,7 +2,7 @@
 .icono-trash{
     width: $U22;
     height: $U22;
-    @include border-radius(0 0 $U3 $U3);
+    border-radius: 0 0 $U3 $U3;
     @extend .icono-stroke;
     border-top: none;
     margin: $U9 $U6 $U3;

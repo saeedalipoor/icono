@@ -1,0 +1,23 @@
+//*-- Bluetooth --*\\
+.icono-bluetooth{
+	width: $U3;
+    height: $U26;
+    box-shadow: inset 0 0 0 $U32;
+    margin: $U4 $U15 $U4 $U16;
+    &:before, &:after{
+        position: absolute;
+        width: $U18;
+        height: $U8;
+        border-width: $U3 $U3 $U3 0;
+        border-style: solid;
+        border-top-color: transparent;
+        top: $U2;
+        left: -$U13;
+        @include transform(rotate(-45deg));
+    }
+    &:after{
+        top: $U10;
+        @include transform(rotate(45deg) rotateX(180deg));
+    }
+}
+

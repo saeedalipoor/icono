@@ -3,9 +3,9 @@
     @include square($U28);
     @extend .icono-stroke;
     border-width: $U3;
-    @include border-radius(50%);
+    border-radius: 50%;
     margin: $U3;
-    @include transform(rotate(45deg));
+    transform: rotate(45deg);
     &:before{
         @extend .stickCenter;
         width: $U24;

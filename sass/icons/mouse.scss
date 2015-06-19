@@ -2,13 +2,13 @@
 .icono-mouse{
     width: $U23;
     height: $U32;
-    @include border-radius($U11 $U11 $U12 $U12);
+    border-radius: $U11 $U11 $U12 $U12;
     @extend .icono-stroke;
     margin: $U1 $U5 $U1 $U6;
     &:before{
         width: $U1;
         height: $U6;
-        @include border-radius($U2);
+        border-radius: $U2;
         @extend .stickCenterH;
         @extend .icono-stroke;
         border-color: transparent;

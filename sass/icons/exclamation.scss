@@ -3,7 +3,7 @@
     overflow: visible;
     width: $U30;
     border-bottom: $U2 solid;
-    @include border-radius(0 0 $U4 $U4);
+    border-radius: 0 0 $U4 $U4;
     margin: $U26 $U2 $U6;
     &:before{
         position: absolute;
@@ -13,8 +13,8 @@
         top: -1*$U14;
         border-width: $U2 0 0 $U2;
         border-style: solid;
-        @include border-radius($U4 0);
-        @include transform(rotate(45deg) skew(12deg, 12deg));
+        border-radius: $U4 0;
+        transform: rotate(45deg) skew(12deg, 12deg);
     }
     &:after{
         width: $U4;

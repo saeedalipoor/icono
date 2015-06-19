@@ -7,7 +7,7 @@
     margin: $U15 $U6 $U3;
     &:before{
         @include square($U18);
-        @include transform(rotate(45deg));
+        transform: rotate(45deg);
         position: absolute;
         left: -1*$U2;
         top: -1*$U7;

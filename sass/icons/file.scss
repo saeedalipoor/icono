@@ -3,7 +3,7 @@
     width: $U26;
     height: $U32;
     @extend .icono-stroke;
-    @include border-radius(0 $U12 0 0);
+    border-radius: 0 $U12 0 0;
     margin: $U1 $U4;
     &:before{
         position:absolute;

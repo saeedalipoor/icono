@@ -55,8 +55,8 @@
     height: 0;
     border: $U15 solid;
     border-right-color: transparent;
-    @include border-radius(50%);
-    @include transform(rotate(-45deg));
+    border-radius: 50%;
+    transform: rotate(-45deg);
     margin: $U2;
     &:before{
         position: absolute;
@@ -68,6 +68,6 @@
         border-left-color: transparent;
         border-bottom-color: transparent;
         border-top-color: transparent;
-        @include border-radius(50%);
+        border-radius: 50%;
     }
 }

@@ -2,7 +2,7 @@
 .icono-keyboard{
     width: $U32;
     height: $U22;
-    @include border-radius($U3);
+    border-radius: $U3;
     @extend .icono-stroke;
     margin: $U6 $U1;
     &:before{

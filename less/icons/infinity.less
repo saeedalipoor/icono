@@ -8,14 +8,14 @@
         height: @10;
         position: absolute;
         &:extend(.icono-stroke);    
-        .transform(rotate(45deg));
+        transform: rotate(45deg);
     }
     &:before{
         left: 0;
-        .border-radius(@32 0 @32 @32);
+        border-radius: @32 0 @32 @32;
     }
     &:after{
         right: 1px;
-        .border-radius(@32 @32 @32 0);
+        border-radius: @32 @32 @32 0;
     }
 }

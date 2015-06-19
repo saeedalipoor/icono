@@ -5,8 +5,8 @@
     @extend .icono-stroke;
     border-top-color: transparent;
     border-left-color: transparent;
-    @include transform(rotate(45deg));
-    @include border-radius($U4 0);
+    transform: rotate(45deg);
+    border-radius: $U4 0;
     margin: $U9 $U7 $U5;
     &:before, &:after{
         position: absolute;
@@ -17,7 +17,7 @@
         height: ceil($U20*0.69);
         left: -1*ceil($U20/2.5)-$U2;
         bottom: -1*$U2;
-        @include border-radius($U20 0 0 $U20);
+        border-radius: $U20 0 0 $U20;
         border-right-color: transparent;
     }
     &:after{
@@ -25,7 +25,7 @@
         height: ceil($U20/2.5);
         right: -1*$U2;
         top: -1*ceil($U20/2.5)-$U2;
-        @include border-radius($U20 $U20 0 0);
+        border-radius: $U20 $U20 0 0;
         border-bottom-color: transparent;
     }
 }
