@@ -6,3 +6,9 @@
 				0 $U8 0, -1*$U8 $U8 0, $U8 $U8 0;
 	margin: $U15;
 }
+
+.icono-round-tiles{
+	@extend .icono-tiles;
+	@include square($U6);
+	border-radius: 50%;
+}
