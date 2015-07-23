@@ -57,3 +57,10 @@
 @mixin hDiagonal($length){
 	height: ceil(sqrt(2 * $length * $length));
 }
+@mixin border-radius($radius) {
+    border-radius: $radius;
+    background-clip: padding-box;
+}
+@mixin transform($transforms) {
+    transform: $transforms;
+}
