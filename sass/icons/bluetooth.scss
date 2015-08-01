@@ -13,11 +13,11 @@
         border-top-color: transparent;
         top: $U2;
         left: -$U13;
-        @include transform(rotate(-45deg));
+        transform: rotate(-45deg);
     }
     &:after{
         top: $U10;
-        @include transform(rotate(45deg) rotateX(180deg));
+        transform: rotate(45deg) rotateX(180deg);
     }
 }
 

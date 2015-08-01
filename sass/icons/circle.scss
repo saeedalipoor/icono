@@ -3,6 +3,6 @@
   width: $U22;
   height: $U22;
   border: $U2 solid;
-  @include border-radius(50%);
+  border-radius: 50%;
   margin: $U6;
 }
