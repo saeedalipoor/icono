@@ -296,7 +296,7 @@ body.c1 .demo .about {
 
 body.c1 input[type=radio]:checked+label.demo {
     background-color: #78111d!important;
-}
+}p
 
 body.c1 input[type=radio]:checked+label.demo i {
     color: #e43e51;
@@ -332,6 +332,9 @@ body.c1 a:hover {
     background-color: rgba(0,0,0,0.1);
     margin-top: 20px;
     padding: 10px 20px;
+}
+.comments pre{
+    background-color: #eee;
 }
 .fb_iframe_widget {
     vertical-align: top;
