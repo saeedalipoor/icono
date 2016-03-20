@@ -1,0 +1,50 @@
+stickCenter(){
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+
+}
+stickCenterH(){
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+
+}
+stickCenterV(){
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+
+}
+stickCenter($top, $right, $bottom, $left){
+	position: absolute;
+	top: $top;
+	right: $right;
+	bottom: $bottom;
+	left: $left;
+	margin: auto;
+
+}
+square($length){
+	width: $length; height: $length;
+
+}
+goldenRectL($width){
+	width: $width;
+	height: ceil($width/1.61803398875);
+
+}
+goldenRectP($width){
+	width: $width;
+	height: ceil($width*1.61803398875);
+
+}
+wDiagonal($length){
+	width: ceil(math(2*$length*$length, 'sqrt'));
+
+}
+hDiagonal($length){
+	height: ceil(math(2*$length*$length, 'sqrt'));
+
+}
