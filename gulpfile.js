@@ -1,5 +1,6 @@
 var gulp        = require('gulp'),
     less        = require('gulp-less'),
+    stylus      = require('gulp-stylus'),
     watch       = require('gulp-watch'),
     cssmin      = require('gulp-cssmin'),
     rename      = require('gulp-rename'),
@@ -13,6 +14,16 @@ gulp.task('less', function () {
     return gulp.src('./less/icono.less')
         .pipe(plumber())
         .pipe(less())
+        .pipe(autoprefixer('last 10 versions', 'ie 10'))
+        .pipe(gulp.dest('./build'));
+});
+
+
+// stylus -> css
+gulp.task('stylus', function () {
+    return gulp.src('./stylus/icono.styl')
+        .pipe(plumber())
+        .pipe(stylus())
         .pipe(autoprefixer('last 10 versions', 'ie 10'))
         .pipe(gulp.dest('./build'));
 });
@@ -41,5 +52,6 @@ gulp.task('browser-sync', function() {
 
 gulp.task('default', ['browser-sync'], function () {
     gulp.watch(['./less/**/*.less', './index.html'], ['less']);
+    gulp.watch(['./stylus/**/*.styl'], ['stylus']);
     gulp.watch(['./build/icono.css'], ['cssmin', browserSync.reload]);
 });
