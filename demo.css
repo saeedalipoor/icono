@@ -333,7 +333,7 @@ body.c1 a:hover {
 }
 
 .comments {
-    background-color: rgba(0,0,0,0.1);
+    background-color: #fff;
     margin-top: 20px;
     padding: 10px 20px;
 }
