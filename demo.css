@@ -47,13 +47,14 @@ header h3 {
     font-size: 19px;
 }
 
-header a.button {
+a.button {
     margin: 20px 0;
     box-shadow: 0 0 0 2px #11555d inset,0 0 0 0 #11555d inset;
     padding: 13px;
+    text-decoration: none;
 }
 
-header a.button:hover {
+a.button:hover {
     color: #45bed4;
     box-shadow: 0 0 0 2px #11555d inset,0 50px 0 0 #11555d inset;
 }
