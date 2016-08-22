@@ -47,13 +47,13 @@ header h3 {
     font-size: 19px;
 }
 
-header a {
+header a.button {
     margin: 20px 0;
     box-shadow: 0 0 0 2px #11555d inset,0 0 0 0 #11555d inset;
     padding: 13px;
 }
 
-header a:hover {
+header a.button:hover {
     color: #45bed4;
     box-shadow: 0 0 0 2px #11555d inset,0 50px 0 0 #11555d inset;
 }
@@ -70,7 +70,6 @@ code {
 a {
     color: #11555d;
     transition: all .2s;
-    text-decoration: none;
     line-height: 1;
     display: inline-block;
 }
@@ -94,6 +93,10 @@ footer .ack {
 
 footer i {
     transform: scale(.9);
+}
+
+footer a {
+    text-decoration: none;
 }
 
 .stage {
