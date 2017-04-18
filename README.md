@@ -1,4 +1,4 @@
-#icono
+# icono
 
 [![Join the chat at https://gitter.im/saeedalipoor/icono](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/saeedalipoor/icono?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
@@ -6,7 +6,7 @@
 
 [Demo][2]
 
-##How to use
+## How to use
 
 To get going with icono you can:
 
@@ -35,7 +35,7 @@ and then
 
 just add iconos classes to any type of elements that support psuedo-element.
 
-####Example:
+#### Example:
 `<i class="icono-mail"></i>`
 
 `<div class="icono-mail"></div>`
@@ -46,11 +46,11 @@ just add iconos classes to any type of elements that support psuedo-element.
 
 Also you can change color of icons as simple as set color for an element.
 
-####Example:
+#### Example:
 `i.heart{color: red;}`
 
 
-##Available classes
+## Available classes
 * `icono-home`
 * `icono-mail`
 * `icono-rss`
@@ -186,7 +186,7 @@ Also you can change color of icons as simple as set color for an element.
 * `icono-ellipsis`
 
 
-##Development & Contributing
+## Development & Contributing
 
 Using npm install the dependencies:
 
