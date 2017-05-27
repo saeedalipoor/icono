@@ -1,0 +1,33 @@
+//*-- taiChi --*\\
+.icon-taiChi {
+    position: relative;
+    border-color: #000;
+    border-style: solid;
+    border-width: $U2 $U2 $U18 $U2;
+    border-radius: 100%;
+    width: $U32;
+    height: $U16;
+    background-color: #eee;
+    &:before{
+      position: absolute;
+      content: "";
+      top: 50%;
+      left: 0;
+      border: $U6 solid #000;
+      border-radius: 100%;
+      width: $U4;
+      height: $U4;
+      background-color: #eee;
+    }
+    &:after{
+      position: absolute;
+      content: "";
+      top: 50%;
+      left: 50%;
+      border: $U6 solid #eee;
+      border-radius: 100%;
+      width: $U4;
+      height: $U4;
+      background-color: #000;
+    }
+}
