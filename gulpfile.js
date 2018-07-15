@@ -6,7 +6,9 @@ var gulp        = require('gulp'),
     rename      = require('gulp-rename'),
     plumber     = require('gulp-plumber'),
     browserSync = require('browser-sync'),
-    autoprefixer = require('gulp-autoprefixer');
+    autoprefixer = require('gulp-autoprefixer').bind(null, {
+        browsers: ['last 2 versions', '> 0.2%', 'not dead', 'ie 10']
+    });
 
 
 // less -> css
@@ -14,7 +16,7 @@ gulp.task('less', function () {
     return gulp.src('./less/icono.less')
         .pipe(plumber())
         .pipe(less())
-        .pipe(autoprefixer('last 10 versions', 'ie 10'))
+        .pipe(autoprefixer())
         .pipe(gulp.dest('./build'));
 });
 
@@ -24,7 +26,7 @@ gulp.task('stylus', function () {
     return gulp.src('./stylus/icono.styl')
         .pipe(plumber())
         .pipe(stylus())
-        .pipe(autoprefixer('last 10 versions', 'ie 10'))
+        .pipe(autoprefixer())
         .pipe(gulp.dest('./build'));
 });
 
