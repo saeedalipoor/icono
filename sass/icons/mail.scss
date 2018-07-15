@@ -6,7 +6,7 @@
     margin: $U8 $U3;
     &:before{
         position: absolute;
-        @include square($U32/1.3);
+        @include square($U25);
         @extend .icono-stroke;
         transform: rotate(50deg) skew(-10deg, -20deg);
         top: -1*$U20;
