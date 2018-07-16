@@ -60,8 +60,8 @@ gulp.task('browser-sync', function () {
 
 
 gulp.task('default', ['browser-sync'], function () {
-    gulp.watch(['./less/**/*.less', './index.html'], ['less']);
-    gulp.watch(['./stylus/**/*.styl'], ['stylus']);
+    // gulp.watch(['./less/**/*.less', './index.html'], ['less']);
+    // gulp.watch(['./stylus/**/*.styl'], ['stylus']);
     gulp.watch(['./sass/**/*.scss'], ['sass']);
     gulp.watch(['./build/icono.css'], ['cssmin', browserSync.reload]);
 });
