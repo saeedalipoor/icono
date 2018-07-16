@@ -1,7 +1,7 @@
 //*-- piano --*\\
 .icono-piano{
     width: $U31;
-    height: $U18;
+    height: $U22;
     @extend .icono-stroke;
     margin: $U6 $U3;
     &:before{
@@ -10,13 +10,13 @@
         top: 0;
         width: $U1;
         height: 100%;
-        box-shadow: -1*$U2 0, $U2 0, $U6 0, $U10 0, $U14 0, $U18 0;
+        box-shadow: -1*$U1 0, $U3 0, $U7 0, $U11 0, $U15 0, $U19 0;
     }
     &:after{
         position: absolute;
         width: $U3;
-        height: $U12;
-        left: $U3;
+        height: $U13;
+        left: $U4;
         top: 0;
         box-shadow: inset $U1 0, inset -1*$U1 0, -1*$U2 0, $U2 0, $U10 0, $U14 0, $U18 0;
     }
