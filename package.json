@@ -1,6 +1,6 @@
 {
   "name": "icono",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "Pure CSS Icons",
   "main": "./dist/icono.min.css",
   "repository": {
