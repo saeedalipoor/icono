@@ -8,17 +8,19 @@
     box-shadow: -1*$2 $2;
     overflow: hidden;
     margin: $4 0 $8 $4;
-    &:before{
-        $bSpace = $7;
-        position: absolute;
-        left: 0;
-        bottom: $bSpace;
-        border: $6 solid transparent;
-        border-bottom-color: currentColor;
-        box-shadow: 0 $bSpace;
-
 }
-    &:after{
+
+.icono-areaChart:before{
+    $bSpace = $7;
+    position: absolute;
+    left: 0;
+    bottom: $bSpace;
+    border: $6 solid transparent;
+    border-bottom-color: currentColor;
+    box-shadow: 0 $bSpace;
+}
+
+.icono-areaChart:after{
         $bSpace = $4;
         position: absolute;
         left: $11;
@@ -28,10 +30,8 @@
         border-color: transparent;
         border-bottom-color: currentColor;
         box-shadow: 0 $bSpace;
-
 }
 
-}
 .icono-barChart{
     @extend .icono-areaChart
     border-color: transparent;
