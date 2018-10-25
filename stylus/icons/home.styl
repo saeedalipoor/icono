@@ -1,7 +1,7 @@
 .icono-home{
     width: $22;
     height: $16;
-    @extend .icono-stroke
+    @extend $icono-stroke
     border-top: none;
     margin: $15 $6 $3;
     &:before{
@@ -10,7 +10,7 @@
         position: absolute;
         left: -1*$2;
         top: -1*$7;
-        @extend .icono-stroke
+        @extend $icono-stroke
         border-right-color: transparent;
         border-bottom-color: transparent;
 
@@ -20,7 +20,7 @@
         goldenRectP($6);
         bottom: 0;
         stickCenterH();
-        @extend .icono-stroke
+        @extend $icono-stroke
         border-width: $1;
         border-bottom: none;
 

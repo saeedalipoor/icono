@@ -1,10 +1,10 @@
 .icono-video{
     width: $20;
     height: $20;
-    @extend .icono-stroke
+    @extend $icono-stroke
     margin: $7 $7;
     &:before{
-        @extend .stickCenterV
+        @extend $stickCenterV
         width: $3;
         height: $3;
         left: -1*$8;
@@ -12,7 +12,7 @@
 
 }
     &:after{
-        @extend .stickCenter
+        @extend $stickCenter
         width: 0;
         height: 0;
         border-width: $4 0 $4 $6;

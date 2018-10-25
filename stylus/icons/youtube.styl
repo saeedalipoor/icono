@@ -5,9 +5,9 @@
     width: $32;
     height: $22;
     margin: $6 $1;
-    		
-    &, &:before{		   
-         @extend .icono-stroke;
+
+    &, &:before{
+         @extend $icono-stroke;
     }
 
     &:before{
@@ -24,7 +24,7 @@
     &:after{
         width: 0;
         height: 0;
-        @extend .stickCenter
+        @extend $stickCenter
         border-width: $4 0 $4 $8;
         border-style: solid;
         border-top-color: transparent;
