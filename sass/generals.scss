@@ -14,8 +14,11 @@
     @include stickCenter;
 }
 
-.spin[class*="spin"]{
+.spin{
     animation: loading-spinner 2s infinite linear;
+    &.step{
+        animation: loading-spinner 0.5s steps(8, end) infinite;
+    }
 }
 @keyframes loading-spinner {
   0%   { transform: rotate(0deg); }
