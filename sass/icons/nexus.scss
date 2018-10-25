@@ -2,7 +2,7 @@
 .icono-nexus{
     width: $U21;
     height: $U32;
-    @extend .icono-stroke;
+    @extend %icono-stroke;
     border-width: $U3 $U1;
     border-radius: $U16 #{'/'} $U3;
     margin: $U1 $U7 $U1 $U6;

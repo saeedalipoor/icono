@@ -2,7 +2,7 @@
 .icono-file{
     width: $U26;
     height: $U32;
-    @extend .icono-stroke;
+    @extend %icono-stroke;
     border-radius: 0 $U12 0 0;
     margin: $U1 $U4;
     &:before{
@@ -17,6 +17,6 @@
         border-right-color: transparent;
     }
     &:after{
-        
+
     }
 }

@@ -15,7 +15,7 @@
         box-shadow: 0 0 0 $U2;
     }
     &:after{
-        @extend .stickCenterH;
+        @extend %stickCenterH;
         bottom: -1*$U5;
         width: $U26;
         height: $U3;

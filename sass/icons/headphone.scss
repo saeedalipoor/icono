@@ -2,7 +2,7 @@
 .icono-headphone{
     width: $U30;
     height: $U27;
-    @extend .icono-stroke;
+    @extend %icono-stroke;
     border-bottom-color: transparent;
     border-radius: $U32#{'/'}$U32 $U32 $U16 $U16;
     margin: $U2 $U2 $U5;

@@ -2,7 +2,7 @@
 .icono-market{
     width: $U32;
     height: $U12;
-    @extend .icono-stroke;
+    @extend %icono-stroke;
     border-top: none;
     margin: $U19 $U1 $U3;
     &:before{
@@ -19,7 +19,7 @@
         width: $U6;
         height: $U6;
         bottom: -1*$U2;
-        @extend .stickCenterH;
-        @extend .icono-stroke;
+        @extend %stickCenterH;
+        @extend %icono-stroke;
     }
 }

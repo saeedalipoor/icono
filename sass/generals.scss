@@ -1,16 +1,16 @@
-.icono-stroke{
+%icono-stroke{
 	border: $U2 solid;
 }
 
-.stickCenterV{
+%stickCenterV{
     @include stickCenterV;
 }
 
-.stickCenterH{
+%stickCenterH{
     @include stickCenterH;
 }
 
-.stickCenter{
+%stickCenter{
     @include stickCenter;
 }
 

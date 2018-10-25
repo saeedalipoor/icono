@@ -11,7 +11,7 @@
 .icono-bookmarkEmpty{
     width: $U18;
     height: $U22;
-    @extend .icono-stroke;
+    @extend %icono-stroke;
     border-bottom: none;
     border-radius: $U3 $U3 $U2 $U2;
     overflow: hidden;
@@ -22,7 +22,7 @@
         height: $U12;
         bottom: 0;
         left: 0;
-        @extend .icono-stroke;
+        @extend %icono-stroke;
         border-right: none;
         border-bottom: none;
         transform: rotate(45deg) translate(35%, 35%);

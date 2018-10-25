@@ -2,7 +2,7 @@
 .icono-piano{
     width: $U31;
     height: $U22;
-    @extend .icono-stroke;
+    @extend %icono-stroke;
     margin: $U6 $U1;
     &:before{
         position: absolute;

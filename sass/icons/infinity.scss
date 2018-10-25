@@ -7,7 +7,7 @@
         width: $U10;
         height: $U10;
         position: absolute;
-        @extend .icono-stroke;    
+        @extend %icono-stroke;
         transform: rotate(45deg);
     }
     &:before{

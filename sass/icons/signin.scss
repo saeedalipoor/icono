@@ -2,7 +2,7 @@
 .icono-signIn{
     width: $U18;
     height: $U32;
-    @extend .icono-stroke;
+    @extend %icono-stroke;
     border-left: none;
     margin-left: $U5;
     border-radius: 0 $U3 $U3 0;
@@ -13,7 +13,7 @@
         height: $U11;
         left:-1*$U10;
         top:$U7;
-        @extend .icono-stroke;
+        @extend %icono-stroke;
         border-bottom: none;
         border-left: none;
         transform: rotate(45deg);

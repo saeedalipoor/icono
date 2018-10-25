@@ -18,7 +18,7 @@
         bottom: $U14;
     }
     &[class*="Circle"]{
-        @extend .icono-stroke;
+        @extend %icono-stroke;
         border-radius: 50%;
         width: $U30;
         height: $U30;

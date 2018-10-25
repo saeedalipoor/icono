@@ -2,14 +2,14 @@
 .icono-iphone{
     width: $U19;
     height: $U31;
-    @extend .icono-stroke;
+    @extend %icono-stroke;
     border-radius: $U3;
     border-width: $U5 $U1;
     border-color: transparent;
     box-shadow: 0 0 0 $U1, 0 0 0 $U1 inset;
     margin: $U2 $U8 $U1 $U7;
     &:before, &:after{
-        @extend .stickCenterH;
+        @extend %stickCenterH;
         box-shadow: inset 0 0 0 $U32;
     }
     &:before{
@@ -29,6 +29,6 @@
     height: $U32;
     margin: $U1 $U7;
     border-radius: $U4;
-    @extend .icono-stroke;
+    @extend %icono-stroke;
     border-width: $U5 $U2;
 }

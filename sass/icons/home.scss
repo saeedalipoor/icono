@@ -2,7 +2,7 @@
 .icono-home{
     width: $U22;
     height: $U16;
-    @extend .icono-stroke;
+    @extend %icono-stroke;
     border-top: none;
     margin: $U15 $U6 $U3;
     &:before{
@@ -11,7 +11,7 @@
         position: absolute;
         left: -1*$U2;
         top: -1*$U7;
-        @extend .icono-stroke;
+        @extend %icono-stroke;
         border-right-color: transparent;
         border-bottom-color: transparent;
     }
@@ -20,7 +20,7 @@
         @include goldenRectP($U6);
         bottom: 0;
         @include stickCenterH();
-        @extend .icono-stroke;
+        @extend %icono-stroke;
         border-width: $U1;
         border-bottom: none;
     }

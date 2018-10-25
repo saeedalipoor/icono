@@ -2,7 +2,7 @@
 .icono-areaChart{
     width: $U30;
     height: $U22;
-    @extend .icono-stroke;
+    @extend %icono-stroke;
     border-top-width: 0;
     border-right-width: 0;
     border-color: transparent;
@@ -33,7 +33,7 @@
 .icono-barChart{
     width: $U30;
     height: $U22;
-    @extend .icono-stroke;
+    @extend %icono-stroke;
     border-top-width: 0;
     border-right-width: 0;
     border-color: transparent;
