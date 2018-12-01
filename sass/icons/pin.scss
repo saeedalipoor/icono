@@ -2,7 +2,7 @@
 .icono-pin{
     width: $U26;
     height: $U26;
-    @extend .icono-stroke;
+    @extend %icono-stroke;
     border-radius: 50% 50% 50% 0;
     transform: rotate(-45deg);
     margin: $U1 $U4 $U7;
@@ -10,8 +10,8 @@
         position: absolute;
         width: $U6;
         height: $U6;
-        @extend .icono-stroke;
+        @extend %icono-stroke;
         border-radius: 50%;
-        @extend .stickCenter;
+        @extend %stickCenter;
     }
 }

@@ -3,14 +3,14 @@
     width: $U23;
     height: $U32;
     border-radius: $U11 $U11 $U12 $U12;
-    @extend .icono-stroke;
+    @extend %icono-stroke;
     margin: $U1 $U5 $U1 $U6;
     &:before{
         width: $U1;
         height: $U6;
         border-radius: $U2;
-        @extend .stickCenterH;
-        @extend .icono-stroke;
+        @extend %stickCenterH;
+        @extend %icono-stroke;
         border-color: transparent;
         border-width: $U1;
         top: $U5;
@@ -19,7 +19,7 @@
     &:after{
         width: $U1;
         height: $U4;
-        @extend .stickCenterH;
+        @extend %stickCenterH;
         top: 0;
         box-shadow: inset 0 0 0 $U32, 0 $U13 0 0;
     }

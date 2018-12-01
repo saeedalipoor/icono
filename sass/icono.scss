@@ -21,14 +21,14 @@
         pointer-events: none;
     }
     &[class*="Circle"]{
-        @extend .icono-stroke;
+        @extend %icono-stroke;
         border-radius: 50%;
         width: $U30;
         height: $U30;
         margin: $U2;
     }
     &[class*="Square"]{
-        @extend .icono-stroke;
+        @extend %icono-stroke;
         border-radius: $U4;
         width: $U30;
         height: $U30;

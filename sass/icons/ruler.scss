@@ -2,7 +2,7 @@
 .icono-ruler{
     width: $U27;
     height: $U12;
-    @extend .icono-stroke;
+    @extend %icono-stroke;
     margin: $U11 $U4 $U11 $U3;
     &:before{
         position: absolute;

@@ -2,7 +2,7 @@
 .icono-rename{
     width: $U26;
     height: $U10;
-    @extend .icono-stroke;
+    @extend %icono-stroke;
     border-color: transparent;
     border-width: $U3;
     box-shadow: 0 0 0 $U1, $U11 0 0 0 inset;
@@ -10,7 +10,7 @@
     &:before{
         width: $U1;
         height: $U18;
-        @extend .stickCenterV;
+        @extend %stickCenterV;
         left: $U9;
         border-width: $U2 $U4;
         border-style: solid;

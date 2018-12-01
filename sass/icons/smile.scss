@@ -1,7 +1,7 @@
 //*-- Smile --*\\
 .icono-smile{
     border-radius: 50%;
-    @extend .icono-stroke;
+    @extend %icono-stroke;
     height: $U30;
     width: $U30;
     margin: $U2;
@@ -17,7 +17,7 @@
     &:after{
         border-radius: 50%;
         transform: translateX(-50%);
-        @extend .icono-stroke;
+        @extend %icono-stroke;
         border-top-color: transparent;
         border-left-color: transparent;
         border-right-color: transparent;

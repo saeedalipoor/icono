@@ -2,7 +2,7 @@
 .icono-terminal{
     width: $U28;
     height: $U24;
-    @extend .icono-stroke;
+    @extend %icono-stroke;
     margin: $U5 $U3;
     &:before{
         width: $U5;

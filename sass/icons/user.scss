@@ -2,17 +2,17 @@
 .icono-user{
     width: $U32;
     height: $U14;
-    @extend .icono-stroke;
+    @extend %icono-stroke;
     border-radius: 2*$U32 2*$U32 0 0 #{'/'} 2*$U32;
     margin: $U18 $U1 $U2;
     &:before{
         @include square($U12);
-        @extend .stickCenterH;
+        @extend %stickCenterH;
         top: -1*$U20;
-        @extend .icono-stroke;
+        @extend %icono-stroke;
         border-radius: 50%;
     }
     &:after{
-        
+
     }
 }

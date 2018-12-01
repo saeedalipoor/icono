@@ -2,7 +2,7 @@
 .icono-signOut{
     width: $U18;
     height: $U32;
-    @extend .icono-stroke;
+    @extend %icono-stroke;
     border-right: none;
     margin-right: $U5;
     border-radius: $U3 0 0 $U3;
@@ -13,10 +13,10 @@
         height: $U11;
         right:-1*$U2;
         top:$U7;
-        @extend .icono-stroke;
+        @extend %icono-stroke;
         border-bottom: none;
         border-left: none;
         transform: rotate(45deg);
-        border-radius: 0 $U4 0 0;    
+        border-radius: 0 $U4 0 0;
     }
 }

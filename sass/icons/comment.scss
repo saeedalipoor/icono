@@ -2,7 +2,7 @@
 .icono-commentEmpty{
     width: $U30;
     height: $U22;
-    @extend .icono-stroke;
+    @extend %icono-stroke;
     border-radius: $U4 $U4 $U7 $U7;
     border-bottom-color: transparent;
     margin: $U5 $U2 $U7;

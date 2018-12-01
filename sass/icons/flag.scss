@@ -8,7 +8,7 @@
         position:absolute;
         width: $U9;
         height: $U8;
-        @extend .icono-stroke;
+        @extend %icono-stroke;
     }
     &:before{
         left: -1*$U2;

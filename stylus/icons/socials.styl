@@ -61,7 +61,7 @@
 
 }
     &:after{
-        @extend .stickCenter
+        @extend $stickCenter
         width: $2;
         height: $10;
         box-shadow: inset 0 0 0 $32;
@@ -72,7 +72,7 @@
 .icono-linkedIn{
     width: $5;
     height: $16;
-    box-shadow: inset 0 0 0 $32, $8 0; 
+    box-shadow: inset 0 0 0 $32, $8 0;
     margin: $12 $24 $6 $5;
     &:before{
         position: absolute;
@@ -104,7 +104,7 @@
     border-radius: $4;
     margin: $4;
     &:before{
-        @extend .stickCenter
+        @extend $stickCenter
         width: $10;
         height: $10;
         border-radius: 50%;
@@ -130,7 +130,7 @@
     border-radius: $4;
     margin: $5;
     &:before, &:after{
-        @extend .stickCenterV
+        @extend $stickCenterV
         width: $7;
         height: $7;
         border-radius: 50%;
@@ -200,7 +200,7 @@
     margin: $14 $5 $6;
     &, &:before{
         border-width: $6;
-        border-style: solid;      
+        border-style: solid;
 
 }
     &:before{

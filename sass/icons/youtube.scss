@@ -7,7 +7,7 @@
     height: $U22;
     margin: $U6 $U1;
     &, &:before{
-        @extend .icono-stroke;
+        @extend %icono-stroke;
     }
     &:before{
         position: absolute;
@@ -22,7 +22,7 @@
     &:after{
         width: 0;
         height: 0;
-        @extend .stickCenter;
+        @extend %stickCenter;
         border-width: $U4 0 $U4 $U8;
         border-style: solid;
         border-top-color: transparent;

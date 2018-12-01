@@ -1,7 +1,7 @@
 .icono-heart{
     width: $20;
     height: $20;
-    @extend .icono-stroke
+    @extend $icono-stroke
     border-top-color: transparent;
     border-left-color: transparent;
     transform: rotate(45deg);
@@ -9,7 +9,7 @@
     margin: $9 $7 $5;
     &:before, &:after{
         position: absolute;
-        @extend .icono-stroke
+        @extend $icono-stroke
 
 }
     &:before{

@@ -3,7 +3,7 @@
     width: $U26;
     height: $U26;
     border-radius: 50%;
-    @extend .icono-stroke;
+    @extend %icono-stroke;
     border-right-color: transparent;
     border-left-color: transparent;
     margin: $U4;

@@ -3,10 +3,10 @@
     width: $U32;
     height: $U24;
     border-radius: $U4;
-    @extend .icono-stroke;
+    @extend %icono-stroke;
     margin: $U5 $U1;
     &:before{
-        @extend .stickCenter;
+        @extend %stickCenter;
         width: $U10;
         height: $U10;
         border: $U1 solid transparent;

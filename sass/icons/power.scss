@@ -2,7 +2,7 @@
 .icono-power{
     width: $U22;
     height: $U22;
-    @extend .icono-stroke;
+    @extend %icono-stroke;
     border-radius: 50%;
     border-top-color: transparent;
     margin: $U6;

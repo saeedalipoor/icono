@@ -1,7 +1,7 @@
 .icono-tag{
     width: $18;
     height: $24;
-    @extend .icono-stroke
+    @extend $icono-stroke
     border-radius: $6 $6 $4 $4;
     border-top: none;
     transform: rotate(45deg);
@@ -19,11 +19,11 @@
 
 }
     &:after{
-        @extend .stickCenterH
+        @extend $stickCenterH
         top: $1;
         width: $3;
         height: $3;
-        @extend .icono-stroke
+        @extend $icono-stroke
         border-radius: 50%;
 
 }

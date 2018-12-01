@@ -6,7 +6,7 @@
     border-radius: 50%;
     margin: $U1;
     &:before{
-        @extend .stickCenter;
+        @extend %stickCenter;
         width: $U22;
         height: $U22;
         box-shadow: 0 0 0 $U3, 0 0 0 $U2 inset;
