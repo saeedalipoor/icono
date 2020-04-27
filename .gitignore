@@ -31,6 +31,7 @@
 *.sql
 *.sqlite
 *.cfg
+*.idea
 
 .DS_Store
 .DS_Store?
