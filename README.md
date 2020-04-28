@@ -72,6 +72,7 @@ Also you can change color of icons as simple as set color for an element.
 * `icono-pin`
 * `icono-smile`
 * `icono-eye`
+* `icono-eye-close`
 * `icono-sliders`
 * `icono-share`
 * `icono-sync`

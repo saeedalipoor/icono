@@ -1,0 +1,28 @@
+//*-- Eye close --*\\
+.icono-eye-close{
+    border-radius: 80% 20%;
+    transform: rotate(45deg);
+    @extend %icono-stroke;
+    border-width: $U2 $U1 $U1 $U2;
+    height: $U28;
+    width: $U28;
+    margin: $U3 $U3;
+    &:before{
+        border-radius: 50%;
+        box-shadow: 0 -1*$U3 0 $U3 inset;
+        height: $U11;
+        width: $U11;
+        @extend %stickCenter;
+    }
+    &:after{
+        border-radius: 1px;
+        box-shadow: inset 0 0 0 32px;
+        height: 3px;
+        width: 40px;
+        top: 10px;
+        left: -7px;
+        position: absolute;
+        -webkit-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+    }
+}
