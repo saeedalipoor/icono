@@ -185,6 +185,7 @@ Also you can change color of icons as simple as set color for an element.
 * `icono-spinner`
 * `icono-circle`
 * `icono-ellipsis`
+* `icono-round-tiles`
 
 
 ## Development & Contributing
